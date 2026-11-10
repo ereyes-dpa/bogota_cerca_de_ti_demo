@@ -1,0 +1,54 @@
+consulta_id,plan,orden,id_lugar,nombre,categoria,lat,lon,llegada,salida,minutos_visita,traslado_min,apertura,horario,pet_friendly
+suba_ninos_sabado,recomendado,1,70,Parque Ecológico Distrital Humedal Juan Amarillo,Atractivo de Naturaleza,4.723785,-74.102222,15:16,16:36,80,17,supuesto,,False
+suba_ninos_sabado,chatbot,1,70,Parque Ecológico Distrital Humedal Juan Amarillo,Atractivo de Naturaleza,4.723785,-74.102222,15:16,16:36,80,17,supuesto,,False
+suba_ninos_sabado,alternativa,1,448,Parque Mirador de los Nevados,Atractivo de Naturaleza,4.742167,-74.079908,15:18,16:18,60,18,supuesto,,True
+chapinero_lunes_noche,recomendado,1,rnt-29801,CBC 232,Gastronomía,4.652682,-74.061561,19:35,21:05,90,6,supuesto,,False
+chapinero_lunes_noche,recomendado,2,rnt-119473,PRESTO BTA LOURDES,Gastronomía,4.649325,-74.063333,21:12,21:29,17,7,supuesto,,False
+chapinero_lunes_noche,chatbot,1,rnt-29801,CBC 232,Gastronomía,4.652682,-74.061561,19:35,21:05,90,6,supuesto,,False
+chapinero_lunes_noche,chatbot,2,rnt-119473,PRESTO BTA LOURDES,Gastronomía,4.649325,-74.063333,21:12,21:29,17,7,supuesto,,False
+chapinero_lunes_noche,alternativa,1,gd-68,La Nunu Cocina Criolla Saludable,Gastronomía,4.653898,-74.059834,19:39,20:24,45,9,oficial,Lunes a viernes de 11:30 a.m. a 9:00 p.m.,False
+chapinero_lunes_noche,alternativa,2,531,Zona Gastronómica Quinta Camacho,Gastronomía,4.654731,-74.059808,20:25,21:10,45,2,oficial,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,False
+centro_martes_solo,recomendado,1,301,Museo del Oro,Museo,4.601821,-74.071796,14:10,14:55,45,10,supuesto,,False
+centro_martes_solo,recomendado,2,213,Museo Botero,Museo,4.596422,-74.073325,15:05,15:40,35,10,supuesto,,False
+centro_martes_solo,chatbot,1,301,Museo del Oro,Museo,4.601821,-74.071796,14:10,14:55,45,10,supuesto,,False
+centro_martes_solo,chatbot,2,213,Museo Botero,Museo,4.596422,-74.073325,15:05,15:40,35,10,supuesto,,False
+centro_martes_solo,alternativa,1,136,Plaza de Bolívar,Atractivo Cultural,4.598105,-74.076096,14:00,14:20,20,0,abierto,,True
+centro_martes_solo,alternativa,2,254,Museo de la Independencia Casa del Florero,Museo,4.59833,-74.075105,14:21,15:21,60,2,supuesto,,False
+centro_martes_solo,alternativa,3,111,Catedral Primada de Colombia,Escenario Religioso,4.597765,-74.075012,15:22,15:42,20,1,supuesto,,False
+centro_domingo_pareja,recomendado,1,111,Catedral Primada de Colombia,Escenario Religioso,4.597765,-74.075012,10:02,10:27,25,2,supuesto,,False
+centro_domingo_pareja,recomendado,2,301,Museo del Oro,Museo,4.601821,-74.071796,10:36,11:51,75,9,supuesto,,False
+centro_domingo_pareja,recomendado,3,213,Museo Botero,Museo,4.596422,-74.073325,12:01,12:46,45,10,supuesto,,False
+centro_domingo_pareja,chatbot,1,111,Catedral Primada de Colombia,Escenario Religioso,4.597765,-74.075012,10:02,10:27,25,2,supuesto,,False
+centro_domingo_pareja,chatbot,2,301,Museo del Oro,Museo,4.601821,-74.071796,10:36,11:51,75,9,supuesto,,False
+centro_domingo_pareja,chatbot,3,213,Museo Botero,Museo,4.596422,-74.073325,12:01,12:46,45,10,supuesto,,False
+centro_domingo_pareja,alternativa,1,90,Palacio Arzobispal,Atractivo Cultural,4.5974,-74.075534,10:01,10:31,30,2,supuesto,,False
+centro_domingo_pareja,alternativa,2,39,Iglesia de San Ignacio,Escenario Religioso,4.596685,-74.07559,10:32,10:52,20,1,supuesto,,False
+centro_domingo_pareja,alternativa,3,196,Museo de Bogotá Sede Casa de los 7 Balcones,Museo,4.595427,-74.073058,10:58,11:58,60,5,supuesto,,False
+usaquen_sabado_familia,recomendado,1,426,Plaza Fundacional de Usaquén,Atractivo Cultural,4.6951,-74.030949,11:00,11:37,37,0,abierto,,False
+usaquen_sabado_familia,recomendado,2,433,Zona Gastronómica de Usaquén,Gastronomía,4.695449,-74.030436,11:38,13:08,90,1,supuesto,,False
+usaquen_sabado_familia,recomendado,3,422,Casa Hacienda Santa Bárbara Centro Comercial,Atractivo Cultural,4.692739,-74.032462,13:16,13:56,40,8,supuesto,,False
+usaquen_sabado_familia,chatbot,1,426,Plaza Fundacional de Usaquén,Atractivo Cultural,4.6951,-74.030949,11:00,11:37,37,0,abierto,,False
+usaquen_sabado_familia,chatbot,2,433,Zona Gastronómica de Usaquén,Gastronomía,4.695449,-74.030436,11:38,13:08,90,1,supuesto,,False
+usaquen_sabado_familia,chatbot,3,422,Casa Hacienda Santa Bárbara Centro Comercial,Atractivo Cultural,4.692739,-74.032462,13:16,13:56,40,8,supuesto,,False
+usaquen_sabado_familia,alternativa,1,vb-546,Mercado de las Pulgas de Usaquén,Comercio,4.696493,-74.030756,11:03,11:48,45,3,oficial,"Sábados, domingos y festivos, de 9:00 a. m. a 5:30 p. m.",True
+usaquen_sabado_familia,alternativa,2,433,Zona Gastronómica de Usaquén,Gastronomía,4.695449,-74.030436,11:51,12:36,45,3,supuesto,,False
+usaquen_sabado_familia,alternativa,3,426,Plaza Fundacional de Usaquén,Atractivo Cultural,4.6951,-74.030949,12:37,12:57,20,1,abierto,,False
+teusaquillo_sabado_bici,recomendado,1,255,Park Way,Parque,4.629459,-74.075201,10:03,10:38,35,4,supuesto,,True
+teusaquillo_sabado_bici,recomendado,2,310,Biblioteca Pública Virgilio Barco,Biblioteca,4.655969,-74.08854,11:00,13:00,120,21,supuesto,,False
+teusaquillo_sabado_bici,chatbot,1,255,Park Way,Parque,4.629459,-74.075201,10:03,10:38,35,4,supuesto,,True
+teusaquillo_sabado_bici,chatbot,2,310,Biblioteca Pública Virgilio Barco,Biblioteca,4.655969,-74.08854,11:00,13:00,120,21,supuesto,,False
+teusaquillo_sabado_bici,alternativa,1,242,Parque Nacional Enrique Olaya Herrera,Parque,4.62351,-74.062214,10:10,10:55,45,11,supuesto,,True
+teusaquillo_sabado_bici,alternativa,2,395,Parque de los Hippies,Parque,4.645401,-74.061969,11:11,11:56,45,16,supuesto,"diario. Rodeado de una vibrante oferta de cafés de especialidad, teatros,",True
+teusaquillo_sabado_bici,alternativa,3,361,Parque Los Novios,Parque,4.655415,-74.081036,12:12,12:57,45,16,supuesto,,True
+chapinero_pareja_mascota,recomendado,1,395,Parque de los Hippies,Parque,4.645401,-74.061969,16:07,16:52,45,7,supuesto,"diario. Rodeado de una vibrante oferta de cafés de especialidad, teatros,",True
+chapinero_pareja_mascota,recomendado,2,vb-662,Plazoleta de Lourdes,Atractivo Cultural,4.649837,-74.063299,17:00,17:30,30,8,supuesto,,True
+chapinero_pareja_mascota,chatbot,1,336,Plaza de Lourdes,Atractivo Cultural,4.649688,-74.063109,16:01,16:41,40,1,abierto,,False
+chapinero_pareja_mascota,chatbot,2,362,Sector de Las Flores,Infraestructura y equipamientos urbanos,4.653601,-74.062805,16:48,17:28,40,7,supuesto,,False
+chapinero_pareja_mascota,chatbot,3,395,Parque de los Hippies,Parque,4.645401,-74.061969,17:43,18:23,40,15,supuesto,"diario. Rodeado de una vibrante oferta de cafés de especialidad, teatros,",True
+chapinero_pareja_mascota,alternativa,1,395,Parque de los Hippies,Parque,4.645401,-74.061969,16:07,16:52,45,7,supuesto,"diario. Rodeado de una vibrante oferta de cafés de especialidad, teatros,",True
+chapinero_pareja_mascota,alternativa,2,vb-662,Plazoleta de Lourdes,Atractivo Cultural,4.649837,-74.063299,17:00,17:30,30,8,supuesto,,True
+usaquen_domingo_mascota,recomendado,1,vb-546,Mercado de las Pulgas de Usaquén,Comercio,4.696493,-74.030756,11:02,11:47,45,3,oficial,"Sábados, domingos y festivos, de 9:00 a. m. a 5:30 p. m.",True
+usaquen_domingo_mascota,chatbot,1,434,Casa de la Alcaldía de Usaquén,Atractivo Cultural,4.695135,-74.031434,11:00,11:12,12,1,supuesto,,False
+usaquen_domingo_mascota,chatbot,2,419,Estación del Ferrocarril de Usaquén,Atractivo Cultural,4.691039,-74.037294,11:25,11:53,28,13,supuesto,,False
+usaquen_domingo_mascota,chatbot,3,426,Plaza Fundacional de Usaquén,Atractivo Cultural,4.6951,-74.030949,12:07,12:32,25,14,abierto,,False
+usaquen_domingo_mascota,alternativa,1,vb-546,Mercado de las Pulgas de Usaquén,Comercio,4.696493,-74.030756,11:02,11:47,45,3,oficial,"Sábados, domingos y festivos, de 9:00 a. m. a 5:30 p. m.",True

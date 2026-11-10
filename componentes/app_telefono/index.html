@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bogotá Cerca de ti · Cuéntame lo esencial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --verde:#1f5a43; --verde-osc:#174634; --tinta:#1c2a24; --gris:#7d8592; --linea:#cfd5e4;
+    --hoja-1:#e7eaf8; --hoja-2:#dee4fa; --crema:#fbf3dc; --crema-borde:#ecdcae; --badge:#fbeec4; --badge-txt:#4a3b10;
+    --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:transparent;font-family:var(--sans);color:var(--tinta)}
+  body{display:flex;justify-content:center;padding:6px 0 10px;overflow:hidden}
+  .telefono{flex:none;transform-origin:top center;width:392px;height:830px;border-radius:52px;background:#0f1012;padding:11px;box-shadow:0 22px 50px rgba(20,24,40,.25),0 2px 6px rgba(0,0,0,.2)}
+  .pantalla{position:relative;width:100%;height:100%;border-radius:42px;overflow:hidden;background:#d9d3c4}
+  /* app de fondo, desenfocada como en el mockup */
+  .fondo{position:absolute;inset:0;padding:54px 22px;filter:blur(3px);opacity:.75;background:linear-gradient(180deg,#e9e4d6,#d6dbea)}
+  .fondo .pill{display:inline-flex;gap:8px;align-items:center;background:#fff8;border-radius:30px;padding:8px 14px;font-size:13px}
+  .fondo h2{font-size:38px;margin:30px 0 0;font-weight:600;letter-spacing:-.02em}
+  .velo{position:absolute;inset:0;background:rgba(40,40,48,.18)}
+  .hoja{position:absolute;left:0;right:0;bottom:0;top:118px;background:linear-gradient(180deg,var(--hoja-1),var(--hoja-2));
+        border-radius:30px 30px 0 0;padding:10px 22px 22px;overflow-y:auto;scrollbar-width:none}
+  .hoja::-webkit-scrollbar{display:none}
+  .asa{width:40px;height:4px;border-radius:4px;background:#b9bfd0;margin:0 auto 18px}
+  .encabezado{display:flex;justify-content:space-between;align-items:flex-start}
+  .sobre{font-size:11.5px;letter-spacing:.14em;font-weight:600;color:var(--verde);text-transform:uppercase}
+  h1{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.1;margin:8px 0 0;letter-spacing:-.01em}
+  .cerrar{width:38px;height:38px;border-radius:50%;border:1px solid #c4cad9;background:transparent;font-size:20px;line-height:1;color:var(--tinta);cursor:default}
+  hr{border:0;border-top:1px solid #cdd3e4;margin:18px 0}
+  .fila{display:flex;justify-content:space-between;align-items:center}
+  .etiqueta{font-weight:600;font-size:14.5px}
+  .opcional{font-size:12.5px;color:var(--gris)}
+  .badge{background:var(--badge);color:var(--badge-txt);font-weight:700;font-size:13.5px;padding:7px 13px;border-radius:10px}
+  /* barra de tiempo */
+  .rango{position:relative;margin:20px 0 4px;height:18px}
+  input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:4px;border-radius:4px;background:#cdd6d0;outline:none;margin:7px 0}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:var(--verde);border:3px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.25);cursor:pointer}
+  input[type=range]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;background:var(--verde);border:3px solid #fff;cursor:pointer}
+  .marcas{display:flex;justify-content:space-between;font-size:11.5px;color:#9aa1ad;padding:0 2px}
+  .marcas span.activa{color:var(--tinta);font-weight:700}
+  /* campo de origen */
+  .campo{display:flex;align-items:center;gap:10px;background:var(--crema);border:1px solid var(--crema-borde);border-radius:12px;padding:0 14px;height:46px;margin-top:12px}
+  .campo input{flex:1;border:0;background:transparent;font:inherit;font-size:14.5px;color:var(--tinta);outline:none}
+  .campo svg{flex:none}
+  .bloque{margin-top:18px}
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .chip{border:1px solid var(--linea);background:transparent;border-radius:999px;padding:9px 15px;font:inherit;font-size:13.5px;color:#3d4554;cursor:pointer;
+        transition:background .15s,color .15s,border-color .15s;display:inline-flex;align-items:center;gap:6px}
+  .chip:hover{border-color:#aeb6c9}
+  .chip.on{background:var(--verde);border-color:var(--verde);color:#fff;font-weight:500}
+  .chip.on::before{content:"✓";font-size:12px}
+  .extra{margin-top:12px;display:none}
+  .extra.visible{display:block}
+  .extra input{width:100%;height:42px;border-radius:12px;border:1px solid var(--crema-borde);background:var(--crema);font:inherit;font-size:14px;padding:0 12px;color:var(--tinta)}
+  details.mas{margin-top:18px;border-top:1px dashed #c9cfe0;padding-top:12px}
+  details.mas summary{font-size:12.5px;color:var(--gris);cursor:pointer;list-style:none}
+  details.mas summary::-webkit-details-marker{display:none}
+  details.mas summary::after{content:" +"}
+  details.mas[open] summary::after{content:" –"}
+  .armar{margin-top:22px;width:100%;height:54px;border:0;border-radius:15px;background:var(--verde);color:#fff;font:inherit;font-weight:600;font-size:15.5px;
+         display:flex;align-items:center;justify-content:center;gap:10px;cursor:pointer;box-shadow:0 6px 16px rgba(31,90,67,.28)}
+  .armar:hover{background:var(--verde-osc)}
+  .armar:active{transform:translateY(1px)}
+  .armar.enviado{background:#2f7a5d}
+  .armar.ocupado{background:#2f6e55;cursor:progress;pointer-events:none}
+  .armar .giro{display:none;width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;animation:gira .8s linear infinite}
+  .armar.ocupado .giro{display:inline-block}
+  .armar.ocupado .flecha{display:none}
+  @keyframes gira{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="telefono"><div class="pantalla">
+  <div class="fondo" aria-hidden="true">
+    <span class="pill">📍 <b>ESTÁS EN</b> <span id="fondoOrigen">Suba, Bogotá</span></span>
+    <h2>¿Qué hay<br>cerca de ti?</h2>
+  </div>
+  <div class="velo" aria-hidden="true"></div>
+
+  <div class="hoja" role="dialog" aria-label="Cuéntame lo esencial">
+    <div class="asa"></div>
+    <div class="encabezado">
+      <div><div class="sobre">Hagámoslo fácil</div><h1>Cuéntame lo esencial</h1></div>
+      <button class="cerrar" aria-label="Cerrar" tabindex="-1">×</button>
+    </div>
+    <hr>
+
+    <div class="fila"><span class="etiqueta">¿Cuánto tiempo tienes?</span><span class="badge" id="badgeHoras">2 horas</span></div>
+    <div class="rango"><input type="range" id="horas" min="1" max="6" step="0.5" value="2" aria-label="Horas disponibles"></div>
+    <div class="marcas" id="marcas"><span>1h</span><span>2h</span><span>3h</span><span>4h</span><span>5h</span><span>6h</span></div>
+    <hr>
+
+    <div class="etiqueta">¿Desde dónde sales?</div>
+    <label class="campo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1c2a24" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      <input id="origen" list="listaOrigenes" value="Suba, Bogotá" autocomplete="off" aria-label="Punto de salida">
+    </label>
+    <datalist id="listaOrigenes"></datalist>
+
+    <div class="bloque etiqueta">¿Cuándo quieres salir?</div>
+    <div class="chips" data-grupo="cuando" data-unico="1">
+      <button class="chip on" data-valor="ahora">Ahora</button>
+      <button class="chip" data-valor="tarde">Hoy más tarde</button>
+      <button class="chip" data-valor="fecha">Elegir día y hora</button>
+    </div>
+    <div class="extra" id="extraTarde"><input type="time" id="horaTarde" value="17:00" aria-label="Hora de salida"></div>
+    <div class="extra" id="extraFecha"><input type="datetime-local" id="fechaHora" aria-label="Día y hora de salida"></div>
+    <hr>
+
+    <div class="etiqueta">¿Con quién vas?</div>
+    <div class="chips" data-grupo="con" data-unico="1">
+      <button class="chip" data-valor="solo">Solo</button>
+      <button class="chip" data-valor="pareja">En pareja</button>
+      <button class="chip" data-valor="amigos">Amigos</button>
+      <button class="chip on" data-valor="ninos">Con niños</button>
+    </div>
+    <hr>
+
+    <div class="fila"><span class="etiqueta">¿Qué te provoca?</span><span class="opcional">Opcional</span></div>
+    <div class="chips" data-grupo="prefs">
+      <button class="chip" data-valor="comer">Comer rico</button>
+      <button class="chip" data-valor="cultura">Cultura</button>
+      <button class="chip on" data-valor="naturaleza">Naturaleza</button>
+      <button class="chip" data-valor="inesperado">Algo inesperado</button>
+      <button class="chip" data-valor="caminar_poco">Caminar poco</button>
+      <button class="chip" data-valor="economico">Económico</button>
+    </div>
+
+    <details class="mas">
+      <summary>Más opciones (no están en el mockup)</summary>
+      <div class="bloque etiqueta">¿Cómo te mueves?</div>
+      <div class="chips" data-grupo="modo" data-unico="1">
+        <button class="chip" data-valor="pie">A pie</button>
+        <button class="chip" data-valor="bici">Bici</button>
+        <button class="chip on" data-valor="transporte">Transporte público</button>
+        <button class="chip" data-valor="auto">Carro o taxi</button>
+      </div>
+      <div class="chips" data-grupo="mascota">
+        <button class="chip" data-valor="si">Voy con mascota 🐾</button>
+      </div>
+    </details>
+
+    <button class="armar" id="armar"><span class="giro" aria-hidden="true"></span><span class="txt">Armar mi plan</span> <span class="flecha" aria-hidden="true">→</span></button>
+  </div>
+</div></div>
+
+<script>
+/* Protocolo de componentes de Streamlit (sin npm): componentReady → render → setComponentValue */
+const enviar = (type, datos) => window.parent.postMessage(Object.assign({isStreamlitMessage: true, type}, datos || {}), "*");
+/* El teléfono mide 392×830; si la columna es más angosta se escala para que se vea completo. */
+let escala = 1;
+function escalar(){
+  escala = Math.min(1, (document.documentElement.clientWidth - 6) / 392);
+  document.querySelector(".telefono").style.transform = `scale(${escala})`;
+}
+const altura = () => { escalar(); enviar("streamlit:setFrameHeight", {height: Math.ceil(830 * escala + 18)}); };
+window.addEventListener("resize", altura);
+const $ = (id) => document.getElementById(id);
+let versionAplicada = null;
+
+function pad(n){ return String(n).padStart(2, "0"); }
+function textoHoras(h){ if (h === 1) return "1 hora"; return Number.isInteger(h) ? `${h} horas` : `${Math.floor(h)} h 30 min`; }
+function pintarHoras(){
+  const r = $("horas"), h = parseFloat(r.value), pct = (h - 1) / 5 * 100;
+  r.style.background = `linear-gradient(to right, #1f5a43 ${pct}%, #cdd6d0 ${pct}%)`;
+  $("badgeHoras").textContent = textoHoras(h);
+  [...$("marcas").children].forEach((s, i) => s.classList.toggle("activa", Math.round(h) === i + 1));
+}
+function grupo(nombre){ return document.querySelector(`.chips[data-grupo="${nombre}"]`); }
+function valores(nombre){ return [...grupo(nombre).querySelectorAll(".chip.on")].map(b => b.dataset.valor); }
+function marcar(nombre, vals){ grupo(nombre).querySelectorAll(".chip").forEach(b => b.classList.toggle("on", vals.includes(b.dataset.valor))); }
+function pintarCuando(){
+  const c = valores("cuando")[0];
+  $("extraTarde").classList.toggle("visible", c === "tarde");
+  $("extraFecha").classList.toggle("visible", c === "fecha");
+  altura();
+}
+document.querySelectorAll(".chips").forEach(g => g.addEventListener("click", (e) => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  if (g.dataset.unico) { g.querySelectorAll(".chip").forEach(x => x.classList.toggle("on", x === b)); }
+  else { b.classList.toggle("on"); }
+  if (g.dataset.grupo === "cuando") pintarCuando();
+}));
+$("horas").addEventListener("input", pintarHoras);
+$("origen").addEventListener("input", () => { $("fondoOrigen").textContent = $("origen").value || "Bogotá"; });
+document.querySelector("details.mas").addEventListener("toggle", altura);
+
+function consulta(){
+  const c = valores("cuando")[0];
+  let cuando = "ahora";
+  if (c === "tarde") cuando = $("horaTarde").value || "17:00";
+  if (c === "fecha") cuando = ($("fechaHora").value || "").replace("T", " ") || "ahora";
+  return {
+    minutos: Math.round(parseFloat($("horas").value) * 60),
+    origen: $("origen").value.trim(),
+    cuando,
+    con: valores("con")[0] || "solo",
+    prefs: valores("prefs"),
+    modo: valores("modo")[0] || "transporte",
+    mascota: valores("mascota").includes("si"),
+  };
+}
+function ocupado(si){
+  const b = $("armar"); b.classList.toggle("ocupado", !!si);
+  b.querySelector(".txt").textContent = si ? "Armando tu plan…" : "Armar mi plan";
+}
+$("armar").addEventListener("click", () => {
+  ocupado(true);
+  enviar("streamlit:setComponentValue", {value: Object.assign(consulta(), {nonce: Date.now()}), dataType: "json"});
+});
+
+/* Estado inicial que manda el dashboard (p. ej. "cargar escenario"). Solo se aplica si cambia su versión. */
+function aplicar(e){
+  if (!e || e.version === versionAplicada) return;
+  versionAplicada = e.version;
+  if (e.minutos) { $("horas").value = Math.min(6, Math.max(1, e.minutos / 60)); pintarHoras(); }
+  if (e.origen) { $("origen").value = e.origen; $("fondoOrigen").textContent = e.origen; }
+  if (e.cuando) {
+    const t = String(e.cuando);
+    if (t === "ahora") marcar("cuando", ["ahora"]);
+    else if (/^\d{1,2}:\d{2}$/.test(t)) { marcar("cuando", ["tarde"]); $("horaTarde").value = t.padStart(5, "0"); }
+    else { marcar("cuando", ["fecha"]); $("fechaHora").value = t.replace(" ", "T").slice(0, 16); }
+    pintarCuando();
+  }
+  if (e.con) marcar("con", [e.con]);
+  if (e.prefs) marcar("prefs", e.prefs);
+  if (e.modo) marcar("modo", [e.modo]);
+  marcar("mascota", e.mascota ? ["si"] : []);
+  if (e.mascota || (e.modo && e.modo !== "transporte")) document.querySelector("details.mas").open = true;
+}
+window.addEventListener("message", (ev) => {
+  const d = ev.data || {};
+  if (d.type !== "streamlit:render") return;
+  const a = d.args || {};
+  if (Array.isArray(a.origenes)) {
+    const dl = $("listaOrigenes"); dl.innerHTML = "";
+    a.origenes.forEach(o => { const op = document.createElement("option"); op.value = `${o}, Bogotá`; dl.appendChild(op); });
+  }
+  aplicar(a.estado);
+  ocupado(a.ocupado);
+  altura();
+});
+
+const hoy = new Date(); hoy.setMinutes(0);
+$("fechaHora").value = `${hoy.getFullYear()}-${pad(hoy.getMonth() + 1)}-${pad(hoy.getDate())}T${pad(hoy.getHours())}:00`;
+pintarHoras(); pintarCuando();
+enviar("streamlit:componentReady", {apiVersion: 1});
+window.addEventListener("load", altura);
+if (document.fonts) document.fonts.ready.then(altura);
+</script>
+</body>
+</html>

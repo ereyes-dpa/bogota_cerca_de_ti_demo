@@ -1,0 +1,9 @@
+id,minutos,origen,cuando,con,prefs,modo,mascota,escenario
+suba_ninos_sabado,120,"4.73, -74.09",2026-11-14 15:00,ninos,naturaleza,transporte,False,vivo_suba_ninos_sabado
+chapinero_lunes_noche,120,"4.6495, -74.0624",2026-11-09 19:30,solo,comer,pie,False,vivo_chapinero_lunes_noche
+centro_martes_solo,120,"4.598105, -74.076096",2026-11-10 14:00,solo,cultura,pie,False,vivo_centro_martes_solo
+centro_domingo_pareja,180,"4.598105, -74.076096",2026-11-15 10:00,pareja,cultura|comer,pie,False,vivo_centro_domingo_pareja
+usaquen_sabado_familia,180,"4.6951, -74.03095",2026-11-14 11:00,ninos,comer|naturaleza,pie,False,vivo_usaquen_sabado_familia
+teusaquillo_sabado_bici,240,"4.634, -74.073",2026-11-14 10:00,ninos,naturaleza|caminar_poco,bici,False,vivo_teusaquillo_sabado_bici
+chapinero_pareja_mascota,120,"4.6495, -74.0624",2026-11-14 16:00,pareja,naturaleza,pie,True,vivo_chapinero_pareja_mascota
+usaquen_domingo_mascota,90,"4.6951, -74.03095",2026-11-15 11:00,amigos,inesperado|economico,pie,True,vivo_usaquen_domingo_mascota

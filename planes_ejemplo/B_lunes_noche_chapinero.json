@@ -1,0 +1,244 @@
+{
+  "solicitud": {
+    "origen": [
+      4.6495,
+      -74.0624
+    ],
+    "minutos": 120,
+    "cuando": "2026-11-09 19:30 (Monday)",
+    "con": "solo",
+    "prefs": [
+      "comer"
+    ],
+    "modo": "pie",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "La Nunu Cocina Criolla Saludable",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "CL. 69A # 10-23, CHAPINERO, BOGOTÁ, CUNDINAMARCA",
+          "lat": 4.653898,
+          "lon": -74.059834,
+          "llegada": "19:39",
+          "salida": "20:24",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 21:00.",
+          "horario": "lun 11:30-21:00; mar 11:30-21:00; mié 11:30-21:00; jue 11:30-21:00; vie 11:30-21:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "",
+          "pet_friendly": false,
+          "id": "gd-68"
+        },
+        {
+          "nombre": "Zona Gastronómica Quinta Camacho",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "Entre Calles 67 y 72 y entre Carrera 7 y Avenida Caracas",
+          "lat": 4.654731,
+          "lon": -74.059808,
+          "llegada": "20:25",
+          "salida": "21:10",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 00:00.",
+          "horario": "lun 09:00-00:00; mar 09:00-00:00; mié 09:00-00:00; jue 09:00-00:00; vie 09:00-00:00; sáb 09:00-00:00; dom 09:00-00:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "Pareja, Solo, LGBTI, Grupo",
+          "pet_friendly": false,
+          "id": "531"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "La Nunu Cocina Criolla Saludable",
+          "minutos": 9,
+          "km": 0.74
+        },
+        {
+          "desde": "La Nunu Cocina Criolla Saludable",
+          "hasta": "Zona Gastronómica Quinta Camacho",
+          "minutos": 2,
+          "km": 0.12
+        },
+        {
+          "desde": "Zona Gastronómica Quinta Camacho",
+          "hasta": "Tu punto de salida",
+          "minutos": 11,
+          "km": 0.84
+        }
+      ],
+      "duracion_total_min": 111,
+      "minutos_transporte": 21,
+      "minutos_visita": 90,
+      "margen_min": 9,
+      "termina_a": "21:21",
+      "km_total": 1.7,
+      "avisos": [
+        "Horario oficial: abierto hasta las 00:00.",
+        "Horario oficial: abierto hasta las 21:00."
+      ],
+      "puntaje": 9.24,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6495,-74.0624&destination=4.6495,-74.0624&travelmode=walking&waypoints=4.653898,-74.059834|4.654731,-74.059808",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20La%20Nunu%20Cocina%20Criolla%20Saludable%20%2819%3A39%E2%80%9320%3A24%29%0A2.%20Zona%20Gastron%C3%B3mica%20Quinta%20Camacho%20%2820%3A25%E2%80%9321%3A10%29%0ATermino%20a%20las%2021%3A21.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6495%2C-74.0624%26destination%3D4.6495%2C-74.0624%26travelmode%3Dwalking%26waypoints%3D4.653898%2C-74.059834%7C4.654731%2C-74.059808"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Urania Café – Bar",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "CL. 60 #09-10, CHAPINERO, BOGOTÁ, CUNDINAMARCA",
+          "lat": 4.646037,
+          "lon": -74.0623,
+          "llegada": "19:36",
+          "salida": "20:21",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 02:00.",
+          "horario": "lun 15:00-02:00; mar 15:00-02:00; mié 15:00-02:00; jue 14:00-02:30; vie 14:00-02:30; sáb 14:00-02:30; dom 16:30-02:30",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "",
+          "pet_friendly": false,
+          "id": "gd-151"
+        },
+        {
+          "nombre": "Punto 59",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "KR 13 #59 24, INTERIOR 6, BOGOTÁ",
+          "lat": 4.646117,
+          "lon": -74.063738,
+          "llegada": "20:23",
+          "salida": "21:08",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 03:00.",
+          "horario": "lun 17:45-03:00; mar 17:45-03:00; mié 17:45-03:00; jue 17:45-03:00; vie 18:00-04:00; sáb 18:00-04:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "",
+          "pet_friendly": false,
+          "id": "gd-146"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Urania Café – Bar",
+          "minutos": 6,
+          "km": 0.5
+        },
+        {
+          "desde": "Urania Café – Bar",
+          "hasta": "Punto 59",
+          "minutos": 3,
+          "km": 0.21
+        },
+        {
+          "desde": "Punto 59",
+          "hasta": "Tu punto de salida",
+          "minutos": 7,
+          "km": 0.53
+        }
+      ],
+      "duracion_total_min": 105,
+      "minutos_transporte": 15,
+      "minutos_visita": 90,
+      "margen_min": 15,
+      "termina_a": "21:15",
+      "km_total": 1.2,
+      "avisos": [
+        "Horario oficial: abierto hasta las 02:00.",
+        "Horario oficial: abierto hasta las 03:00."
+      ],
+      "puntaje": 8.6,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6495,-74.0624&destination=4.6495,-74.0624&travelmode=walking&waypoints=4.646037,-74.0623|4.646117,-74.063738",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20Urania%20Caf%C3%A9%20%E2%80%93%20Bar%20%2819%3A36%E2%80%9320%3A21%29%0A2.%20Punto%2059%20%2820%3A23%E2%80%9321%3A08%29%0ATermino%20a%20las%2021%3A15.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6495%2C-74.0624%26destination%3D4.6495%2C-74.0624%26travelmode%3Dwalking%26waypoints%3D4.646037%2C-74.0623%7C4.646117%2C-74.063738"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Estación Café Chapinero",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "CL 62 #7-13, CHAPINERO, BOGOTÁ, CUNDINAMARCA",
+          "lat": 4.646965,
+          "lon": -74.060442,
+          "llegada": "19:35",
+          "salida": "20:20",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 12:00.",
+          "horario": "lun 16:00-12:00; mar 16:00-12:00; mié 16:00-12:00; jue 16:00-12:00; vie 14:00-03:00; sáb 14:00-03:00; dom 16:00-12:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "",
+          "pet_friendly": false,
+          "id": "gd-140"
+        },
+        {
+          "nombre": "Leos Video Bar Mística",
+          "categoria": "Gastronomía",
+          "localidad": "Chapinero",
+          "direccion": "CL. 59 #9-36, CHAPINERO, BOGOTÁ",
+          "lat": 4.645356,
+          "lon": -74.063085,
+          "llegada": "20:26",
+          "salida": "21:11",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 05:00.",
+          "horario": "lun 14:00-05:00; mar 14:00-05:00; mié 14:00-05:00; jue 14:00-05:00; vie 14:00-05:00; sáb 14:00-05:00; dom 14:00-05:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "",
+          "pet_friendly": false,
+          "id": "gd-144"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Estación Café Chapinero",
+          "minutos": 6,
+          "km": 0.46
+        },
+        {
+          "desde": "Estación Café Chapinero",
+          "hasta": "Leos Video Bar Mística",
+          "minutos": 6,
+          "km": 0.45
+        },
+        {
+          "desde": "Leos Video Bar Mística",
+          "hasta": "Tu punto de salida",
+          "minutos": 8,
+          "km": 0.61
+        }
+      ],
+      "duracion_total_min": 109,
+      "minutos_transporte": 19,
+      "minutos_visita": 90,
+      "margen_min": 11,
+      "termina_a": "21:18",
+      "km_total": 1.5,
+      "avisos": [
+        "Horario oficial: abierto hasta las 05:00.",
+        "Horario oficial: abierto hasta las 12:00."
+      ],
+      "puntaje": 8.36,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6495,-74.0624&destination=4.6495,-74.0624&travelmode=walking&waypoints=4.646965,-74.060442|4.645356,-74.063085",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20Estaci%C3%B3n%20Caf%C3%A9%20Chapinero%20%2819%3A35%E2%80%9320%3A20%29%0A2.%20Leos%20Video%20Bar%20M%C3%ADstica%20%2820%3A26%E2%80%9321%3A11%29%0ATermino%20a%20las%2021%3A18.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6495%2C-74.0624%26destination%3D4.6495%2C-74.0624%26travelmode%3Dwalking%26waypoints%3D4.646965%2C-74.060442%7C4.645356%2C-74.063085"
+      }
+    }
+  ],
+  "avisos": []
+}

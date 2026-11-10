@@ -1,0 +1,314 @@
+{
+  "solicitud": {
+    "origen": [
+      4.598105,
+      -74.076096
+    ],
+    "minutos": 180,
+    "cuando": "2026-11-15 10:00 (Sunday)",
+    "con": "pareja",
+    "prefs": [
+      "cultura",
+      "comer"
+    ],
+    "modo": "pie",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "Palacio Arzobispal",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Carrera 7 # 10 – 20",
+          "lat": 4.5974,
+          "lon": -74.075534,
+          "llegada": "10:01",
+          "salida": "10:31",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo",
+          "pet_friendly": false,
+          "id": "90"
+        },
+        {
+          "nombre": "Iglesia de San Ignacio",
+          "categoria": "Escenario Religioso",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 6 – 35",
+          "lat": 4.596685,
+          "lon": -74.07559,
+          "llegada": "10:32",
+          "salida": "10:52",
+          "minutos_visita": 20,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo",
+          "pet_friendly": false,
+          "id": "39"
+        },
+        {
+          "nombre": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "categoria": "Museo",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 3 – 61",
+          "lat": 4.595427,
+          "lon": -74.073058,
+          "llegada": "10:58",
+          "salida": "11:58",
+          "minutos_visita": 60,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo, Familias, Grupo",
+          "pet_friendly": false,
+          "id": "196"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Palacio Arzobispal",
+          "minutos": 2,
+          "km": 0.13
+        },
+        {
+          "desde": "Palacio Arzobispal",
+          "hasta": "Iglesia de San Ignacio",
+          "minutos": 1,
+          "km": 0.1
+        },
+        {
+          "desde": "Iglesia de San Ignacio",
+          "hasta": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "minutos": 5,
+          "km": 0.41
+        },
+        {
+          "desde": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "hasta": "Tu punto de salida",
+          "minutos": 7,
+          "km": 0.58
+        }
+      ],
+      "duracion_total_min": 125,
+      "minutos_transporte": 15,
+      "minutos_visita": 110,
+      "margen_min": 55,
+      "termina_a": "12:05",
+      "km_total": 1.2,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 14.33,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.598105,-74.076096&destination=4.598105,-74.076096&travelmode=walking&waypoints=4.5974,-74.075534|4.596685,-74.07559|4.595427,-74.073058",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Palacio%20Arzobispal%20%2810%3A01%E2%80%9310%3A31%29%0A2.%20Iglesia%20de%20San%20Ignacio%20%2810%3A32%E2%80%9310%3A52%29%0A3.%20Museo%20de%20Bogot%C3%A1%20Sede%20Casa%20de%20los%207%20Balcones%20%2810%3A58%E2%80%9311%3A58%29%0ATermino%20a%20las%2012%3A05.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.598105%2C-74.076096%26destination%3D4.598105%2C-74.076096%26travelmode%3Dwalking%26waypoints%3D4.5974%2C-74.075534%7C4.596685%2C-74.07559%7C4.595427%2C-74.073058"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Catedral Primada de Colombia",
+          "categoria": "Escenario Religioso",
+          "localidad": "La Candelaria",
+          "direccion": "Carrera 7 # 10 – 80",
+          "lat": 4.597765,
+          "lon": -74.075012,
+          "llegada": "10:02",
+          "salida": "10:22",
+          "minutos_visita": 20,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Solo, Pareja",
+          "pet_friendly": false,
+          "id": "111"
+        },
+        {
+          "nombre": "Teatro Colón",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 5 - 32",
+          "lat": 4.59675,
+          "lon": -74.074311,
+          "llegada": "10:24",
+          "salida": "10:54",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Grupo, Solo",
+          "pet_friendly": false,
+          "id": "275"
+        },
+        {
+          "nombre": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "categoria": "Museo",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 3 – 61",
+          "lat": 4.595427,
+          "lon": -74.073058,
+          "llegada": "10:57",
+          "salida": "11:57",
+          "minutos_visita": 60,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo, Familias, Grupo",
+          "pet_friendly": false,
+          "id": "196"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Catedral Primada de Colombia",
+          "minutos": 2,
+          "km": 0.16
+        },
+        {
+          "desde": "Catedral Primada de Colombia",
+          "hasta": "Teatro Colón",
+          "minutos": 2,
+          "km": 0.18
+        },
+        {
+          "desde": "Teatro Colón",
+          "hasta": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "minutos": 3,
+          "km": 0.26
+        },
+        {
+          "desde": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "hasta": "Tu punto de salida",
+          "minutos": 7,
+          "km": 0.58
+        }
+      ],
+      "duracion_total_min": 125,
+      "minutos_transporte": 15,
+      "minutos_visita": 110,
+      "margen_min": 55,
+      "termina_a": "12:04",
+      "km_total": 1.2,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 14.33,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.598105,-74.076096&destination=4.598105,-74.076096&travelmode=walking&waypoints=4.597765,-74.075012|4.59675,-74.074311|4.595427,-74.073058",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Catedral%20Primada%20de%20Colombia%20%2810%3A02%E2%80%9310%3A22%29%0A2.%20Teatro%20Col%C3%B3n%20%2810%3A24%E2%80%9310%3A54%29%0A3.%20Museo%20de%20Bogot%C3%A1%20Sede%20Casa%20de%20los%207%20Balcones%20%2810%3A57%E2%80%9311%3A57%29%0ATermino%20a%20las%2012%3A04.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.598105%2C-74.076096%26destination%3D4.598105%2C-74.076096%26travelmode%3Dwalking%26waypoints%3D4.597765%2C-74.075012%7C4.59675%2C-74.074311%7C4.595427%2C-74.073058"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Plazoleta del Chorro de Quevedo",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 12 B Carrera 2",
+          "lat": 4.597236,
+          "lon": -74.06969,
+          "llegada": "10:11",
+          "salida": "10:31",
+          "minutos_visita": 20,
+          "apertura": "abierto",
+          "aviso": "",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Grupo",
+          "pet_friendly": false,
+          "id": "113"
+        },
+        {
+          "nombre": "Zona gastronómica La Candelaria",
+          "categoria": "Gastronomía",
+          "localidad": "Candelaria",
+          "direccion": "La zona de La Candelaria se extiende entre la Carrera 1ª y la Avenida Caracas, desde la Calle 26 hasta la Calle 6ª, en la localidad de La Candelaria.",
+          "lat": 4.597389,
+          "lon": -74.069759,
+          "llegada": "10:31",
+          "salida": "11:16",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo, Grupo, Familias",
+          "pet_friendly": false,
+          "id": "vb-69"
+        },
+        {
+          "nombre": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "categoria": "Museo",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 3 – 61",
+          "lat": 4.595427,
+          "lon": -74.073058,
+          "llegada": "11:23",
+          "salida": "12:23",
+          "minutos_visita": 60,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Pareja, Solo, Familias, Grupo",
+          "pet_friendly": false,
+          "id": "196"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Plazoleta del Chorro de Quevedo",
+          "minutos": 12,
+          "km": 0.93
+        },
+        {
+          "desde": "Plazoleta del Chorro de Quevedo",
+          "hasta": "Zona gastronómica La Candelaria",
+          "minutos": 0,
+          "km": 0.02
+        },
+        {
+          "desde": "Zona gastronómica La Candelaria",
+          "hasta": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "minutos": 7,
+          "km": 0.55
+        },
+        {
+          "desde": "Museo de Bogotá Sede Casa de los 7 Balcones",
+          "hasta": "Tu punto de salida",
+          "minutos": 7,
+          "km": 0.58
+        }
+      ],
+      "duracion_total_min": 151,
+      "minutos_transporte": 26,
+      "minutos_visita": 125,
+      "margen_min": 29,
+      "termina_a": "12:31",
+      "km_total": 2.1,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 14.31,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.598105,-74.076096&destination=4.598105,-74.076096&travelmode=walking&waypoints=4.597236,-74.06969|4.597389,-74.069759|4.595427,-74.073058",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Plazoleta%20del%20Chorro%20de%20Quevedo%20%2810%3A11%E2%80%9310%3A31%29%0A2.%20Zona%20gastron%C3%B3mica%20La%20Candelaria%20%2810%3A31%E2%80%9311%3A16%29%0A3.%20Museo%20de%20Bogot%C3%A1%20Sede%20Casa%20de%20los%207%20Balcones%20%2811%3A23%E2%80%9312%3A23%29%0ATermino%20a%20las%2012%3A31.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.598105%2C-74.076096%26destination%3D4.598105%2C-74.076096%26travelmode%3Dwalking%26waypoints%3D4.597236%2C-74.06969%7C4.597389%2C-74.069759%7C4.595427%2C-74.073058"
+      }
+    }
+  ],
+  "avisos": []
+}

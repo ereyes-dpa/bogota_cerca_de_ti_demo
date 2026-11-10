@@ -1,0 +1,490 @@
+id,nombre,categoria,tipo_idt,localidad,sector,direccion,lat,lon,minutos_visita_supuesto,apertura_supuesto,etiquetas_supuesto,es_de_siempre
+25,Iglesia San Antonio de Padua,Escenario Religioso,Atractivo Cultural,Antonio Nariño,San Antonio,Avenida Caracas # 8 – 33 Sur,4.587717,-74.093247,20,verificar,cultura|economico,False
+388,Centro Comercial Centro Mayor,Infraestructura y equipamientos urbanos,Atractivo Cultural,Antonio Nariño,Villa Mayor Oriental,Calle 38A Sur # 34D - 51,4.591749,-74.124033,30,verificar,,False
+485,Distrito Creativo San Felipe,Atractivo Cultural,Atractivo Cultural,Barrios Unidos,San Felipe,Entre Avenida Caracas y Carrera 24 y entre la Avenida Calle 72 y Avenida Calle 80,4.664614,-74.064291,30,verificar,cultura,False
+408,Palacio de los Deportes,Atractivo Cultural,Atractivo Cultural,Barrios Unidos,El Rosario,Calle 63 # 42 - 00,4.655441,-74.084111,30,verificar,cultura,False
+360,Quinta de Mutis,Atractivo Cultural,Atractivo Cultural,Barrios Unidos,Quinta Mutis,Carrera 24 # 63C - 69,4.654377,-74.072988,30,verificar,cultura,False
+407,Teatro Cafam,Atractivo Cultural,Atractivo Cultural,Barrios Unidos,Los Andes,Avenida carrera 68 # 90 - 88,4.684874,-74.073231,30,verificar,cultura,False
+576,Teatro Nacional La Castellana,Atractivo Cultural,Atractivo Cultural,Barrios Unidos,La Castellana,"Cl. 95 #47-15, Barrios Unidos, Bogotá, Cundinamarca",4.683806,-74.060078,30,verificar,cultura,False
+100,Parque Ecológico Distrital Humedal Salitre,Atractivo de Naturaleza,Atractivo Natural,Barrios Unidos,Parque Popular Salitre,Calle 53 con Carrera 66A,4.667296,-74.088179,60,diurno,economico|naturaleza|ninos_ok,False
+441,Plaza Distrital de Mercado 12 de Octubre,Comercio,Atractivo Cultural,Barrios Unidos,Doce De Octubre,Calle 72 entre Carreras 51 y 52,4.669114,-74.074433,45,verificar,comer|compras,False
+558,Plaza Distrital de Mercado 7 de agosto,Comercio,Atractivo Cultural,Barrios Unidos,Siete De Agosto,"Cra. 24 #66-46, Bogotá",4.657364,-74.070417,45,verificar,comer|compras,False
+372,Centro de Alto Rendimiento,Escenario Deportivo,Atractivo Cultural,Barrios Unidos,Parque Distrital Salitre,Calle 63 # 59A -06,4.660066,-74.086169,60,verificar,ninos_ok,False
+368,Complejo Acuático Simón Bolívar,Escenario Deportivo,Atractivo Cultural,Barrios Unidos,El Rosario,Calle 63 # 45 - 00,4.65482,-74.083506,60,verificar,ninos_ok,True
+412,Mezquita Abu Bakr Al Siddique,Escenario Religioso,Atractivo Cultural,Barrios Unidos,La Patria,Calle 80 # 30 - 20,4.674527,-74.067383,20,verificar,cultura|economico,False
+410,Monumento a Jorge Eliécer Gaitán,Monumento y/o escultura,Atractivo Cultural,Barrios Unidos,Jorge Eliecer Gaitan,Parque Jorge Eliecer Gaitán (carrera 55 Bis entre calles 78 A y 79 A),4.67493,-74.072562,10,abierto,caminar_poco|cultura|economico,False
+361,Parque Los Novios,Parque,Atractivo Cultural,Barrios Unidos,El Rosario,Calle 65 # 45 - 10,4.655415,-74.081036,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+556,Parque Ciudad de los Niños y Niñas,Parque Temático,Atractivo Cultural,Barrios Unidos,Parque Popular Salitre,"Av. La Esmeralda #63-27, Bogotá",4.661594,-74.089094,120,verificar,ninos,False
+557,Parque Recreodeportivo El Salitre,Parque Temático,Atractivo Cultural,Barrios Unidos,Parque Popular Salitre,"Av. La Esmeralda #63-63, Bogotá",4.663906,-74.088243,120,verificar,ninos,False
+132,Parque Salitre Mágico,Parque Temático,Atractivo Cultural,Barrios Unidos,Parque Popular Salitre,Calle 63 # 60 - 80,4.667315,-74.089862,120,verificar,ninos,False
+223,Plaza Fundacional de Bosa,Atractivo Cultural,Atractivo Cultural,Bosa,Bosa,Calle 61 Sur con Carrera 80H,4.609888,-74.184721,20,abierto,caminar_poco|cultura|economico,False
+94,Parque Ecológico Distrital Humedal Tibanica,Atractivo de Naturaleza,Atractivo Natural,Bosa,Villa Anny I,Carrera 78I con Calle 73G Sur,4.601887,-74.204409,60,diurno,economico|naturaleza|ninos_ok,False
+222,Templo Doctrinero de San Bernardino de Bosa,Escenario Religioso,Atractivo Cultural,Bosa,Bosa,Carrera 80H # 61 - 20 Sur,4.608994,-74.184138,20,verificar,cultura|economico,False
+257,Cabildo indígena MHUYSQA de Bosa,Infraestructura y equipamientos urbanos,Atractivo Cultural,Bosa,Remanso Urbano,Transversal 87B # 79C-42 Sur,4.617649,-74.204141,30,verificar,,False
+544,Monumento Alameda,Monumento y/o escultura,Atractivo Cultural,Bosa,Las Margaritas,Calle 59 Sur con Carrera 94A,4.633272,-74.194112,10,abierto,caminar_poco|cultura|economico,False
+327,Calle de los Anticuarios,Atractivo Cultural,Atractivo Cultural,Chapinero,El Nogal,Calle 79B entre Carreras 7 y  9,4.662095,-74.051282,20,abierto,caminar_poco|cultura|economico,False
+117,Casa Gómez Campuzano,Atractivo Cultural,Atractivo Cultural,Chapinero,El Nogal,Calle 80 # 8 - 66,4.663125,-74.051436,30,verificar,cultura,False
+46,Castillo del Mono Osorio,Atractivo Cultural,Atractivo Cultural,Chapinero,Bellavista,Carrera 3 # 74 - 02,4.655344,-74.051419,30,verificar,cultura,False
+150,Edificio Four Seasons Hotel Casa Medina Bogotá,Atractivo Cultural,Atractivo Cultural,Chapinero,Emaus,Avenida Carrera 7 # 69A - 22,4.652235,-74.056308,30,verificar,cultura,False
+390,Edificios Gimnasio Moderno,Atractivo Cultural,Atractivo Cultural,Chapinero,Porciuncula,Calle 74 # 9 - 24,4.659314,-74.055982,30,verificar,cultura,False
+336,Plaza de Lourdes,Atractivo Cultural,Atractivo Cultural,Chapinero,Chapinero Norte,Carrera 13 Calle 63,4.649688,-74.063109,20,abierto,caminar_poco|cultura|economico,False
+574,Teatro Nacional Calle 71,Atractivo Cultural,Atractivo Cultural,Chapinero,Quinta Camacho,Cl. 71 #10-25,4.655622,-74.058637,30,verificar,cultura,False
+580,Theatron de película,Atractivo Cultural,Atractivo Cultural,Chapinero,Chapinero Central,"Cl. 58 #10-32, Bogotá",4.645154,-74.063696,30,verificar,cultura,False
+351,Alameda Quebrada La Vieja,Atractivo de Naturaleza,Atractivo Natural,Chapinero,Las Acacias,Calle 71 # 1 - 45,4.651315,-74.050301,60,diurno,economico|naturaleza|ninos_ok,False
+52,Quebrada Las Delicias,Atractivo de Naturaleza,Atractivo Natural,Chapinero,Siberia,Avenida Circunvalar con Calle 62,4.637759,-74.052263,60,diurno,economico|naturaleza|ninos_ok,False
+481,Ruta Vidas Diversas (Huertas en la localidad de Chapinero),Atractivo de Naturaleza,Atractivo Natural,Chapinero,El Bagazal,"Transversal 2 Este # 78-93 - Huertas Lupita de los Cerros, Fuerza Ambiental, La Violeta y Maya Tejedores de la Tierra",4.658035,-74.045488,60,diurno,economico|naturaleza|ninos_ok,False
+85,Sendero Las Moyas,Atractivo de Naturaleza,Atractivo Natural,Chapinero,El Bagazal,"Tv. 2 Este #78-93, Bogotá",4.656196,-74.037544,60,diurno,economico|naturaleza|ninos_ok,False
+119,Basílica de Nuestra Señora de Lourdes,Escenario Religioso,Atractivo Cultural,Chapinero,Chapinero Norte,Carrera 13 # 63 - 20,4.649513,-74.062388,20,verificar,cultura|economico,False
+152,Capilla de Santa María de los Ángeles,Escenario Religioso,Atractivo Cultural,Chapinero,El Nogal,Calle 79B # 7 - 52,4.661351,-74.05059,20,verificar,cultura|economico,False
+393,Capilla de los Santos Apóstoles del Gimnasio Moderno,Escenario Religioso,Atractivo Cultural,Chapinero,Porciuncula,Carrera 9 # 74 - 99,4.65897,-74.055351,20,verificar,cultura|economico,False
+267,Iglesia Nuestra Señora de Chiquinquirá,Escenario Religioso,Atractivo Cultural,Chapinero,Marly,Carrera 13 # 51 - 38,4.638414,-74.064954,20,verificar,cultura|economico,False
+268,Iglesia Nuestra Señora de los Ángeles La Porciúncula,Escenario Religioso,Atractivo Cultural,Chapinero,Porciuncula,Calle 72 # 10 - 76,4.657332,-74.058231,20,verificar,cultura|economico,False
+308,Seminario Mayor de Bogotá,Escenario Religioso,Atractivo Cultural,Chapinero,Seminario,Carrera 7 # 93A - 50,4.672949,-74.04088,20,verificar,cultura|economico,False
+56,Sinagoga Adat Israel,Escenario Religioso,Atractivo Cultural,Chapinero,Chico Norte,Carrera 7A # 94 - 20,4.675349,-74.041975,20,verificar,cultura|economico,False
+74,Alimentarte Food Festival,Gastronomía,Festividades y eventos,Chapinero,Antiguo Country,Avenida calle 127 # 11 D - 90,4.67313,-74.054603,45,verificar,comer,False
+524,Bogota Wine and Food Festival,Gastronomía,Festividades y eventos,Chapinero,Chico Norte,"Parque 93 (Cra. 11a #93A - 22, Bogotá)",4.676844,-74.048462,45,verificar,comer,False
+523,Bogotá Eats a Cielo Abierto,Gastronomía,Festividades y eventos,Chapinero,Chico Norte,"Parque del Chicó (Cra. 7 #93 - 01, Chapinero, Bogotá)",4.673902,-74.044437,45,verificar,comer,False
+371,Zona G,Gastronomía,Atractivo Cultural,Chapinero,Emaus,Calle 65 a calle 72  entre carreras 4 y 7,4.650946,-74.055631,45,verificar,comer,False
+531,Zona Gastronómica Quinta Camacho,Gastronomía,Atractivo Cultural,Chapinero,Quinta Camacho,Entre Calles 67 y 72 y entre Carrera 7 y Avenida Caracas,4.654731,-74.059808,45,verificar,comer,False
+344,Zona T,Gastronomía,Atractivo Cultural,Chapinero,El Retiro,Carrera 13 Calle 82,4.666922,-74.054944,45,verificar,comer,True
+387,Centro Comercial Andino,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,El Retiro,Carrera 11 # 82 - 71,4.666734,-74.053111,30,verificar,,False
+385,Centro Comercial Atlantis Plaza,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,Espartillal,Calle 81 # 13 - 05,4.666077,-74.055772,30,verificar,,False
+501,Centro de Felicidad - CEFE Chapinero,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,El Nogal,"Cl. 82 #10-69, Bogotá",4.665446,-74.052822,30,verificar,,False
+497,Chapinero,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,Chapinero Norte,Localidad de Chapinero,4.649507,-74.061709,30,verificar,,False
+386,El Retiro Shopping Center,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,Espartillal,Calle 81 # 11 - 94,4.66581,-74.05419,30,verificar,,False
+362,Sector de Las Flores,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,Chapinero Norte,Carrera 13 entre Calles 67 y 69,4.653601,-74.062805,30,verificar,,False
+346,Zona Rosa,Infraestructura y equipamientos urbanos,Atractivo Cultural,Chapinero,El Retiro,Carrera 13 Calle 82,4.666922,-74.054944,30,verificar,,True
+382,Escultura Homenaje a Gandhi,Monumento y/o escultura,Atractivo Cultural,Chapinero,Seminario,Carrera 7 Calle100,4.679462,-74.03815,10,abierto,caminar_poco|cultura|economico,False
+345,Escultura Rita 5:30 P.M.,Monumento y/o escultura,Atractivo Cultural,Chapinero,Parque Nacional,"Carrera 7 con calle 39 Parque Nacional
+Enrique Olaya Herrera",4.625534,-74.065589,10,abierto,caminar_poco|cultura|economico,False
+381,Estatua Antonio José de Sucre,Monumento y/o escultura,Atractivo Cultural,Chapinero,Chapinero Norte,Carrera 11 Calle 63A,4.649974,-74.062782,10,abierto,caminar_poco|cultura|economico,False
+353,Estatua Benito Juárez,Monumento y/o escultura,Atractivo Cultural,Chapinero,Espartillal,Carrera 11 Calle 77,4.66221,-74.056162,10,abierto,caminar_poco|cultura|economico,False
+394,Estatua San Francisco de Asís,Monumento y/o escultura,Atractivo Cultural,Chapinero,Porciuncula,Calle 72 Carrera 11,4.657269,-74.058486,10,abierto,caminar_poco|cultura|economico,False
+384,Monumento Américo Vespucio,Monumento y/o escultura,Atractivo Cultural,Chapinero,Chico Norte Ii Sector,Carrera 7 Calle 97,4.677007,-74.040437,10,abierto,caminar_poco|cultura|economico,False
+266,Casa Grau Museo,Museo,Atractivo Cultural,Chapinero,Chico Norte,Calle 94 # 7 - 48,4.675176,-74.041655,60,verificar,cultura|ninos_ok,False
+309,Museo Mercedes Sierra de Pérez El Chicó,Museo,Atractivo Cultural,Chapinero,Chico Norte,Carrera 9 # 93 - 38,4.673676,-74.043872,60,verificar,cultura|ninos_ok,False
+265,Museo de Historia de la Medicina Ricardo Rueda González,Museo,Atractivo Cultural,Chapinero,Quinta Camacho,Carrera 7 # 69 - 11,4.651676,-74.057599,60,verificar,cultura|ninos_ok,False
+307,Parque El Chicó,Museo,Atractivo Cultural,Chapinero,Chico Norte,Carrera 9 # 93 - 38,4.672897,-74.044147,60,verificar,cultura|ninos_ok,False
+333,Parque 93,Parque,Atractivo Cultural,Chapinero,Chico Norte,Calle 93A entre Carreras 11A y 13,4.676767,-74.048306,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+335,Parque El Nogal,Parque,Atractivo Cultural,Chapinero,El Nogal,Carrera 11 Calle 81,4.664393,-74.053316,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+337,Parque El Virrey,Parque,Atractivo Cultural,Chapinero,Antiguo Country,Calle 88 entre Carrera 7 y Autopista Norte,4.672932,-74.054189,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+395,Parque de los Hippies,Parque,Atractivo Cultural,Chapinero,Chapinero Central,Carrera 7 Calle 60,4.645401,-74.061969,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+573,Teatro El Ensueño,Atractivo Cultural,Atractivo Cultural,Ciudad Bolívar,El Ensueno,"Tv. 70 D #60-90, Sur, Bogotá",4.58608,-74.15865,30,verificar,cultura,False
+86,Parque Ecológico Distrital Humedal El Tunjo,Atractivo de Naturaleza,Atractivo Natural,Ciudad Bolívar,Arborizadora Baja,Diagonal 58 Sur # 28 - 05,4.576309,-74.142103,60,diurno,economico|naturaleza|ninos_ok,False
+62,Zona Rural de Ciudad Bolívar,Atractivo de Naturaleza,Atractivo Natural,Ciudad Bolívar,Mochuelo Alto Rural,Ciudad Bolívar rural,4.466951,-74.16054,60,diurno,economico|naturaleza|ninos_ok,False
+547,Museo de la Ciudad Autoconstruida,Museo,Atractivo Cultural,Ciudad Bolívar,El Mirador,Cl. 71h Sur #27 - 79,4.550318,-74.159003,60,verificar,cultura|ninos_ok,False
+34,Parque Arborizadora Alta,Parque,Atractivo Cultural,Ciudad Bolívar,Arborizadora Alta,Calle 72F Sur con Carerra 34B,4.567845,-74.162695,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+477,Parque Metropolitano Arborizadora Alta,Parque,Atractivo Cultural,Ciudad Bolívar,Arborizadora Alta,NA,4.564019,-74.168195,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+562,Plaza Fundacional de Engativá,Atractivo Cultural,Atractivo Cultural,Engativá,Engativa Zona Urbana,"Cl 64 #121-55, Bogotá",4.715177,-74.141691,20,abierto,caminar_poco|cultura|economico,False
+183,Puente de Guadua Jenny Garzón,Atractivo Cultural,Atractivo Cultural,Engativá,El Dorado Industrial,Calle 80 con carrera 119,4.727672,-74.126255,30,verificar,cultura,False
+88,Parque Ecológico Distrital Humedal Jaboque,Atractivo de Naturaleza,Atractivo Natural,Engativá,El Gaco,"Cl. 63b #11505, Bogotá",4.720864,-74.137725,60,diurno,economico|naturaleza|ninos_ok,False
+102,Parque Ecológico Distrital Humedal Santa María del Lago,Atractivo de Naturaleza,Atractivo Natural,Engativá,Santa Maria,Carrera 76 # 75B - 02,4.69447,-74.094375,60,diurno,economico|naturaleza|ninos_ok,False
+480,Ruta de Dar y Recibir (Huertas en el Jardín Botánico),Atractivo de Naturaleza,Atractivo Natural,Engativá,Jardin Botanico,Jardín Botánico José Celestino Mutiz,4.668622,-74.099097,60,diurno,economico|naturaleza|ninos_ok,False
+230,Unidad Deportiva El Salitre,Escenario Deportivo,Atractivo Cultural,Engativá,Jardin Botanico,Avenida 68 # 63 - 45,4.664746,-74.097288,60,verificar,ninos_ok,False
+491,C.U.R. Compensar,Infraestructura y equipamientos urbanos,Atractivo Cultural,Engativá,Jardin Botanico,"Cra 69 #49a-73, Bogotá",4.66004,-74.09952,30,verificar,,False
+496,Centro Comercial Nuestro Bogotá,Infraestructura y equipamientos urbanos,Atractivo Cultural,Engativá,Los Alamos,Av. Carrera 86 # 55A - 75,4.683795,-74.116061,30,verificar,,False
+272,Titán Plaza Centro Comercial y Empresarial,Infraestructura y equipamientos urbanos,Atractivo Cultural,Engativá,Santa Rosa,Avenida carrera 72 # 80 - 94,4.694708,-74.086188,30,verificar,,False
+110,Jardín Botánico de Bogotá José Celestino Mutis,Jardín Botánico,Atractivo Cultural,Engativá,Jardin Botanico,Avenida Calle 63 # 68 - 95,4.668051,-74.100069,90,verificar,naturaleza|ninos,False
+229,Museo de Arte Contemporáneo de Bogotá,Museo,Atractivo Cultural,Engativá,El Minuto De Dios,Carrera 74 # 82A - 81,4.698523,-74.090311,60,verificar,cultura|ninos_ok,False
+273,Museo del Saber en la Gestión de Riesgo de Desastres de Colombia,Museo,Atractivo Cultural,Engativá,Los Alamos,"Avenida calle 26 # 92 - 32 Edificio Gold 4
+piso 1",4.683738,-74.119661,60,verificar,cultura|ninos_ok,False
+232,Parque Zonal San Andrés,Parque,Atractivo Cultural,Engativá,Bochica Ii,Calle 82 # 100A - 91,4.712602,-74.110833,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+180,Casa de la Cultura de Fontibón Cacique Hyntiba,Atractivo Cultural,Atractivo Cultural,Fontibón,Centro Fontibon,Calle 17A # 99 - 53/55,4.673043,-74.145217,30,verificar,cultura,False
+182,Plaza Fundacional de Fontibón,Atractivo Cultural,Atractivo Cultural,Fontibón,Centro Fontibon,"Entre las carrera 99 y 100 y las calles 17A y
+18",4.673298,-74.144729,20,abierto,caminar_poco|cultura|economico,False
+203,Puente de San Antonio de la Zanja,Atractivo Cultural,Atractivo Cultural,Fontibón,El Tintal Central,Carrera 96 A  con calle 17,4.665718,-74.140646,30,verificar,cultura,False
+99,Parque Ecológico Distrital Humedal Capellanía,Atractivo de Naturaleza,Atractivo Natural,Fontibón,Puerta De Teja,Avenida La Esperanza (Calle 24) con Transversal 95A,4.675192,-74.131109,60,diurno,economico|naturaleza|ninos_ok,False
+559,Plaza Distrital de Mercado Fontibón,Comercio,Atractivo Cultural,Fontibón,Centro Fontibon,Carrera 103 No. 26 -71,4.676208,-74.144478,45,verificar,comer|compras,False
+201,Catedral Santiago Apóstol,Escenario Religioso,Atractivo Cultural,Fontibón,Centro Fontibon,Carrera 99 # 17A - 62,4.672558,-74.144115,20,verificar,cultura|economico,False
+144,Iglesia Nuestra Señora de la Medalla Milagrosa,Escenario Religioso,Atractivo Cultural,Fontibón,Salitre Occidental,Carrera 68B # 24 - 30,4.652063,-74.108931,20,verificar,cultura|economico,False
+528,Gastrofest,Gastronomía,Festividades y eventos,Fontibón,Salitre Occidental,Bogotá D.C.,4.657346,-74.106722,45,verificar,comer,False
+274,Centro Comercial y Empresarial Hayuelos,Infraestructura y equipamientos urbanos,Atractivo Cultural,Fontibón,Ciudad Hayuelos,Calle 20 # 82 - 52,4.663668,-74.130319,30,verificar,,False
+235,Multiplaza Centro Comercial,Infraestructura y equipamientos urbanos,Atractivo Cultural,Fontibón,Ciudad Hayuelos,Calle 19A # 72 - 57,4.652384,-74.125994,30,verificar,,False
+178,Salitre Plaza Centro Comercial,Infraestructura y equipamientos urbanos,Atractivo Cultural,Fontibón,Salitre Occidental,Carrera 68B # 24 - 39,4.653391,-74.109935,30,verificar,,False
+194,Conjunto Escultórico Doble Victoria Alada,Monumento y/o escultura,Atractivo Cultural,Fontibón,Aeropuerto El Dorado,"Separadores Avenida El Dorado con carrera
+106",4.692942,-74.135567,10,abierto,caminar_poco|cultura|economico,False
+197,Escultura El Viajero,Monumento y/o escultura,Atractivo Cultural,Fontibón,Aeropuerto El Dorado,Avenida El Dorado con carrera 107,4.692044,-74.133848,10,abierto,caminar_poco|cultura|economico,False
+190,Escultura Horizontes,Monumento y/o escultura,Atractivo Cultural,Fontibón,Aeropuerto El Dorado,"Separador Avenida El Dorado con carrera
+108",4.693943,-74.136949,10,abierto,caminar_poco|cultura|economico,False
+188,Escultura Intiwatana,Monumento y/o escultura,Atractivo Cultural,Fontibón,Santa Cecilia,"Separador Avenida El Dorado con carrera
+75",4.673153,-74.115976,10,abierto,caminar_poco|cultura|economico,False
+174,Escultura Lumbalú,Monumento y/o escultura,Atractivo Cultural,Fontibón,Salitre Occidental,Separador carrera 68D con calle 22A,4.650785,-74.113486,10,abierto,caminar_poco|cultura|economico,False
+193,Monumento La Ventana,Monumento y/o escultura,Atractivo Cultural,Fontibón,Santa Cecilia,Avenida El Dorado con carrera 85D,4.677246,-74.118837,10,abierto,caminar_poco|cultura|economico,False
+186,Monumento Oración al Proscrito,Monumento y/o escultura,Atractivo Cultural,Fontibón,Aeropuerto El Dorado,"Entrada Aeropuerto Internacional El
+Dorado",4.697393,-74.139816,10,abierto,caminar_poco|cultura|economico,False
+187,Monumento Pedazo de Río,Monumento y/o escultura,Atractivo Cultural,Fontibón,Aeropuerto El Dorado,"Entrada Aeropuerto Internacional El
+Dorado",4.697162,-74.139429,10,abierto,caminar_poco|cultura|economico,False
+202,Monumento a Isabel La Católica y Cristóbal Colón,Monumento y/o escultura,Atractivo Cultural,Fontibón,San Jose De Fontibon,"Separador Avenida El Dorado entre
+carreras 98 y 10",4.687546,-74.128474,10,abierto,caminar_poco|cultura|economico,False
+200,Maloka Museo Interactivo,Museo,Atractivo Cultural,Fontibón,Salitre Occidental,Carrera 68D # 24A - 51,4.655647,-74.109273,60,verificar,cultura|ninos_ok,False
+177,Parque Sauzalito,Parque,Atractivo Cultural,Fontibón,Terminal De Transportes,Diagonal 22B # 68D - 43,4.653532,-74.112271,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+169,Hacienda Tagaste,Atractivo Cultural,Atractivo Cultural,Kennedy,Vereda El Tintal Urbano,Avenida Ciudad de Cali con Calle 11B,4.653079,-74.143723,30,verificar,cultura,False
+482,Huertas del Barrio (localidad de Kennedy),Atractivo de Naturaleza,Atractivo Natural,Kennedy,Valladolid,Localidad de Kennedy,4.642867,-74.147541,60,diurno,economico|naturaleza|ninos_ok,False
+69,Parque Ecológico Distrital Humedal El Burro,Atractivo de Naturaleza,Atractivo Natural,Kennedy,Ciudad Techo Ii,Avenida Ciudad de Cali con Calle 7,4.641847,-74.149829,60,diurno,economico|naturaleza|ninos_ok,False
+68,Parque Ecológico Distrital Humedal La Vaca,Atractivo de Naturaleza,Atractivo Natural,Kennedy,Villa Nelly Iii Sector,Carrera 81D # 40D - 04,4.627501,-74.160333,60,diurno,economico|naturaleza|ninos_ok,False
+67,Parque Ecológico Distrital Humedal Techo,Atractivo de Naturaleza,Atractivo Natural,Kennedy,El Vergel Oriental,"Calle 10D entre Carreras 79 y 80, Kennedy, Bogotá D.C.",4.647836,-74.143116,60,diurno,economico|naturaleza|ninos_ok,False
+217,Biblioteca Pública El Tintal Manuel Zapata Olivella,Biblioteca,Atractivo Cultural,Kennedy,Tintala,Avenida Ciudad de Cali # 6C - 09,4.642642,-74.154456,45,verificar,caminar_poco|cultura|economico,False
+231,Estadio Metropolitano de Techo,Escenario Deportivo,Atractivo Cultural,Kennedy,Hipotecho Occidental,Transversal 71D # 2A - 26,4.623412,-74.135273,60,verificar,ninos_ok,False
+526,Central de Corabastos,Gastronomía,Atractivo Cultural,Kennedy,Corabastos,"Av. Carrera 80 No. 2 – 51, Ingreso Puerta 3 ubicada sobre la carrera 80",4.629868,-74.156456,45,verificar,comer,False
+176,Monumento Todas Las Banderas,Monumento y/o escultura,Atractivo Cultural,Kennedy,Mandalay,"Separador Avenida Esperanza con carrera
+68A",4.631138,-74.148297,10,abierto,caminar_poco|cultura|economico,False
+252,Monumento a Sía la Diosa del Agua,Monumento y/o escultura,Atractivo Cultural,Kennedy,Hipotecho,"Separador avenida de Las Américas con
+carrera 70",4.62984,-74.131435,10,abierto,caminar_poco|cultura|economico,False
+251,Monumento a las Banderas,Monumento y/o escultura,Atractivo Cultural,Kennedy,Mandalay,Glorieta ubicada en la avenida de las Américas con carrera 80,4.631138,-74.148297,10,abierto,caminar_poco|cultura|economico,False
+204,Parque Metropolitano Timiza - Villa del Río,Parque,Atractivo Cultural,Kennedy,Timiza A,Transversal 72N Bis # 40H - 40 Sur,4.609124,-74.154352,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+216,Parque Mundo Aventura,Parque Temático,Atractivo Cultural,Kennedy,Hipotecho Occidental,Carrera 71D # 1 - 14 Sur,4.622384,-74.135036,120,verificar,ninos,False
+191,Archivo General de la Nación,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 6 # 6 – 91,4.594027,-74.076951,30,verificar,cultura,False
+13,Balcón Palacio de San Carlos,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 5-51,4.596325,-74.074569,30,verificar,cultura,False
+5,Calle 10,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 entre Carreras 2 y 7,4.595758,-74.073337,20,abierto,caminar_poco|cultura|economico,False
+15,Calle del Camarín del Carmen,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 9 entre Carreras 4 y 5,4.595425,-74.074679,20,abierto,caminar_poco|cultura|economico,False
+112,Callejón del Embudo,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Concordia,Carrera 2 entre Plazoleta del Chorro de Quevedo y Calle 12C,4.597862,-74.06965,30,verificar,cultura,False
+218,Capitolio Nacional,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 7 – 50,4.597197,-74.076529,30,verificar,cultura,False
+7,Casa Delia Zapata Olivella,Atractivo Cultural,Atractivo Cultural,La Candelaria,Egipto,Calle 10 # 2 - 43,4.594799,-74.072221,30,verificar,cultura,False
+175,Casa Fundación Gilberto Álzate Avendaño FUGA,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 3 # 10 – 27,4.595486,-74.072403,30,verificar,cultura,False
+6,Casa Gregorio Vásquez de Arce y Ceballos,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 4 # 10 - 98,4.596441,-74.07265,30,verificar,cultura,False
+11,Casa Natal José María Vergara y Vergara,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 12 # 3 - 96,4.597548,-74.072022,30,verificar,cultura,False
+44,Casa Republicana,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 4 – 14,4.597572,-74.072809,30,verificar,cultura,False
+1,Casa Sede Sociedad Económica de Amigos del País,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 6 - 42,4.598179,-74.07467,30,verificar,cultura,False
+23,Casa de Poesía Silva,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 12C # 3 - 41,4.598704,-74.070594,30,verificar,cultura,False
+16,Casa de los Comuneros,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 9 - 83,4.59789,-74.076954,30,verificar,cultura,False
+146,Casa del General Pedro Alcántara Herrán,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 5 - 51,4.597217,-74.074127,30,verificar,cultura,False
+181,Centro Cultural Gabriel García Márquez,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 5 – 60,4.597674,-74.073969,30,verificar,cultura,False
+31,Centro Histórico de La Candelaria,Atractivo Cultural,Atractivo Cultural,La Candelaria,Egipto,Calles 7 y 14 entre Carreras 2 y 13,4.596355,-74.070934,20,abierto,caminar_poco|cultura|economico,False
+130,Claustro Principal de la Universidad Colegio Mayor de Nuestra Señora del Rosario,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 12C # 6 - 25,4.600278,-74.073255,30,verificar,cultura,False
+185,Claustro de San Agustín,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 7 – 21,4.595374,-74.07847,30,verificar,cultura,False
+76,Claustro de las Aguas,Atractivo Cultural,Atractivo Cultural,La Candelaria,Las Aguas,Carrera 2 # 18A – 58,4.601911,-74.066766,30,verificar,cultura,False
+114,Colegio Mayor de San Bartolomé,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 7 # 9 – 96,4.596812,-74.075935,30,verificar,cultura,False
+20,Edificio Andes,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Carrera 8 # 12C - 35 / Carrera 8 # 12C - 45,4.601908,-74.07457,30,verificar,cultura,False
+2,Edificio Archivo de Bogotá,Atractivo Cultural,Atractivo Cultural,La Candelaria,Santa Barbara,Calle 6B # 5 - 75,4.591335,-74.077394,30,verificar,cultura,False
+463,Edificio El Tiempo,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Avenida Jiménez # 6A - 29,4.601144,-74.073286,30,verificar,cultura,False
+122,Edificio Hotel de la Ópera,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 5 - 72,4.596806,-74.074726,30,verificar,cultura,False
+437,Edificio Ministerio de Hacienda y Crédito Público,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 6C - 38,4.594126,-74.078394,30,verificar,cultura,False
+22,Edificio Monserrate,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Avenida Jiménez # 4 - 49,4.600541,-74.070518,30,verificar,cultura,True
+21,Edificio Pedro A. López,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Avenida Calle 13 # 7 - 65,4.601548,-74.074309,30,verificar,cultura,False
+18,Edificio Vengoechea,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Carrera 5 # 11 - 68,4.597798,-74.073038,30,verificar,cultura,False
+486,Galería Santa Fe,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Concordia,"Carrera 1A entre Calles 12C y, Cl. 12d",4.598466,-74.068792,30,verificar,cultura,False
+90,Palacio Arzobispal,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 # 10 – 20,4.5974,-74.075534,30,verificar,cultura,False
+145,Palacio de Echeverry,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 8 – 55,4.596513,-74.077775,30,verificar,cultura,False
+71,Palacio de Justicia Alfonso Reyes Echandía,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 12 # 7 – 65,4.598989,-74.075523,30,verificar,cultura,False
+156,Palacio de Liévano,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 10 – 65,4.598448,-74.076648,30,verificar,cultura,False
+215,Palacio de Nariño,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 7 – 26,4.595327,-74.077623,30,verificar,cultura,False
+143,Palacio de San Carlos,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 5 – 51,4.596365,-74.074816,30,verificar,cultura,False
+121,Pasaje Rivas,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 10 # 10 - 54,4.599368,-74.078052,30,verificar,cultura,False
+564,Plaza Nuñez,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,"Cra. 8 #7 - 26, La Candelaria, Bogotá, Cundinamarca",4.59627,-74.076882,20,abierto,caminar_poco|cultura|economico,False
+136,Plaza de Bolívar,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Carreras 7 y 8 Calles 10 y 11,4.598105,-74.076096,20,abierto,caminar_poco|cultura|economico,False
+113,Plazoleta del Chorro de Quevedo,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Concordia,Calle 12 B Carrera 2,4.597236,-74.06969,20,abierto,caminar_poco|cultura|economico,False
+247,Plazoleta del Rosario,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Avenida Jiménez con Carrera 6,4.600704,-74.072923,20,abierto,caminar_poco|cultura|economico,False
+135,Plazuela Rufino Cuervo,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 entre Carreras 6 y 7,4.597161,-74.075274,30,verificar,cultura,False
+10,Sala de Conciertos Biblioteca Luis Ángel Arango,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 4 - 14,4.596999,-74.072825,30,verificar,cultura,False
+160,Salón Histórico del Batallón Guardia Presidencial,Atractivo Cultural,Atractivo Cultural,La Candelaria,Santa Barbara,Carrera 8 # 6 - 25,4.591934,-74.080328,30,verificar,cultura,False
+29,Sitio del Asesinato de Jorge Eliécer Gaitán,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,Carrera 7 Calle 14,4.601221,-74.073658,30,verificar,cultura,False
+453,Talla de Esmeraldas,Atractivo Cultural,Atractivo Cultural,La Candelaria,La Catedral,NA,4.60077,-74.07198,30,verificar,cultura,False
+275,Teatro Colón,Atractivo Cultural,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 5 - 32,4.59675,-74.074311,30,verificar,cultura,False
+24,Teatro La Candelaria,Atractivo Cultural,Atractivo Cultural,La Candelaria,Egipto,Calle 12 # 2 - 59,4.596355,-74.070934,30,verificar,cultura,False
+50,Biblioteca Luis Ángel Arango,Biblioteca,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 4 – 14,4.596977,-74.072806,45,verificar,caminar_poco|cultura|economico,False
+3,Biblioteca del Congreso Luis Carlos Galán Sarmiento,Biblioteca,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 6 # 8 - 94,4.595923,-74.07567,45,verificar,caminar_poco|cultura|economico,False
+328,Casa Natal/Fundación Rafael Pombo,Biblioteca,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 5-22,4.596562,-74.074196,45,verificar,caminar_poco|cultura|economico,False
+560,Plaza Distrital de Mercado La Concordia,Comercio,Atractivo Cultural,La Candelaria,La Concordia,Calle 12C #1-40,4.598313,-74.068593,45,verificar,comer|compras,False
+45,Capilla San Miguel del Príncipe,Escenario Religioso,Atractivo Cultural,La Candelaria,La Concordia,Calle 12B # 2 – 05,4.597168,-74.069886,20,verificar,cultura|economico,False
+128,Capilla de La Bordadita,Escenario Religioso,Atractivo Cultural,La Candelaria,La Catedral,Calle 12C # 6 - 25,4.59986,-74.073346,20,verificar,cultura|economico,False
+89,Capilla del Sagrario,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 # 10 – 40,4.597682,-74.075744,20,verificar,cultura|economico,False
+111,Catedral Primada de Colombia,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 # 10 – 80,4.597765,-74.075012,20,verificar,cultura|economico,False
+41,Iglesia Nuestra Señora de Egipto,Escenario Religioso,Atractivo Cultural,La Candelaria,San Francisco Rural,Carrera 4 # 10 – 22,4.593428,-74.068831,20,verificar,cultura|economico,False
+77,Iglesia Nuestra Señora de las Aguas,Escenario Religioso,Atractivo Cultural,La Candelaria,Las Aguas,Carrera 2A # 18A - 68,4.602386,-74.066896,20,verificar,cultura|economico,False
+42,Iglesia San Juan de Dios,Escenario Religioso,Atractivo Cultural,La Candelaria,La Catedral,Calle 12 # 9 – 93,4.600493,-74.077441,20,verificar,cultura|economico,False
+81,Iglesia de Nuestra Señora de la Candelaria,Escenario Religioso,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 3-83,4.596769,-74.072456,20,verificar,cultura|economico,False
+79,Iglesia de San Agustín,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 # 10 – 20,4.593886,-74.077975,20,verificar,cultura|economico,False
+39,Iglesia de San Ignacio,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 6 – 35,4.596685,-74.07559,20,verificar,cultura|economico,False
+43,Iglesia de Santa Bárbara,Escenario Religioso,Atractivo Cultural,La Candelaria,Santa Barbara,Calle 6 # 6 – 98,4.592202,-74.078583,20,verificar,cultura|economico,False
+40,Iglesia de la Concepción,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 9 # 10 – 19,4.59878,-74.077743,20,verificar,cultura|economico,False
+78,Santuario de Nuestra Señora del Carmen,Escenario Religioso,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 5 # 8 – 36,4.594731,-74.074664,20,verificar,cultura|economico,False
+527,Festival días de Ajiaco Santafereño,Gastronomía,Festividades y eventos,La Candelaria,La Concordia,Bogotá D.C.,4.59839,-74.068616,45,verificar,comer,False
+377,La Puerta Falsa,Gastronomía,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 6 - 50,4.598013,-74.074845,45,verificar,comer,False
+529,Museo de la Chicha,Gastronomía,Atractivo Cultural,La Candelaria,La Concordia,Calle del Embudo: Carrera 2 entre Calles 12B y 12C,4.597382,-74.069374,45,verificar,comer,False
+495,Calle Real del Comercio,Infraestructura y equipamientos urbanos,Atractivo Cultural,La Candelaria,La Catedral,Carrera 7 entre Calle 10 y Calle 13 (Avenida Jimenez de Quezada),4.601295,-74.073488,30,verificar,,False
+9,Colección Numismática Casa de la Moneda,Infraestructura y equipamientos urbanos,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 4 - 93,4.596755,-74.073577,30,verificar,,False
+12,Colección de Instrumentos Musicales,Infraestructura y equipamientos urbanos,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 4 - 14,4.597401,-74.072424,30,verificar,,False
+424,Pasaje Hernández,Infraestructura y equipamientos urbanos,Atractivo Cultural,La Candelaria,La Catedral,Entre carreras 8 y 9 entre calles 12 y 13,4.600256,-74.076055,30,verificar,,False
+210,Custodia La Lechuga,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 4 – 21,4.596486,-74.072976,10,abierto,caminar_poco|cultura|economico,False
+115,Escultura Camilo Torres,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 con Carrera 7,4.597182,-74.075777,10,abierto,caminar_poco|cultura|economico,False
+28,Escultura Gonzalo Jiménez de Quesada,Monumento y/o escultura,Atractivo Cultural,La Candelaria,La Catedral,Avenida Jiménez Carrera 6,4.600704,-74.072923,10,abierto,caminar_poco|cultura|economico,False
+237,Escultura La Pola,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Las Aguas,Eje Ambiental con Carrera 2A,4.601624,-74.067657,10,abierto,caminar_poco|cultura|economico,False
+38,Escultura Manuel Murillo Toro,Monumento y/o escultura,Atractivo Cultural,La Candelaria,La Catedral,Carrera 8 entre Calles 12 y 13,4.600266,-74.075148,10,abierto,caminar_poco|cultura|economico,False
+270,Escultura Minerva,Monumento y/o escultura,Atractivo Cultural,La Candelaria,La Catedral,Calle 11 # 4 - 14,4.596736,-74.072786,10,abierto,caminar_poco|cultura|economico,False
+37,Escultura Puerta del Palacio Arzobispal,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 # 10 – 20,4.597468,-74.075675,10,abierto,caminar_poco|cultura|economico,False
+116,Escultura Ricardo Palma,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Las Aguas,Carrera 3 con Calle 18,4.602345,-74.067224,10,abierto,caminar_poco|cultura|economico,False
+123,Escultura Rufino José Cuervo,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 entre Carreras 6 y 7,4.597124,-74.075297,10,abierto,caminar_poco|cultura|economico,False
+80,Escultura San Juan Bosco,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 5 entre Calles 8 y 9,4.594679,-74.074949,10,abierto,caminar_poco|cultura|economico,False
+214,Escultura Simón Bolívar,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 y 8 Calles 10 y 11 Plaza de Bolívar,4.597936,-74.076111,10,abierto,caminar_poco|cultura|economico,True
+51,Escultura Tomás Cipriano de Mosquera,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 7–50 Patio Central,4.597357,-74.076462,10,abierto,caminar_poco|cultura|economico,False
+306,Escultura Virgen de la Inmaculada Concepción,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Cerro de Guadalupe,4.59878,-74.077743,10,abierto,caminar_poco|cultura|economico,False
+239,Estatua Antonio Nariño,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 9 entre Carreras 7 y 8,4.596412,-74.076795,10,abierto,caminar_poco|cultura|economico,False
+36,Florero de Llorente,Monumento y/o escultura,Atractivo Cultural,La Candelaria,La Catedral,Carrera 7 # 11 – 28,4.598272,-74.075164,10,abierto,caminar_poco|cultura|economico,False
+17,Monumento a Rafael Núñez,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,"Calle 10 # 7 - 50 Patio Rafael Núñez
+Capitolio Nacional",4.596955,-74.076715,10,abierto,caminar_poco|cultura|economico,False
+35,Monumento a la Batalla de Ayacucho,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 7 entre Calles 7 y 8,4.594845,-74.076749,10,abierto,caminar_poco|cultura|economico,False
+290,Pila del Mono,Monumento y/o escultura,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 6 # 9 – 77,4.596642,-74.075321,10,abierto,caminar_poco|cultura|economico,False
+19,Casa Museo Francisco José de Caldas,Museo,Atractivo Cultural,La Candelaria,Santa Barbara,Carrera 8 # 6C - 73,4.594724,-74.078821,60,verificar,cultura|ninos_ok,False
+30,Casa Museo Quinta de Bolívar,Museo,Atractivo Cultural,La Candelaria,Las Aguas,Calle 21 # 4A – 31 Este,4.602564,-74.062834,60,verificar,cultura|ninos_ok,False
+276,Museo Arqueológico - MUSA - Casa del Marqués de San Jorge,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 6 # 7 – 43,4.595006,-74.076332,60,verificar,cultura|ninos_ok,False
+213,Museo Botero,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 4 – 41,4.596422,-74.073325,60,verificar,cultura|ninos_ok,False
+26,Museo Casa Cuervo Urisarri,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 4 – 69,4.595727,-74.073986,60,verificar,cultura|ninos_ok,False
+212,Museo Casa de Moneda,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 4 – 93,4.59677,-74.073574,60,verificar,cultura|ninos_ok,False
+292,Museo Colonial,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 6 # 9 – 77,4.596683,-74.075263,60,verificar,cultura|ninos_ok,False
+283,Museo Histórico de la Policía Nacional,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 9 # 9 - 27,4.597496,-74.07855,60,verificar,cultura|ninos_ok,False
+277,Museo Militar de Colombia,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 4–92,4.596316,-74.073758,60,verificar,cultura|ninos_ok,False
+291,Museo Santa Clara,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 # 8 - 43,4.596823,-74.077496,60,verificar,cultura|ninos_ok,False
+211,Museo de Arte Miguel Urrutia,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 11 # 4 – 21,4.596522,-74.072964,60,verificar,cultura|ninos_ok,False
+195,Museo de Bogotá Sede Casa Samano,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 4 # 10 – 18,4.595818,-74.073037,60,verificar,cultura|ninos_ok,False
+196,Museo de Bogotá Sede Casa de los 7 Balcones,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 3 – 61,4.595427,-74.073058,60,verificar,cultura|ninos_ok,False
+4,Museo de La Salle,Museo,Atractivo Cultural,La Candelaria,Egipto,Carrera 2 # 10 - 70,4.594553,-74.070488,60,verificar,cultura|ninos_ok,False
+289,Museo de Trajes,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Calle 10 # 6 – 26,4.597113,-74.075083,60,verificar,cultura|ninos_ok,False
+254,Museo de la Independencia Casa del Florero,Museo,Atractivo Cultural,La Candelaria,La Catedral,Carrera 7 # 11 – 28,4.59833,-74.075105,60,verificar,cultura|ninos_ok,False
+127,Museo de la Universidad del Rosario,Museo,Atractivo Cultural,La Candelaria,La Catedral,Calle 12C # 6 - 25,4.600278,-74.073255,60,verificar,cultura|ninos_ok,False
+27,Museo del Cobre,Museo,Atractivo Cultural,La Candelaria,La Catedral,Carrera 6 # 14 – 38,4.600622,-74.072596,60,verificar,cultura|ninos_ok,False
+184,Observatorio Astronómico Nacional,Museo,Atractivo Cultural,La Candelaria,Centro Administrativo,Carrera 8 con Calle 8,4.596112,-74.077545,60,verificar,cultura|ninos_ok,False
+373,Centro de Memoria Paz y Reconciliación,Atractivo Cultural,Atractivo Cultural,Los Mártires,Santa Fe,Carrera 19B # 24 - 86,4.619005,-74.076583,30,verificar,cultura,False
+294,Edificio Jefatura de Reclutamiento y Control de Reservas,Atractivo Cultural,Atractivo Cultural,Los Mártires,Voto Nacional,Calles 9 y 10 Carreras 14 y 15,4.600928,-74.082451,30,verificar,cultura,False
+271,Estación de la Sabana de Bogotá,Atractivo Cultural,Atractivo Cultural,Los Mártires,El Liston,Calle 13 # 18 - 24,4.607094,-74.083342,30,verificar,cultura,False
+350,Hospital de San José,Atractivo Cultural,Atractivo Cultural,Los Mártires,Voto Nacional,Calle 10 # 18 - 75,4.60334,-74.086367,30,verificar,cultura,False
+352,Plaza de Los Mártires,Atractivo Cultural,Atractivo Cultural,Los Mártires,Voto Nacional,Avenida Caracas y Carrera 15 Calles 10 y 11,4.60184,-74.081744,20,abierto,caminar_poco|cultura|economico,False
+561,Plaza Distrital de Mercado Samper Mendoza,Comercio,Atractivo Cultural,Los Mártires,Samper Mendoza,Carrera 25 No. 22 A - 73,4.618683,-74.082784,45,verificar,comer|compras,False
+341,Plaza de Mercado Paloquemao,Comercio,Atractivo Cultural,Los Mártires,Paloquemao,Calle 19 # 25 – 04,4.616132,-74.083883,45,verificar,comer|compras,False
+401,Basílica Menor del Voto Nacional,Escenario Religioso,Atractivo Cultural,Los Mártires,Voto Nacional,Carrera 15 # 10 - 43,4.602316,-74.082425,20,verificar,cultura|economico,False
+389,Calima Centro Comercial Bogotá,Infraestructura y equipamientos urbanos,Atractivo Cultural,Los Mártires,Paloquemao,Avenida Calle 19 # 28-80,4.617691,-74.086611,30,verificar,,False
+415,Cementerio Alemán,Infraestructura y equipamientos urbanos,Atractivo Cultural,Los Mártires,Santa Fe,Calle 26 # 19B - 75,4.620604,-74.077029,30,verificar,,False
+325,Cementerio Central de Bogotá,Infraestructura y equipamientos urbanos,Atractivo Cultural,Los Mártires,Santa Fe,Carrera 29 # 37 – 80,4.61639,-74.074868,30,verificar,,False
+322,Mausoleo de Francisco de Paula Santander,Infraestructura y equipamientos urbanos,Atractivo Cultural,Los Mártires,Santa Fe,Carrera 29 # 37 – 80,4.616181,-74.074662,30,verificar,,False
+416,Escultura Hombre a Caballo,Monumento y/o escultura,Atractivo Cultural,Los Mártires,Santa Fe,Calle 26 con Carrera 22,4.620129,-74.076565,10,abierto,caminar_poco|cultura|economico,False
+405,Obelisco a Los Mártires,Monumento y/o escultura,Atractivo Cultural,Los Mártires,Voto Nacional,Plazoleta de los Mártires (Avenida Caracas entre calles 10 y 11),4.601845,-74.081732,10,abierto,caminar_poco|cultura|economico,False
+340,Museo de la Sociedad de Cirugía de Bogotá,Museo,Atractivo Cultural,Los Mártires,Voto Nacional,Calle 10 # 17 - 75,4.603815,-74.086045,60,verificar,cultura|ninos_ok,False
+406,Museo del Ser Humano,Museo,Atractivo Cultural,Los Mártires,Santa Fe,Calle 23A # 18 - 90,4.615778,-74.077211,60,verificar,cultura|ninos_ok,False
+414,Parque El Renacimiento,Parque,Atractivo Cultural,Los Mártires,Santa Fe,Calle 26 # 19B - 55,4.619577,-74.077329,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+450,Distrito Grafiti,Atractivo Cultural,Atractivo Cultural,Puente Aranda,San Rafael Industrial,Carrera 53F # 5C - 01,4.624569,-74.113137,30,verificar,cultura,False
+530,Zona Gastronómica La Octava,Gastronomía,Atractivo Cultural,Puente Aranda,Remanso,Calle 8 Sur entre Carrera 30 y Carrera 50,4.605401,-74.11455,45,verificar,comer,False
+376,Plaza Central Centro Comercial,Infraestructura y equipamientos urbanos,Atractivo Cultural,Puente Aranda,Salazar Gomez,Carrera 65 # 11 - 50,4.63186,-74.115526,30,verificar,,False
+431,Zona Comercial de Outlets de Las Américas,Infraestructura y equipamientos urbanos,Atractivo Cultural,Puente Aranda,Salazar Gomez,"Entre la avenida de las Américas y la
+avenida Centenario entre las carreras  59 y 65",4.629842,-74.116161,30,verificar,,False
+443,Parque Ciudad Montes,Parque,Atractivo Cultural,Puente Aranda,Remanso,Carrera 38 # 10 - 29 Sur,4.602472,-74.115598,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+532,Zona L,Gastronomía,Atractivo Cultural,Rafael Uribe Uribe,Gustavo Restrepo,"Sobre la Calle 27 Sur entre Carrera 12H y Avenida Caracas, sobre la Avenida Caracas entre las calles 27 sur y 30 sur",4.579051,-74.106981,45,verificar,comer,False
+104,Reserva El Delirio,Atractivo de Naturaleza,Atractivo Natural,San Cristóbal,Hoya San Cristobal,Calle 13 Sur con Carrera 23B Este,4.560075,-74.062814,60,diurno,economico|naturaleza|ninos_ok,False
+379,Plaza Distrital de Mercado Veinte de Julio,Comercio,Atractivo Cultural,San Cristóbal,Granada Sur,Carrera 6 # 24 - 60 Sur,4.569921,-74.093181,45,verificar,comer|compras,False
+399,Parque Velódromo Primero de Mayo,Escenario Deportivo,Atractivo Cultural,San Cristóbal,Primero De Mayo,Calle 17A Sur # 2A - 60 Este,4.573447,-74.088664,60,verificar,ninos_ok,False
+397,Santuario del Niño Jesús,Escenario Religioso,Atractivo Cultural,San Cristóbal,Veinte De Julio,Carrera 6 # 27 - 65 Sur,4.568672,-74.09558,20,verificar,cultura|economico,False
+505,Centro de Felicidad - CEFE San Cristóbal,Infraestructura y equipamientos urbanos,Atractivo Cultural,San Cristóbal,San Cristobal Sur,"KR 3 E, Cl. 18a Sur, Bogotá",4.57324,-74.085436,30,verificar,,False
+398,Escultura Divino Niño del 20 de Julio,Monumento y/o escultura,Atractivo Cultural,San Cristóbal,Veinte De Julio,Carrera 6 # 27 - 65 Sur,4.568036,-74.095666,10,abierto,caminar_poco|cultura|economico,False
+354,Museo del Vidrio de Bogotá,Museo,Atractivo Cultural,San Cristóbal,La Maria,Carrera 1A # 6C - 75 Sur,4.576659,-74.080587,60,verificar,cultura|ninos_ok,False
+14,Altar Mayor Templo de San Francisco,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Avenida Jiménez # 7 - 10,4.601888,-74.073263,30,verificar,cultura,False
+391,Barrio Bosque Izquierdo,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,Entre Carrera 3 y Carrera 7; entre Calle 19 y Calle 22,4.610806,-74.066288,20,abierto,caminar_poco|cultura|economico,False
+280,Barrio La Merced,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Merced,Calle 36 con Carrera 5,4.621661,-74.065495,20,abierto,caminar_poco|cultura|economico,False
+302,Cinemateca de Bogotá,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Aguas,"Cra. 3 #19-10, Santa Fé, Bogotá, Cundinamarca",4.603244,-74.067607,30,verificar,cultura,False
+282,Conjunto Residencial Torres del Parque,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,Carrera 5 # 26B - 57,4.612762,-74.067481,30,verificar,cultura,False
+305,Cuadro de la Virgen de Guadalupe,Atractivo Cultural,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Cerro de Guadalupe,4.591775,-74.054225,30,verificar,cultura,False
+207,Edificio Academia Colombiana de la Lengua,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Aguas,Carrera 3 # 17 - 34,4.601587,-74.0685,30,verificar,cultura,False
+93,Edificio Guillermo Rueda Montaña de la Universidad de Bogotá Jorge Tadeo Lozano,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 3 con  Calle 23,4.606796,-74.066967,30,verificar,cultura,False
+219,Edificio Hotel Tequendama,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,Carrera 10 # 26 - 21,4.613222,-74.070736,30,verificar,cultura,False
+317,Edificio Jockey Club,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Carrera 6 # 15 - 18,4.601415,-74.072164,30,verificar,cultura,False
+358,Edificio Las Cavas,Atractivo Cultural,Atractivo Cultural,Santa Fe,Samper,Carrera 13 # 29 - 31,4.61663,-74.069356,30,verificar,cultura,False
+359,Edificio Las Falcas,Atractivo Cultural,Atractivo Cultural,Santa Fe,Samper,Carrera 13 # 29 - 13,4.616392,-74.069437,30,verificar,cultura,False
+286,Edificio Quiosco de la Luz,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,"Parque de la Independencia (Cl. 24 #6a-1, Bogotá)",4.610775,-74.068858,30,verificar,cultura,False
+375,Edificio Torre Colpatria,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 # 24 - 89,4.610846,-74.070287,30,verificar,cultura,False
+228,Edificio World Service,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Alameda,Carrera 10 # 24 - 55,4.611607,-74.071379,30,verificar,cultura,False
+220,Edificio de la Facultad de Artes ASAB (Universidad Distrital Francisco José de Caldas),Atractivo Cultural,Atractivo Cultural,Santa Fe,La Capuchina,Carrera 13 # 14 - 69,4.604684,-74.078463,30,verificar,cultura,False
+279,Edificio del Gun Club,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Calle 16 # 7 - 76,4.603141,-74.073345,30,verificar,cultura,False
+33,Eje Ambiental,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Calle 12 entre Carreras 1 y 10,4.600742,-74.070536,30,verificar,cultura,False
+298,Funicular Monserrate,Atractivo Cultural,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 – 48,4.60311,-74.060767,30,verificar,cultura,True
+374,Mirador Torre Colpatria,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 # 24 - 89,4.610995,-74.070214,30,verificar,cultura,False
+168,Mural El Hombre y el Drama de la Vivienda,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Capuchina,"Museo Histórico de la Fiscalía General de la
+Nación",4.607749,-74.075886,30,verificar,cultura,False
+225,Mural Teogonía de los Dioses Chibchas,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,"Carrera 10 # 26 - 20 Lobby Hotel
+Tequendama",4.612994,-74.070815,30,verificar,cultura,False
+548,Museo LGBTI,Atractivo Cultural,Atractivo Cultural,Santa Fe,Sagrado Corazon,"Museo LGBTI, Cra. 13a # 38-60, Bogotá",4.6269,-74.067923,30,verificar,cultura,False
+349,Palacio de San Francisco,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Avenida Jiménez # 7 - 50,4.602121,-74.073554,30,verificar,cultura,False
+246,Plaza La Santamaría,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,Carrera 6 # 26B - 50,4.612915,-74.068133,30,verificar,cultura,False
+315,Plaza de San Victorino,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Capuchina,Avenida Jiménez entre Carreras 11 y 12,4.601943,-74.078563,20,abierto,caminar_poco|cultura|economico,False
+281,Plazoleta La Rebeca,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Alameda,Avenida calle 26 con carrera 13,4.612258,-74.071509,20,abierto,caminar_poco|cultura|economico,False
+313,Plazoleta de las Nieves,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Entre las calles 20 y 21 y las carreras 7 y 8,4.606432,-74.071559,20,abierto,caminar_poco|cultura|economico,False
+249,Rieles del Tranvía,Atractivo Cultural,Atractivo Cultural,Santa Fe,La Catedral,Intersección Avenida Jiménez con carrera 7,4.60151,-74.073377,30,verificar,cultura,False
+490,Sala de arte Bancolombia,Atractivo Cultural,Atractivo Cultural,Santa Fe,San Diego,"Torre norte del Edificio Atrio, Cl. 28 #13A - 75, Bogotá",4.61611,-74.071983,30,verificar,cultura,False
+227,Talla en madera de la Iglesia Franciscana de la Tercera,Atractivo Cultural,Atractivo Cultural,Santa Fe,Veracruz,Carrera 7 # 16 - 07,4.602698,-74.07285,30,verificar,cultura,False
+233,Teatro El Parque,Atractivo Cultural,Atractivo Cultural,Santa Fe,Parque Nacional,Carrera 5 # 36 - 05,4.622946,-74.063691,30,verificar,cultura,False
+342,Teatro Faenza,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Calle 22 # 5–56,4.607577,-74.069388,30,verificar,cultura,False
+253,Teatro Municipal Jorge Eliécer Gaitán,Atractivo Cultural,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 # 22 - 47,4.608779,-74.070923,30,verificar,cultura,False
+296,Teleférico Monserrate,Atractivo Cultural,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 – 48,4.602998,-74.060742,30,verificar,cultura,True
+565,Camino del Cerro Aguanoso,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Km 6.5 vía Choachí,4.588453,-74.053477,60,diurno,economico|naturaleza|ninos_ok,False
+109,Cerro de Guadalupe,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Cerro de Guadalupe,4.591746,-74.054258,60,diurno,economico|naturaleza|ninos_ok,False
+131,Cerro de Monserrate,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 - 48,4.60557,-74.05534,60,diurno,economico|naturaleza|ninos_ok,True
+96,Chorro de Padilla,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Avenida Circuncalar (Carrera 5 Este) con Calle 21 (a 200 m al sur de la estación del Funicular de Monserrate),4.601429,-74.059041,60,diurno,economico|naturaleza|ninos_ok,False
+97,Reserva Forestal Protectora Bosque Oriental Bogotá,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Hoya Teusaca,Cerros Orientales de Bogotá,4.612094,-74.037129,60,diurno,economico|naturaleza|ninos_ok,False
+484,Ruta de Regreso a la Tierra,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional,"Huertas localidad de La Candelaria y Santa Fe (Santa Helena, Mestiza de la Quinta de Bolívar, Del Cóndor y Botánico Hostel)",4.620349,-74.062185,60,diurno,economico|naturaleza|ninos_ok,False
+48,Río San Francisco - Vicachá,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,"Sendero Ecológico San Francisco - Vichachá, Santa Fe, Bogotá D.C.",4.601105,-74.059197,60,diurno,economico|naturaleza|ninos_ok,False
+571,Sendero San Francisco-Vicachá,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Carrera 1 #20 -65 C,4.601044,-74.059134,60,diurno,economico|naturaleza|ninos_ok,False
+567,Sendero a Monserrate - Camino de Peregrinos,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Cerro de Monserrate,4.603746,-74.061439,60,diurno,economico|naturaleza|ninos_ok,True
+568,Sendero ecológico El Paramuno,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Sendero a Monserrate: Carrera 2 Este con Calle 23,4.610649,-74.056911,60,diurno,economico|naturaleza|ninos_ok,False
+572,Senderos Kilómetro 11 y Doce Quebradas,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Parque Nacional Oriental,Kilómetro 11 vía Bogotá - Choachí,4.594832,-74.034926,60,diurno,economico|naturaleza|ninos_ok,False
+54,Zona Rural Verjón Alto y Bajo,Atractivo de Naturaleza,Atractivo Natural,Santa Fe,Hoya Teusaca,Chapinero rural,4.616618,-74.010392,60,diurno,economico|naturaleza|ninos_ok,False
+98,Biblioteca Auditorio Universidad Jorge Tadeo Lozano (Módulo 21),Biblioteca,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 4 # 22 - 40,4.606236,-74.067392,45,verificar,caminar_poco|cultura|economico,False
+208,Biblioteca Nacional de Colombia,Biblioteca,Atractivo Cultural,Santa Fe,Las Nieves,Calle 24 # 5 - 60,4.609532,-74.068652,45,verificar,caminar_poco|cultura|economico,False
+285,Plaza Distrital de Mercado La Perseverancia,Comercio,Atractivo Cultural,Santa Fe,La Macarena,Carrera 5 # 30A - 30,4.616407,-74.065935,45,verificar,comer|compras,False
+299,Basílica Santuario del Señor Caído de Monserrate,Escenario Religioso,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 – 48,4.605737,-74.055354,20,verificar,cultura|economico,True
+226,Iglesia Franciscana de la Tercera,Escenario Religioso,Atractivo Cultural,Santa Fe,Veracruz,Carrera 7 # 16 - 07,4.602847,-74.073056,20,verificar,cultura|economico,False
+234,Iglesia Nuestra Señora de las Nieves,Escenario Religioso,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 # 20 - 12,4.60615,-74.070877,20,verificar,cultura|economico,False
+72,Iglesia de San Francisco,Escenario Religioso,Atractivo Cultural,Santa Fe,Veracruz,Avenida Jiménez # 7 – 10,4.601888,-74.073263,20,verificar,cultura|economico,False
+236,Iglesia de San José,Escenario Religioso,Atractivo Cultural,Santa Fe,La Capuchina,Carrera 13 # 14 - 23,4.604142,-74.078354,20,verificar,cultura|economico,False
+293,Iglesia de la Veracruz,Escenario Religioso,Atractivo Cultural,Santa Fe,Veracruz,Calle 16 # 7 - 19,4.602521,-74.073047,20,verificar,cultura|economico,False
+380,Iglesia y Recoleta San Diego,Escenario Religioso,Atractivo Cultural,Santa Fe,San Diego,Avenida calle 26 # 7 - 30,4.612778,-74.069892,20,verificar,cultura|economico,False
+154,Santuario de Nuestra Señora de Guadalupe,Escenario Religioso,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Cerro de Guadalupe,4.591775,-74.054225,20,verificar,cultura|economico,False
+157,Santuario de Nuestra Señora de la Peña,Escenario Religioso,Atractivo Cultural,Santa Fe,La Peña Rural,Carrera 7A Bis Este # 7A - 50,4.586087,-74.065225,20,verificar,cultura|economico,False
+525,Calle Bonita,Gastronomía,Atractivo Cultural,Santa Fe,San Martin,Calle 30 entre Carrera 5 y Carrera 7,4.616026,-74.067077,45,verificar,comer,False
+243,Pastelería Florida,Gastronomía,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 # 21 - 46,4.607324,-74.070662,45,verificar,comer,False
+250,Zona Gastronómica La Macarena,Gastronomía,Atractivo Cultural,Santa Fe,La Macarena,Entre carreras 7 y 3 y entre calles 25 y 30,4.61379,-74.066977,45,verificar,comer,False
+442,Carrera Séptima,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 7 entre Calle 6 y Calle 32,4.608318,-74.070684,30,verificar,,False
+494,Fragmentos: Espacio de Arte y Memoria,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,San Martin,"Carrera 7 # 6b - 30 Bogotá, D.C., Colombia",4.615329,-74.068745,30,verificar,,False
+331,La Balsa Muisca,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Veracruz,Carrera  6 # 15 – 88,4.601633,-74.071985,30,verificar,,False
+240,Pasaje La Macarena (Plaza de mercado Las Nieves),Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Las Nieves,Calle 20 # 8 - 57,4.606871,-74.072312,30,verificar,,False
+326,Poporo Quimbaya,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Veracruz,Carrera 6 # 15 – 88,4.601716,-74.071925,30,verificar,,False
+338,Relieves del Banco de la República,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Veracruz,Carrera 7 # 14 - 78,4.601485,-74.073134,30,verificar,,False
+316,Zona Comercial de San Victorino,Infraestructura y equipamientos urbanos,Atractivo Cultural,Santa Fe,Santa Ines,"Entre Avenida Caracas y Carrera 10 entre
+Eje Ambiental y Calle 10",4.601401,-74.079284,30,verificar,,False
+206,Conjunto Escultórico 16 Torres,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Avenida Circunvalar con Calle 35,4.618516,-74.059061,10,abierto,caminar_poco|cultura|economico,False
+244,Escultura César Rincón,Monumento y/o escultura,Atractivo Cultural,Santa Fe,San Diego,Carrera 6 # 26B - 50 Plaza La Santamaría,4.613193,-74.068513,10,abierto,caminar_poco|cultura|economico,False
+314,Escultura La Gran Mariposa,Monumento y/o escultura,Atractivo Cultural,Santa Fe,La Capuchina,"Avenida Jiménez entre las carreras 11 y 12
+Plaza de San Victorino",4.60203,-74.078196,10,abierto,caminar_poco|cultura|economico,False
+404,Escultura La Rebeca,Monumento y/o escultura,Atractivo Cultural,Santa Fe,La Alameda,Calle 25 entre carreras 12 y 13,4.612206,-74.071486,10,abierto,caminar_poco|cultura|economico,False
+403,Escultura Las Edades de Bogotá,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Las Nieves,"Carrera 3 con calle 22 esquina
+noroccidental",4.605734,-74.066927,10,abierto,caminar_poco|cultura|economico,False
+347,Escultura Nave Espacial,Monumento y/o escultura,Atractivo Cultural,Santa Fe,San Diego,"Calle 26 Carrera 13A - Plazoleta Centro de
+Convenciones",4.615181,-74.071584,10,abierto,caminar_poco|cultura|economico,False
+245,Escultura Pepe Cáceres,Monumento y/o escultura,Atractivo Cultural,Santa Fe,San Diego,Carrera 6 # 26B- 50 Plaza La Santamaría,4.61284,-74.068414,10,abierto,caminar_poco|cultura|economico,False
+47,Escultura Pórtico,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Santa Ines,Avenida Caracas con Calle 6,4.597264,-74.084075,10,abierto,caminar_poco|cultura|economico,False
+303,Escultura Virgen de Guadalupe,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Cerro de Guadalupe,4.591899,-74.054823,10,abierto,caminar_poco|cultura|economico,False
+300,Escultura del Señor Caído de Monserrate,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 – 48,4.605324,-74.055515,10,abierto,caminar_poco|cultura|economico,True
+311,Monumento Lanzando la Onda,Monumento y/o escultura,Atractivo Cultural,Santa Fe,La Alameda,Carrera 13 Calle 23,4.610549,-74.073559,10,abierto,caminar_poco|cultura|economico,False
+312,Monumento a Francisco José de Caldas,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Las Nieves,Centro de la Plazoleta de las Nieves,4.606326,-74.071414,10,abierto,caminar_poco|cultura|economico,False
+357,Monumento a Francisco de Paula Santander,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Veracruz,Entre las calles 15 y 16 entre carreras 6 y 7,4.601968,-74.072559,10,abierto,caminar_poco|cultura|economico,False
+402,Monumento a George Washington,Monumento y/o escultura,Atractivo Cultural,Santa Fe,San Diego,Calle 26 entre carrera 7 y 10 (Parque San Diego - Plazoleta Frente a la Iglesia de San Diego),4.612249,-74.070314,10,abierto,caminar_poco|cultura|economico,False
+339,Monumento a José de San Martín,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Samper,carrera 7 con la carrera 13 y la calle 32 (Plaza de San Martín),4.618465,-74.068546,10,abierto,caminar_poco|cultura|economico,False
+343,Monumento a Rafael Uribe Uribe,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional,Carrera 7 Calle 36,4.623869,-74.065765,10,abierto,caminar_poco|cultura|economico,False
+278,Pila del Mono (Réplica),Monumento y/o escultura,Atractivo Cultural,Santa Fe,San Diego,Separador carreras 7 y 10 con calle 27,4.6135,-74.069632,10,abierto,caminar_poco|cultura|economico,False
+297,Primer Vagón del Funicular,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional Oriental,Carrera 2 Este # 21 – 48,4.60311,-74.060767,10,abierto,caminar_poco|cultura|economico,False
+287,Torre del Reloj,Monumento y/o escultura,Atractivo Cultural,Santa Fe,Parque Nacional,Parque Nacional Enrique Olaya Herrera,4.624008,-74.064442,10,abierto,caminar_poco|cultura|economico,False
+179,Museo Histórico de la Fiscalía General de la Nación,Museo,Atractivo Cultural,Santa Fe,La Capuchina,Carrera 13 # 18 - 51,4.607749,-74.075886,60,verificar,cultura|ninos_ok,False
+356,Museo Internacional de la Esmeralda,Museo,Atractivo Cultural,Santa Fe,Veracruz,Calle 16 # 6 - 66 Piso 23,4.602651,-74.072284,60,verificar,cultura|ninos_ok,False
+332,Museo Nacional de Colombia,Museo,Atractivo Cultural,Santa Fe,San Martin,Carrera 7 # 28 - 66,4.615229,-74.067805,60,verificar,cultura|ninos_ok,False
+238,Museo de Arte Moderno de Bogotá - MAMBO,Museo,Atractivo Cultural,Santa Fe,Las Nieves,Calle 24 # 6 - 00,4.610256,-74.069261,60,verificar,cultura|ninos_ok,False
+95,Museo de Artes Visuales,Museo,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 4 # 22 - 44,4.606016,-74.067152,60,verificar,cultura|ninos_ok,False
+318,Museo del Espacio,Museo,Atractivo Cultural,Santa Fe,San Diego,Calle 26B # 5 - 93,4.611919,-74.068678,60,verificar,cultura|ninos_ok,False
+400,Museo del Mar,Museo,Atractivo Cultural,Santa Fe,Las Nieves,Carrera 4 # 22 - 61 Modulo 1 Sótano,4.607117,-74.067721,60,verificar,cultura|ninos_ok,False
+301,Museo del Oro,Museo,Atractivo Cultural,Santa Fe,Veracruz,Carrera 6 # 15–88,4.601821,-74.071796,60,verificar,cultura|ninos_ok,False
+329,Planetario de Bogotá,Museo,Atractivo Cultural,Santa Fe,San Diego,Calle 26B # 5 - 93,4.612043,-74.068853,60,verificar,cultura|ninos_ok,False
+125,Parque Central Bavaria,Parque,Atractivo Cultural,Santa Fe,Samper,"Entre Carrera 13 y Avenida Caracas entre
+Calles 30 y 28",4.616744,-74.069908,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+284,Parque Independencia Bicentenario,Parque,Atractivo Cultural,Santa Fe,San Diego,Calle 26 entre las carreras 5 y 7,4.611121,-74.068615,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+242,Parque Nacional Enrique Olaya Herrera,Parque,Atractivo Cultural,Santa Fe,Parque Nacional,Entre las calles 36 y 39 entre la carrera 7 y los cerros orientales,4.62351,-74.062214,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+348,Parque Santander,Parque,Atractivo Cultural,Santa Fe,Veracruz,Entre carrreras 7 y 6 entre calles 15 y 16,4.601957,-74.072601,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+241,Parque de los Periodistas Gabriel García Márquez,Parque,Atractivo Cultural,Santa Fe,Veracruz,"Entre Eje Ambiental y calle 17 entre
+carreras 3 y 4",4.60125,-74.069444,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+269,Casa Hacienda La Conejera,Atractivo Cultural,Atractivo Cultural,Suba,Barajas Norte,Calle 171 con Transversal 76A,4.768335,-74.080936,30,verificar,cultura,False
+447,Centro Cultural y Biblioteca Pública Julio Mario Santo Domingo,Atractivo Cultural,Atractivo Cultural,Suba,San Jose V Sector,Avenida calle 170 # 67 - 51,4.756568,-74.062717,30,verificar,cultura,False
+471,Plaza Fundacional de Suba,Atractivo Cultural,Atractivo Cultural,Suba,Suba Urbano,Carrera 90 y 91 Calle 146 C y 147,4.740978,-74.083849,20,abierto,caminar_poco|cultura|economico,False
+446,Teatro Mayor Julio Mario Santo Domingo,Atractivo Cultural,Atractivo Cultural,Suba,San Jose V Sector,Avenida calle 170 # 67 - 51,4.756568,-74.062717,30,verificar,cultura,False
+483,La Ruta del Sol y del Agua,Atractivo de Naturaleza,Atractivo Natural,Suba,Las Mercedes Suba Rural,"Huertas localidad de Suba (Huertas Fontanar del Río, Guerreros, Micaela, Jacaná, Cobá y Mirador de los Nevados)",4.759801,-74.090767,60,diurno,economico|naturaleza|ninos_ok,False
+83,Parque Ecológico Distrital Humedal Córdoba,Atractivo de Naturaleza,Atractivo Natural,Suba,Monaco,Entre las calles 116 y 127 y las avenidas Córdoba y Suba,4.702206,-74.069589,60,diurno,economico|naturaleza|ninos_ok,False
+70,Parque Ecológico Distrital Humedal Juan Amarillo,Atractivo de Naturaleza,Atractivo Natural,Suba,Santa Teresa De Suba,Avenida Suba con Transversal 91,4.723785,-74.102222,60,diurno,economico|naturaleza|ninos_ok,False
+92,Parque Ecológico Distrital Humedal La Conejera,Atractivo de Naturaleza,Atractivo Natural,Suba,Tuna,"Humedal La Conejera, Suba",4.761722,-74.105159,60,diurno,economico|naturaleza|ninos_ok,False
+448,Parque Mirador de los Nevados,Atractivo de Naturaleza,Atractivo Natural,Suba,Suba Cerros,Carrera 87A # 145 - 50,4.742167,-74.079908,60,diurno,economico|naturaleza|ninos_ok,False
+452,Iglesia Inmaculada Concepción de Suba,Escenario Religioso,Atractivo Cultural,Suba,Suba Urbano,Carrera 90 # 146C - 40,4.740335,-74.082805,20,verificar,cultura|economico,False
+438,Iglesia de Jesucristo de los Santos de los Últimos Días,Escenario Religioso,Atractivo Cultural,Suba,Canodromo,Carrera 46 # 127 - 45,4.707988,-74.056246,20,verificar,cultura|economico,False
+499,Cabildo indígena Muisca de Suba,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Suba Cerros,"Cra. 86 # 147 - 23, Bogotá",4.741157,-74.081003,30,verificar,,False
+439,Centro Comercial Parque la Colina,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Santa Helena,Carrera 58D # 146 - 51,4.732945,-74.066363,30,verificar,,False
+444,Centro Comercial Santafé,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Mirandela,Calle 185 # 45 - 46,4.762279,-74.046435,30,verificar,,False
+503,Centro de Felicidad - CEFE Fontanar del Río,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Tibabuyes Ii,"Avenida Calle 145 entre Carrera 141A y Carrera 141B, Suba, Bogotá",4.7551,-74.112672,30,verificar,,False
+504,Centro de Felicidad - CEFE Las Cometas,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Almirante Colon,Calle 127A con Carrera 187A,4.714748,-74.086176,30,verificar,,False
+417,Zona Comercial de Outlets de La Floresta,Infraestructura y equipamientos urbanos,Atractivo Cultural,Suba,Julio Florez,Calles 98 A y  Calle 100 Carrera 69,4.691658,-74.074273,30,verificar,,False
+445,Parque Fontanar del Río,Parque,Atractivo Cultural,Suba,Tibabuyes Ii,Calle 144C Carrera 141,4.756278,-74.111399,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+129,Auditorio León de Greiff,Atractivo Cultural,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Carrera 30 # 45 - 03 Edificio 104,4.635692,-74.082292,30,verificar,cultura,False
+259,Edificio del Concejo de Bogotá,Atractivo Cultural,Atractivo Cultural,Teusaquillo,Las Americas,Calle 34 # 27 - 36,4.624928,-74.077749,30,verificar,cultura,False
+106,Movistar Arena,Atractivo Cultural,Atractivo Cultural,Teusaquillo,Campin,Carrera Diagonal 61C # 26 - 35,4.649133,-74.077522,30,verificar,cultura,False
+258,Plaza del Concejo de Bogotá Luis Carlos Sarmiento,Atractivo Cultural,Atractivo Cultural,Teusaquillo,Las Americas,Calle 36 entre Transversales 29 y 28A,4.62485,-74.078319,30,verificar,cultura,False
+575,Teatro Nacional Casa del Teatro,Atractivo Cultural,Atractivo Cultural,Teusaquillo,La Soledad,"Cra 20 #37-54, Bogotá",4.62704,-74.073643,30,verificar,cultura,False
+310,Biblioteca Pública Virgilio Barco,Biblioteca,Atractivo Cultural,Teusaquillo,Pablo Vi Norte,Avenida Carrera 60 # 57 - 60,4.655969,-74.08854,45,verificar,caminar_poco|cultura|economico,False
+295,Estadio Nemesio Camacho El Campín,Escenario Deportivo,Atractivo Cultural,Teusaquillo,Campin,Carrera 30 # 57 - 01,4.645909,-74.077539,60,verificar,ninos_ok,False
+55,Iglesia Divino Salvador,Escenario Religioso,Atractivo Cultural,Teusaquillo,Banco Central,Calle 57 # 17 - 25,4.644177,-74.069129,20,verificar,cultura|economico,False
+166,Iglesia San Alfonso María de Ligorio,Escenario Religioso,Atractivo Cultural,Teusaquillo,Las Americas,Avenida carrera 28 # 39 - 27,4.627946,-74.078088,20,verificar,cultura|economico,False
+304,Iglesia Santa Ana,Escenario Religioso,Atractivo Cultural,Teusaquillo,Teusaquillo,Carrera 16 # 36A - 01,4.622653,-74.071905,20,verificar,cultura|economico,False
+330,Mezquita Estambul,Escenario Religioso,Atractivo Cultural,Teusaquillo,Palermo,Calle 45A # 14 - 81,4.63304,-74.068527,20,verificar,cultura|economico,False
+320,Templete Eucarístico,Escenario Religioso,Atractivo Cultural,Teusaquillo,Campo Eucaristico,"Avenida Calle 53 y Avenida Esmeralda
+Parque Simón Bolívar",4.660705,-74.094103,20,verificar,cultura|economico,False
+522,Alimentec,Gastronomía,Festividades y eventos,Teusaquillo,La Soledad,Corferias,4.625852,-74.076657,45,verificar,comer,False
+63,Centro Comercial Gran Estación,Infraestructura y equipamientos urbanos,Atractivo Cultural,Teusaquillo,Ciudad Salitre Nor-Oriental,Avenida Calle 26 # 62 - 47,4.646982,-74.101763,30,verificar,,False
+492,Centro de convenciones Agora Bogotá,Infraestructura y equipamientos urbanos,Atractivo Cultural,Teusaquillo,Ortezal,"Ac. 24 #38-47, Bogotá, Centro de convenciones Agora",4.629675,-74.092666,30,verificar,,False
+493,Centro de convenciones Corferias,Infraestructura y equipamientos urbanos,Atractivo Cultural,Teusaquillo,Centro Narino,"Ac. 24 #38-98, Bogotá, Corferias",4.629832,-74.0902,30,verificar,,False
+147,Colección Pizano,Infraestructura y equipamientos urbanos,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Carrera 30 # 45 - 03  Universidad Nacional en la Bilioteca Gabriel García Marquez Edificio 210,4.63536,-74.083079,30,verificar,,False
+334,Sector Comercial de la Calle 53,Infraestructura y equipamientos urbanos,Atractivo Cultural,Teusaquillo,Banco Central,Calle 53 entre Carreras 17 y 22,4.641191,-74.070821,30,verificar,,False
+323,Escultura Caracol en Crecimiento Limitado,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,Ciudad Salitre Nor-Oriental,Avenida Calle 26 # 66- 63,4.649479,-74.101671,10,abierto,caminar_poco|cultura|economico,False
+189,Escultura Eclipse,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,El Salitre,"Separador Avenida El Dorado con carrera
+62",4.648611,-74.100171,10,abierto,caminar_poco|cultura|economico,False
+192,Escultura Longos,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,Centro Administrativo Occ.,Avenida El Dorado con carrera 50,4.64048,-74.094711,10,abierto,caminar_poco|cultura|economico,False
+409,Monumento a los Héroes Ignotos de la Independencia,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,Pablo Vi Norte,Calle 63 con Carrera 50,4.659336,-74.088579,10,abierto,caminar_poco|cultura|economico,False
+321,Monumento a los Militares y Policías caídos en combate,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,Centro Administrativo Occ.,Avenida Calle 26 entre Carreras 42 y 45,4.645681,-74.097511,10,abierto,caminar_poco|cultura|economico,False
+392,Monumento al Almirante José Prudencio Padilla,Monumento y/o escultura,Atractivo Cultural,Teusaquillo,La Soledad,Avenida Carrera 24 Calle 37,4.627045,-74.075259,10,abierto,caminar_poco|cultura|economico,False
+545,Casa História Naval,Museo,Atractivo Cultural,Teusaquillo,Palermo,"Cra. 25 # 45 c - 26, Teusaquillo, Bogotá, Cundinamarca",4.636282,-74.075466,60,verificar,cultura|ninos_ok,False
+120,Casa Museo Jorge Eliécer Gaitán,Museo,Atractivo Cultural,Teusaquillo,Santa Teresita,Calle 42 # 15 - 52,4.630639,-74.069722,60,verificar,cultura|ninos_ok,False
+107,Museo Geológico Nacional José Royo y Gómez,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Diagonal 53 # 34 - 53,4.640949,-74.080052,60,verificar,cultura|ninos_ok,False
+256,Museo Histórico Mariano Ospina Pérez,Museo,Atractivo Cultural,Teusaquillo,La Soledad,Carrera 24 # 39 - 32,4.628153,-74.074837,60,verificar,cultura|ninos_ok,False
+171,Museo Millonarios FC,Museo,Atractivo Cultural,Teusaquillo,Campin,Carrera 30 # 57 - 60 Local 6 y 7.,4.645513,-74.078307,60,verificar,cultura|ninos_ok,False
+108,Museo Nacional de Geografía y Cartografía,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Carrera 30 # 48 - 51,4.639542,-74.079867,60,verificar,cultura|ninos_ok,False
+49,Museo de Arquitectura Leopoldo Rother,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,"Carrera 30 # 45 - 03 Ciudad Universitaria
+Edificio",4.634001,-74.083164,60,verificar,cultura|ninos_ok,False
+118,Museo de Arte de la Universidad Nacional,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Carrera 30 # 45 - 03,4.634515,-74.080833,60,verificar,cultura|ninos_ok,False
+324,Museo de Artes Gráficas,Museo,Atractivo Cultural,Teusaquillo,Ciudad Salitre Nor-Oriental,Carrera 66 # 24 - 09,4.64898,-74.105333,60,verificar,cultura|ninos_ok,False
+369,Museo de Historia Natural,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,"Carrera 30 # 45 - 03 Edificio 425 Ciudad
+Universitaria",4.642413,-74.081753,60,verificar,cultura|ninos_ok,False
+105,Museo de Suelos de Colombia,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,Carrera 30 # 48 - 51,4.639603,-74.079744,60,verificar,cultura|ninos_ok,False
+370,Museo de la Ciencia y el Juego,Museo,Atractivo Cultural,Teusaquillo,Ciudad Universitaria,"Carrera 30 # 45 - 03 Concha Acústica
+Ciudad Universitaria",4.638847,-74.08719,60,verificar,cultura|ninos_ok,False
+255,Park Way,Parque,Atractivo Cultural,Teusaquillo,La Soledad,Carrera 24 entre calles 36 y 45,4.629459,-74.075201,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+319,Parque Metropolitano Simón Bolívar,Parque,Atractivo Cultural,Teusaquillo,Campo Eucaristico,Calle 63 y 53 entre Carrera 66 y Avenida 68,4.658609,-74.094056,45,diurno,caminar_poco|economico|naturaleza|ninos,True
+260,Biblioteca Pública El Tunal Gabriel García Márquez,Biblioteca,Atractivo Cultural,Tunjuelito,Parque El Tunal,Calle 48B Sur # 21 - 13,4.571898,-74.129857,45,verificar,caminar_poco|cultura|economico,False
+502,Centro de Felicidad - CEFE El Tunal,Infraestructura y equipamientos urbanos,Atractivo Cultural,Tunjuelito,Parque El Tunal,"Parque El Tunal, Bogotá",4.571906,-74.138248,30,verificar,,False
+432,Transmicable,Infraestructura y equipamientos urbanos,Atractivo Cultural,Tunjuelito,Parque El Tunal,Calle 56 Sur # 23 - 65,4.571451,-74.139199,30,verificar,,False
+224,Parque Metropolitano El Tunal,Parque,Atractivo Cultural,Tunjuelito,Parque El Tunal,Avenida Carrera 24 # 52 Sur,4.571977,-74.134507,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+422,Casa Hacienda Santa Bárbara Centro Comercial,Atractivo Cultural,Atractivo Cultural,Usaquén,Usaquen,Carrera 7 # 115 - 72,4.692739,-74.032462,30,verificar,cultura,False
+434,Casa de la Alcaldía de Usaquén,Atractivo Cultural,Atractivo Cultural,Usaquén,Usaquen,Carrera 6A # 118 – 03,4.695135,-74.031434,30,verificar,cultura,False
+419,Estación del Ferrocarril de Usaquén,Atractivo Cultural,Atractivo Cultural,Usaquén,Santa Ana Occidental,Avenida Carrera 9 # 110 - 08,4.691039,-74.037294,30,verificar,cultura,False
+487,Macromulal Sol Lunar,Atractivo Cultural,Atractivo Cultural,Usaquén,Buenavista,"Barrio Buena Vista, Usaquén, Bogota D.C.",4.76701,-74.025744,30,verificar,cultura,False
+488,Macromural La Mariposa,Atractivo Cultural,Atractivo Cultural,Usaquén,Santa Cecilia Puente Norte,"Barrios Barranca, Santa Cecilia, Soratama y Villa India, Usaquén, Cundinamarca",4.735409,-74.019104,30,verificar,cultura,False
+426,Plaza Fundacional de Usaquén,Atractivo Cultural,Atractivo Cultural,Usaquén,Usaquen,Entre Carreras 6 y 6A entre Calles 118 y 119,4.6951,-74.030949,20,abierto,caminar_poco|cultura|economico,False
+418,Tren Turístico de la Sabana,Atractivo Cultural,Atractivo Cultural,Usaquén,Santa Ana Occidental,Avenida Carrera 9 # 110 - 08,4.690717,-74.03787,30,verificar,cultura,False
+451,Aula Ambiental Soratama,Atractivo de Naturaleza,Atractivo Natural,Usaquén,Barrancas Oriental Rural,Carrera 2 Este # 167 - 74,4.741677,-74.013061,60,diurno,economico|naturaleza|ninos_ok,False
+566,Camino La Serranía,Atractivo de Naturaleza,Atractivo Natural,Usaquén,Paramo,"Ak 7 # 153-2, Usaquén, Bogotá, D.C.",4.712804,-74.010596,60,diurno,economico|naturaleza|ninos_ok,False
+101,Parque Ecológico Distrital Humedal Torca - Güaymaral,Atractivo de Naturaleza,Atractivo Natural,Usaquén,Torca I,Autipista Norte con Calle 215,4.792222,-74.038791,60,diurno,economico|naturaleza|ninos_ok,False
+65,Ruta Santa Ana - La Aguadora,Atractivo de Naturaleza,Atractivo Natural,Usaquén,Paramo,Calle 119 # 0-10 Este,4.689573,-74.018403,60,diurno,economico|naturaleza|ninos_ok,False
+570,Sendero Reserva Huisyzuca,Atractivo de Naturaleza,Atractivo Natural,Usaquén,0,"Localidad de Usaquén, entre las calles 140 y 170, y sobre los cerros occidentales de La Calera",4.728471,-74.007614,60,diurno,economico|naturaleza|ninos_ok,False
+423,Iglesia Santa Beatriz,Escenario Religioso,Atractivo Cultural,Usaquén,Santa Barbara Occidental,Avenida Carrera 15 # 119 - 05,4.698812,-74.043572,20,verificar,cultura|economico,False
+427,Iglesia Santa Bárbara de Usaquén,Escenario Religioso,Atractivo Cultural,Usaquén,Usaquen,Carrera 6 # 118 - 46,4.694963,-74.030409,20,verificar,cultura|economico,False
+433,Zona Gastronómica de Usaquén,Gastronomía,Atractivo Cultural,Usaquén,Usaquen,Entre calles 116 bis y 121 entre carreras 5 y 7,4.695449,-74.030436,45,verificar,comer,False
+421,Centro Comercial Unicentro,Infraestructura y equipamientos urbanos,Atractivo Cultural,Usaquén,Santa Barbara Central,Carrera 15 # 124 - 30,4.702144,-74.041169,30,verificar,,False
+420,Santa Ana Centro Comercial Boutique,Infraestructura y equipamientos urbanos,Atractivo Cultural,Usaquén,Santa Ana Occidental,Avenida carrera 9 # 110 - 50,4.690704,-74.036791,30,verificar,,False
+546,Casa Museo Rafael Escalona,Museo,Atractivo Cultural,Usaquén,Molinos Norte,"Cra. 11a #113-9, Bogotá",4.693446,-74.038902,60,verificar,cultura|ninos_ok,False
+435,Museo Francisco de Paula Santander,Museo,Atractivo Cultural,Usaquén,Cedro Salazar,Carrera 7 # 150 - 01,4.725099,-74.02554,60,verificar,cultura|ninos_ok,False
+436,Museo de Ciencias Universidad El Bosque,Museo,Atractivo Cultural,Usaquén,Bella Suiza,Avenida Carrera 9 # 131A - 02 Bloque L Biología,4.710697,-74.032052,60,verificar,cultura|ninos_ok,False
+473,Parque Cedro Golf Club,Parque,Atractivo Cultural,Usaquén,Cedro Salazar,Carrera 7A # 150 - 85,4.726038,-74.027515,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+430,Parque Metropolitano El Country,Parque,Atractivo Cultural,Usaquén,La Carolina,Calle 127 # 11D - 90,4.706199,-74.038002,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+429,Parque Navarra,Parque,Atractivo Cultural,Usaquén,San Patricio,Calle 106A # 20 - 67,4.694385,-74.052804,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+428,Parque República de Francia,Parque,Atractivo Cultural,Usaquén,Santa Bibiana,"Entre Avenida 15 y Carrera 19 entre Calles
+104A y 106",4.69046,-74.047181,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+411,Parque Urbanización Autopista Norte,Parque,Atractivo Cultural,Usaquén,Los Cedros,Calles 142 y 144 entre Carreras 20 y 22,4.725256,-74.048402,45,diurno,caminar_poco|economico|naturaleza|ninos,False
+149,Casa de la Cultura de Usme,Atractivo Cultural,Atractivo Cultural,Usme,Centro Usme Urbano,Avenida Caracas # 136A - 13 Sur,4.472691,-74.123048,30,verificar,cultura,False
+534,Hacienda El Carmen,Atractivo Cultural,Atractivo Cultural,Usme,La Requilina Rural Iii,"Predios de La Esperanza y El Carmen, Localidad de Usme",4.475119,-74.121029,30,verificar,cultura,False
+58,Plaza Fundacional de Usme,Atractivo Cultural,Atractivo Cultural,Usme,Centro Usme Urbano,Calle 137B Sur # 14 - 24,4.471034,-74.125326,20,abierto,caminar_poco|cultura|economico,False
+262,Agroparque Los Soches,Atractivo de Naturaleza,Atractivo Natural,Usme,El Bosque Sur Oriental Rural I,"Kilómetro 1 Autopista Villavicencio Vereda
+Los Soches",4.473873,-74.087373,60,diurno,economico|naturaleza|ninos_ok,False
+264,Granja Atahualpa,Atractivo de Naturaleza,Atractivo Natural,Usme,La Requilina Rural,Calle 135Sur # 2E-46,4.467945,-74.116532,60,diurno,economico|naturaleza|ninos_ok,False
+66,Parque Ecológico Cantarrana,Atractivo de Naturaleza,Atractivo Natural,Usme,Yomasa Norte Rural,Carrera 1A # 100 - 11 Sur,4.50026,-74.12161,60,diurno,economico|naturaleza|ninos_ok,False
+64,Parque Ecológico Distrital de Montaña Entrenubes,Atractivo de Naturaleza,Atractivo Natural,Usme,Arrayanes V,Carrera 3 Este # 50 - 00 Sur,4.5395,-74.0974,60,diurno,economico|naturaleza|ninos_ok,False
+84,Páramo de Cruz Verde,Atractivo de Naturaleza,Atractivo Natural,Usme,Tibaque,Vía Bogotá - Choachí,4.51083,-74.07525,60,diurno,economico|naturaleza|ninos_ok,False
+221,Vereda El Uval,Atractivo de Naturaleza,Atractivo Natural,Usme,El Uval Rural,"Vereda El Uval, Usme, Bogotá D.C.",4.466647,-74.095538,60,diurno,economico|naturaleza|ninos_ok,False
+91,Vereda La Requilina,Atractivo de Naturaleza,Atractivo Natural,Usme,Olarte,"Vereda La Requilina, Usme, Bogotá D.C.",4.468696,-74.120375,60,diurno,economico|naturaleza|ninos_ok,False
+61,Embalse Chisacá,Infraestructura y equipamientos urbanos,Atractivo Natural,Usme,El Hato,Localidad de Usme rural,4.383694,-74.173279,30,verificar,,False
+60,Embalse La Regadera,Infraestructura y equipamientos urbanos,Atractivo Natural,Usme,La Regadera,Localidad de Usme rural,4.39943,-74.142028,30,verificar,,False

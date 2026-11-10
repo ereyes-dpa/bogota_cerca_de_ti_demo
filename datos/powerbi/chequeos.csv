@@ -1,0 +1,186 @@
+consulta_id,plan,criterio,id_criterio,estado,parada,detalle
+suba_ninos_sabado,chatbot,De 1 a 3 paradas,paradas,ok,,1 parada(s).
+suba_ninos_sabado,chatbot,Está en la base,catalogo,ok,1.0,"«Parque Ecológico Distrital Humedal Juan Amarillo» → «Parque Ecológico Distrital Humedal Juan Amarillo» (Atractivo de Naturaleza, Suba; por nombre+lugar)."
+suba_ninos_sabado,chatbot,Abierto cuando llegas,apertura,aviso,1.0,Parque Ecológico Distrital Humedal Juan Amarillo: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+suba_ninos_sabado,chatbot,Cabe en tu tiempo,tiempo,ok,,Traslados 34 + visitas 80 = 114 min frente a 120 min disponibles (margen 6 min; se pide ≥5).
+suba_ninos_sabado,chatbot,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 120 min; la suma recalculada es 114 min (diferencia -6).
+suba_ninos_sabado,chatbot,Apto para quien va,compania,aviso,1.0,"Parque Ecológico Distrital Humedal Juan Amarillo: etiquetas oficiales «Solo, Grupo»; no incluyen «familias»."
+suba_ninos_sabado,chatbot,Preferencia: naturaleza,prefs,ok,,Cumple: Parque Ecológico Distrital Humedal Juan Amarillo.
+suba_ninos_sabado,alternativa,De 1 a 3 paradas,paradas,ok,,1 parada(s).
+suba_ninos_sabado,alternativa,Está en la base,catalogo,ok,1.0,"«Parque Mirador de los Nevados» → «Parque Mirador de los Nevados» (Atractivo de Naturaleza, Suba; por nombre+lugar)."
+suba_ninos_sabado,alternativa,Abierto cuando llegas,apertura,aviso,1.0,Parque Mirador de los Nevados: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+suba_ninos_sabado,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 36 + visitas 60 = 96 min frente a 120 min disponibles (margen 24 min; se pide ≥5).
+suba_ninos_sabado,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 96 min; la suma recalculada es 96 min (diferencia +0).
+suba_ninos_sabado,alternativa,Apto para quien va,compania,ok,1.0,"Parque Mirador de los Nevados: etiquetas oficiales «Solo, Pet Friendly, Familias, Grupo»."
+suba_ninos_sabado,alternativa,Preferencia: naturaleza,prefs,ok,,Cumple: Parque Mirador de los Nevados.
+chapinero_lunes_noche,chatbot,De 1 a 3 paradas,paradas,ok,,2 parada(s).
+chapinero_lunes_noche,chatbot,Está en la base,catalogo,ok,1.0,"«CBC 232» existe como prestador registrado (RNT (copia local): RESTAURANTE, Chapinero). No está en el inventario de atractivos y no tiene horario ni etiquetas."
+chapinero_lunes_noche,chatbot,Está en la base,catalogo,ok,2.0,"«PRESTO BTA LOURDES» existe como prestador registrado (RNT (copia local): RESTAURANTE DE AUTOSERVICIO, Chapinero). No está en el inventario de atractivos y no tiene horario ni etiquetas."
+chapinero_lunes_noche,chatbot,Abierto cuando llegas,apertura,aviso,1.0,"CBC 232: probablemente cerrado — fuera del horario típico (09:00–21:00) (llegas 19:35; supuesto por categoría, sin horario oficial)."
+chapinero_lunes_noche,chatbot,Abierto cuando llegas,apertura,aviso,2.0,"PRESTO BTA LOURDES: probablemente cerrado — fuera del horario típico (09:00–21:00) (llegas 21:12; supuesto por categoría, sin horario oficial)."
+chapinero_lunes_noche,chatbot,Cabe en tu tiempo,tiempo,aviso,,"Traslados 15 + visitas 107 = 122 min frente a 120 min disponibles (margen -2 min; se pide ≥5). Con nuestra estimación de traslados se pasa 2 min; la estimación es aproximada (línea recta × 1,3), así que va justo pero es posible. Falla solo si se pasa más de 10 min."
+chapinero_lunes_noche,chatbot,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 120 min; la suma recalculada es 122 min (diferencia +2).
+chapinero_lunes_noche,chatbot,Apto para quien va,compania,na,,Ningún lugar del plan tiene etiquetas oficiales «para quién» (solo existen en las fichas de Visit Bogotá).
+chapinero_lunes_noche,chatbot,Preferencia: comer rico,prefs,ok,,"Cumple: CBC 232, PRESTO BTA LOURDES."
+chapinero_lunes_noche,alternativa,De 1 a 3 paradas,paradas,ok,,2 parada(s).
+chapinero_lunes_noche,alternativa,Está en la base,catalogo,ok,1.0,"«La Nunu Cocina Criolla Saludable» → «La Nunu Cocina Criolla Saludable» (Gastronomía, Chapinero; por nombre+lugar)."
+chapinero_lunes_noche,alternativa,Está en la base,catalogo,ok,2.0,"«Zona Gastronómica Quinta Camacho» → «Zona Gastronómica Quinta Camacho» (Gastronomía, Chapinero; por nombre+lugar)."
+chapinero_lunes_noche,alternativa,Abierto cuando llegas,apertura,ok,1.0,La Nunu Cocina Criolla Saludable: abierto hasta las 21:00.
+chapinero_lunes_noche,alternativa,Abierto cuando llegas,apertura,ok,2.0,Zona Gastronómica Quinta Camacho: abierto hasta las 00:00.
+chapinero_lunes_noche,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 21 + visitas 90 = 111 min frente a 120 min disponibles (margen 9 min; se pide ≥5).
+chapinero_lunes_noche,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 111 min; la suma recalculada es 111 min (diferencia +0).
+chapinero_lunes_noche,alternativa,Apto para quien va,compania,ok,2.0,"Zona Gastronómica Quinta Camacho: etiquetas oficiales «Pareja, Solo, LGBTI, Grupo»."
+chapinero_lunes_noche,alternativa,Preferencia: comer rico,prefs,ok,,"Cumple: La Nunu Cocina Criolla Saludable, Zona Gastronómica Quinta Camacho."
+centro_martes_solo,chatbot,De 1 a 3 paradas,paradas,ok,,2 parada(s).
+centro_martes_solo,chatbot,Está en la base,catalogo,ok,1.0,"«Museo del Oro» → «Museo del Oro» (Museo, Santa Fe; por nombre+lugar)."
+centro_martes_solo,chatbot,Está en la base,catalogo,ok,2.0,"«Museo Botero» → «Museo Botero» (Museo, La Candelaria; por nombre+lugar)."
+centro_martes_solo,chatbot,Abierto cuando llegas,apertura,aviso,1.0,Museo del Oro: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_martes_solo,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Museo Botero: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_martes_solo,chatbot,Cabe en tu tiempo,tiempo,ok,,Traslados 26 + visitas 80 = 106 min frente a 120 min disponibles (margen 14 min; se pide ≥5).
+centro_martes_solo,chatbot,Su total coincide con la suma real,consistencia,aviso,,El chatbot declara 120 min; la suma recalculada es 106 min (diferencia -14).
+centro_martes_solo,chatbot,Apto para quien va,compania,ok,1.0,"Museo del Oro: etiquetas oficiales «Solo, Grupo, Familias»."
+centro_martes_solo,chatbot,Apto para quien va,compania,ok,2.0,"Museo Botero: etiquetas oficiales «Familias, Solo, Grupo, LGBTI»."
+centro_martes_solo,chatbot,Preferencia: cultura,prefs,ok,,"Cumple: Museo del Oro, Museo Botero."
+centro_martes_solo,alternativa,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+centro_martes_solo,alternativa,Está en la base,catalogo,ok,1.0,"«Plaza de Bolívar» → «Plaza de Bolívar» (Atractivo Cultural, La Candelaria; por nombre+lugar)."
+centro_martes_solo,alternativa,Está en la base,catalogo,ok,2.0,"«Museo de la Independencia Casa del Florero» → «Museo de la Independencia Casa del Florero» (Museo, La Candelaria; por nombre+lugar)."
+centro_martes_solo,alternativa,Está en la base,catalogo,ok,3.0,"«Catedral Primada de Colombia» → «Catedral Primada de Colombia» (Escenario Religioso, La Candelaria; por nombre+lugar)."
+centro_martes_solo,alternativa,Abierto cuando llegas,apertura,ok,1.0,"Plaza de Bolívar: espacio público, sin horario de cierre."
+centro_martes_solo,alternativa,Abierto cuando llegas,apertura,aviso,2.0,Museo de la Independencia Casa del Florero: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_martes_solo,alternativa,Abierto cuando llegas,apertura,aviso,3.0,Catedral Primada de Colombia: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_martes_solo,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 5 + visitas 100 = 105 min frente a 120 min disponibles (margen 15 min; se pide ≥5).
+centro_martes_solo,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 105 min; la suma recalculada es 105 min (diferencia -0).
+centro_martes_solo,alternativa,Apto para quien va,compania,ok,1.0,"Plaza de Bolívar: etiquetas oficiales «Solo, Pet Friendly, Familias, Grupo»."
+centro_martes_solo,alternativa,Apto para quien va,compania,ok,2.0,"Museo de la Independencia Casa del Florero: etiquetas oficiales «Solo, Familias, Grupo»."
+centro_martes_solo,alternativa,Apto para quien va,compania,ok,3.0,"Catedral Primada de Colombia: etiquetas oficiales «Solo, Pareja»."
+centro_martes_solo,alternativa,Preferencia: cultura,prefs,ok,,"Cumple: Plaza de Bolívar, Museo de la Independencia Casa del Florero, Catedral Primada de Colombia."
+centro_domingo_pareja,chatbot,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+centro_domingo_pareja,chatbot,Está en la base,catalogo,ok,1.0,"«Catedral Primada de Colombia» → «Catedral Primada de Colombia» (Escenario Religioso, La Candelaria; por nombre+lugar)."
+centro_domingo_pareja,chatbot,Está en la base,catalogo,ok,2.0,"«Museo del Oro» → «Museo del Oro» (Museo, Santa Fe; por nombre+lugar)."
+centro_domingo_pareja,chatbot,Está en la base,catalogo,ok,3.0,"«Museo Botero» → «Museo Botero» (Museo, La Candelaria; por nombre+lugar)."
+centro_domingo_pareja,chatbot,Abierto cuando llegas,apertura,aviso,1.0,Catedral Primada de Colombia: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Museo del Oro: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,chatbot,Abierto cuando llegas,apertura,aviso,3.0,Museo Botero: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,chatbot,Cabe en tu tiempo,tiempo,ok,,Traslados 27 + visitas 145 = 172 min frente a 180 min disponibles (margen 8 min; se pide ≥5).
+centro_domingo_pareja,chatbot,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 180 min; la suma recalculada es 172 min (diferencia -8).
+centro_domingo_pareja,chatbot,Apto para quien va,compania,ok,1.0,"Catedral Primada de Colombia: etiquetas oficiales «Solo, Pareja»."
+centro_domingo_pareja,chatbot,Apto para quien va,compania,aviso,2.0,"Museo del Oro: etiquetas oficiales «Solo, Grupo, Familias»; no incluyen «pareja»."
+centro_domingo_pareja,chatbot,Apto para quien va,compania,aviso,3.0,"Museo Botero: etiquetas oficiales «Familias, Solo, Grupo, LGBTI»; no incluyen «pareja»."
+centro_domingo_pareja,chatbot,Preferencia: cultura,prefs,ok,,"Cumple: Catedral Primada de Colombia, Museo del Oro, Museo Botero."
+centro_domingo_pareja,chatbot,Preferencia: comer rico,prefs,aviso,,Ninguna parada responde a esta preferencia según las etiquetas del catálogo.
+centro_domingo_pareja,alternativa,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+centro_domingo_pareja,alternativa,Está en la base,catalogo,ok,1.0,"«Palacio Arzobispal» → «Palacio Arzobispal» (Atractivo Cultural, La Candelaria; por nombre+lugar)."
+centro_domingo_pareja,alternativa,Está en la base,catalogo,ok,2.0,"«Iglesia de San Ignacio» → «Iglesia de San Ignacio» (Escenario Religioso, La Candelaria; por nombre+lugar)."
+centro_domingo_pareja,alternativa,Está en la base,catalogo,ok,3.0,"«Museo de Bogotá Sede Casa de los 7 Balcones» → «Museo de Bogotá Sede Casa de los 7 Balcones» (Museo, La Candelaria; por nombre+lugar)."
+centro_domingo_pareja,alternativa,Abierto cuando llegas,apertura,aviso,1.0,Palacio Arzobispal: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,alternativa,Abierto cuando llegas,apertura,aviso,2.0,Iglesia de San Ignacio: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,alternativa,Abierto cuando llegas,apertura,aviso,3.0,Museo de Bogotá Sede Casa de los 7 Balcones: horario por confirmar antes de salir. No hay horario oficial en la base.
+centro_domingo_pareja,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 15 + visitas 110 = 125 min frente a 180 min disponibles (margen 55 min; se pide ≥5).
+centro_domingo_pareja,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 125 min; la suma recalculada es 125 min (diferencia +0).
+centro_domingo_pareja,alternativa,Apto para quien va,compania,ok,1.0,"Palacio Arzobispal: etiquetas oficiales «Pareja, Solo»."
+centro_domingo_pareja,alternativa,Apto para quien va,compania,ok,2.0,"Iglesia de San Ignacio: etiquetas oficiales «Pareja, Solo»."
+centro_domingo_pareja,alternativa,Apto para quien va,compania,ok,3.0,"Museo de Bogotá Sede Casa de los 7 Balcones: etiquetas oficiales «Pareja, Solo, Familias, Grupo»."
+centro_domingo_pareja,alternativa,Preferencia: cultura,prefs,ok,,"Cumple: Palacio Arzobispal, Iglesia de San Ignacio, Museo de Bogotá Sede Casa de los 7 Balcones."
+centro_domingo_pareja,alternativa,Preferencia: comer rico,prefs,aviso,,Ninguna parada responde a esta preferencia según las etiquetas del catálogo.
+usaquen_sabado_familia,chatbot,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+usaquen_sabado_familia,chatbot,Está en la base,catalogo,ok,1.0,"«Plaza Fundacional de Usaquén» → «Plaza Fundacional de Usaquén» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,chatbot,Está en la base,catalogo,ok,2.0,"«Zona Gastronómica de Usaquén» → «Zona Gastronómica de Usaquén» (Gastronomía, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,chatbot,Está en la base,catalogo,ok,3.0,"«Casa Hacienda Santa Bárbara Centro Comercial» → «Casa Hacienda Santa Bárbara Centro Comercial» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,chatbot,Abierto cuando llegas,apertura,ok,1.0,"Plaza Fundacional de Usaquén: espacio público, sin horario de cierre."
+usaquen_sabado_familia,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Zona Gastronómica de Usaquén: horario por confirmar antes de salir. No hay horario oficial en la base.
+usaquen_sabado_familia,chatbot,Abierto cuando llegas,apertura,aviso,3.0,Casa Hacienda Santa Bárbara Centro Comercial: horario por confirmar antes de salir. No hay horario oficial en la base.
+usaquen_sabado_familia,chatbot,Cabe en tu tiempo,tiempo,aviso,,"Traslados 16 + visitas 167 = 183 min frente a 180 min disponibles (margen -3 min; se pide ≥5). Con nuestra estimación de traslados se pasa 3 min; la estimación es aproximada (línea recta × 1,3), así que va justo pero es posible. Falla solo si se pasa más de 10 min."
+usaquen_sabado_familia,chatbot,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 180 min; la suma recalculada es 183 min (diferencia +3).
+usaquen_sabado_familia,chatbot,Apto para quien va,compania,ok,2.0,"Zona Gastronómica de Usaquén: etiquetas oficiales «Pareja, Solo, LGBTI, Familias, Grupo»."
+usaquen_sabado_familia,chatbot,Preferencia: comer rico,prefs,ok,,Cumple: Zona Gastronómica de Usaquén.
+usaquen_sabado_familia,chatbot,Preferencia: naturaleza,prefs,aviso,,Ninguna parada responde a esta preferencia según las etiquetas del catálogo.
+usaquen_sabado_familia,alternativa,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+usaquen_sabado_familia,alternativa,Está en la base,catalogo,ok,1.0,"«Mercado de las Pulgas de Usaquén» → «Mercado de las Pulgas de Usaquén» (Comercio, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,alternativa,Está en la base,catalogo,ok,2.0,"«Zona Gastronómica de Usaquén» → «Zona Gastronómica de Usaquén» (Gastronomía, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,alternativa,Está en la base,catalogo,ok,3.0,"«Plaza Fundacional de Usaquén» → «Plaza Fundacional de Usaquén» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_sabado_familia,alternativa,Abierto cuando llegas,apertura,ok,1.0,Mercado de las Pulgas de Usaquén: abierto hasta las 17:30.
+usaquen_sabado_familia,alternativa,Abierto cuando llegas,apertura,aviso,2.0,Zona Gastronómica de Usaquén: horario por confirmar antes de salir. No hay horario oficial en la base.
+usaquen_sabado_familia,alternativa,Abierto cuando llegas,apertura,ok,3.0,"Plaza Fundacional de Usaquén: espacio público, sin horario de cierre."
+usaquen_sabado_familia,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 8 + visitas 110 = 118 min frente a 180 min disponibles (margen 62 min; se pide ≥5).
+usaquen_sabado_familia,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 118 min; la suma recalculada es 118 min (diferencia -0).
+usaquen_sabado_familia,alternativa,Apto para quien va,compania,ok,1.0,"Mercado de las Pulgas de Usaquén: etiquetas oficiales «Solo, Pet Friendly, Familias, Grupo, LGBTI»."
+usaquen_sabado_familia,alternativa,Apto para quien va,compania,ok,2.0,"Zona Gastronómica de Usaquén: etiquetas oficiales «Pareja, Solo, LGBTI, Familias, Grupo»."
+usaquen_sabado_familia,alternativa,Preferencia: comer rico,prefs,ok,,"Cumple: Mercado de las Pulgas de Usaquén, Zona Gastronómica de Usaquén."
+usaquen_sabado_familia,alternativa,Preferencia: naturaleza,prefs,aviso,,Ninguna parada responde a esta preferencia según las etiquetas del catálogo.
+teusaquillo_sabado_bici,chatbot,De 1 a 3 paradas,paradas,ok,,2 parada(s).
+teusaquillo_sabado_bici,chatbot,Está en la base,catalogo,ok,1.0,"«Park Way» → «Park Way» (Parque, Teusaquillo; por nombre+lugar)."
+teusaquillo_sabado_bici,chatbot,Está en la base,catalogo,ok,2.0,"«Parque Simón Bolívar - Sector Virgilio Barco» → «Biblioteca Pública Virgilio Barco» (Biblioteca, Teusaquillo; por coordenadas)."
+teusaquillo_sabado_bici,chatbot,Abierto cuando llegas,apertura,aviso,1.0,Park Way: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+teusaquillo_sabado_bici,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Biblioteca Pública Virgilio Barco: horario por confirmar antes de salir. No hay horario oficial en la base.
+teusaquillo_sabado_bici,chatbot,Cabe en tu tiempo,tiempo,ok,,Traslados 45 + visitas 155 = 200 min frente a 240 min disponibles (margen 40 min; se pide ≥5).
+teusaquillo_sabado_bici,chatbot,Su total coincide con la suma real,consistencia,aviso,,El chatbot declara 240 min; la suma recalculada es 200 min (diferencia -40).
+teusaquillo_sabado_bici,chatbot,Apto para quien va,compania,aviso,1.0,"Park Way: etiquetas oficiales «Solo, Pareja, Grupo, Pet Friendly»; no incluyen «familias»."
+teusaquillo_sabado_bici,chatbot,Apto para quien va,compania,ok,2.0,"Biblioteca Pública Virgilio Barco: etiquetas oficiales «Solo, Grupo, Familias»."
+teusaquillo_sabado_bici,chatbot,Preferencia: naturaleza,prefs,ok,,Cumple: Park Way.
+teusaquillo_sabado_bici,chatbot,Preferencia: caminar poco,prefs,ok,,"Cumple: Park Way, Biblioteca Pública Virgilio Barco."
+teusaquillo_sabado_bici,alternativa,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+teusaquillo_sabado_bici,alternativa,Está en la base,catalogo,ok,1.0,"«Parque Nacional Enrique Olaya Herrera» → «Parque Nacional Enrique Olaya Herrera» (Parque, Santa Fe; por nombre+lugar)."
+teusaquillo_sabado_bici,alternativa,Está en la base,catalogo,ok,2.0,"«Parque de los Hippies» → «Parque de los Hippies» (Parque, Chapinero; por nombre+lugar)."
+teusaquillo_sabado_bici,alternativa,Está en la base,catalogo,ok,3.0,"«Parque Los Novios» → «Parque Los Novios» (Parque, Barrios Unidos; por nombre+lugar)."
+teusaquillo_sabado_bici,alternativa,Abierto cuando llegas,apertura,aviso,1.0,Parque Nacional Enrique Olaya Herrera: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+teusaquillo_sabado_bici,alternativa,Abierto cuando llegas,apertura,aviso,2.0,Parque de los Hippies: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+teusaquillo_sabado_bici,alternativa,Abierto cuando llegas,apertura,aviso,3.0,Parque Los Novios: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+teusaquillo_sabado_bici,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 59 + visitas 135 = 194 min frente a 240 min disponibles (margen 46 min; se pide ≥5).
+teusaquillo_sabado_bici,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 194 min; la suma recalculada es 194 min (diferencia -0).
+teusaquillo_sabado_bici,alternativa,Apto para quien va,compania,ok,1.0,"Parque Nacional Enrique Olaya Herrera: etiquetas oficiales «Pet Friendly, Familias, Grupo, Solo»."
+teusaquillo_sabado_bici,alternativa,Apto para quien va,compania,ok,2.0,"Parque de los Hippies: etiquetas oficiales «Solo, Pet Friendly, Grupo, Familias»."
+teusaquillo_sabado_bici,alternativa,Apto para quien va,compania,ok,3.0,"Parque Los Novios: etiquetas oficiales «Pareja, Familias, Solo, Grupo, Pet Friendly»."
+teusaquillo_sabado_bici,alternativa,Preferencia: naturaleza,prefs,ok,,"Cumple: Parque Nacional Enrique Olaya Herrera, Parque de los Hippies, Parque Los Novios."
+teusaquillo_sabado_bici,alternativa,Preferencia: caminar poco,prefs,ok,,"Cumple: Parque Nacional Enrique Olaya Herrera, Parque de los Hippies, Parque Los Novios."
+chapinero_pareja_mascota,chatbot,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+chapinero_pareja_mascota,chatbot,Está en la base,catalogo,ok,1.0,"«Plaza de Lourdes» → «Plaza de Lourdes» (Atractivo Cultural, Chapinero; por nombre+lugar)."
+chapinero_pareja_mascota,chatbot,Está en la base,catalogo,ok,2.0,"«Sector de Las Flores» → «Sector de Las Flores» (Infraestructura y equipamientos urbanos, Chapinero; por nombre+lugar)."
+chapinero_pareja_mascota,chatbot,Está en la base,catalogo,ok,3.0,"«Parque de los Hippies» → «Parque de los Hippies» (Parque, Chapinero; por nombre+lugar)."
+chapinero_pareja_mascota,chatbot,Abierto cuando llegas,apertura,ok,1.0,"Plaza de Lourdes: espacio público, sin horario de cierre."
+chapinero_pareja_mascota,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Sector de Las Flores: horario por confirmar antes de salir. No hay horario oficial en la base.
+chapinero_pareja_mascota,chatbot,Traslado creíble,traslado,aviso,2.0,Dice 0 min entre paradas; la estimación por pie es 7 min (0.6 km).
+chapinero_pareja_mascota,chatbot,Abierto cuando llegas,apertura,aviso,3.0,"Parque de los Hippies: probablemente cerrado — espacio abierto solo de día (06:00–18:00) (llegas 17:43; supuesto por categoría, sin horario oficial)."
+chapinero_pareja_mascota,chatbot,Traslado creíble,traslado,aviso,3.0,Dice 0 min entre paradas; la estimación por pie es 15 min (1.2 km).
+chapinero_pareja_mascota,chatbot,Cabe en tu tiempo,tiempo,falla,,Traslados 31 + visitas 120 = 151 min frente a 120 min disponibles (margen -31 min; se pide ≥5).
+chapinero_pareja_mascota,chatbot,Su total coincide con la suma real,consistencia,aviso,,El chatbot declara 120 min; la suma recalculada es 151 min (diferencia +31).
+chapinero_pareja_mascota,chatbot,Apto para quien va,compania,aviso,3.0,"Parque de los Hippies: etiquetas oficiales «Solo, Pet Friendly, Grupo, Familias»; no incluyen «pareja»."
+chapinero_pareja_mascota,chatbot,Admite mascotas,mascota,falla,1.0,Plaza de Lourdes: no está confirmado como Pet Friendly en ninguna fuente.
+chapinero_pareja_mascota,chatbot,Admite mascotas,mascota,falla,2.0,Sector de Las Flores: no está confirmado como Pet Friendly en ninguna fuente.
+chapinero_pareja_mascota,chatbot,Admite mascotas,mascota,ok,3.0,Parque de los Hippies: etiqueta oficial Pet Friendly.
+chapinero_pareja_mascota,chatbot,Preferencia: naturaleza,prefs,ok,,Cumple: Parque de los Hippies.
+chapinero_pareja_mascota,alternativa,De 1 a 3 paradas,paradas,ok,,2 parada(s).
+chapinero_pareja_mascota,alternativa,Está en la base,catalogo,ok,1.0,"«Parque de los Hippies» → «Parque de los Hippies» (Parque, Chapinero; por nombre+lugar)."
+chapinero_pareja_mascota,alternativa,Está en la base,catalogo,ok,2.0,"«Plazoleta de Lourdes» → «Plazoleta de Lourdes» (Atractivo Cultural, Chapinero; por nombre+lugar)."
+chapinero_pareja_mascota,alternativa,Abierto cuando llegas,apertura,aviso,1.0,Parque de los Hippies: espacio abierto: mejor con luz de día. No hay horario oficial en la base.
+chapinero_pareja_mascota,alternativa,Abierto cuando llegas,apertura,aviso,2.0,Plazoleta de Lourdes: horario por confirmar antes de salir. No hay horario oficial en la base.
+chapinero_pareja_mascota,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 18 + visitas 75 = 93 min frente a 120 min disponibles (margen 27 min; se pide ≥5).
+chapinero_pareja_mascota,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 93 min; la suma recalculada es 93 min (diferencia -0).
+chapinero_pareja_mascota,alternativa,Apto para quien va,compania,aviso,1.0,"Parque de los Hippies: etiquetas oficiales «Solo, Pet Friendly, Grupo, Familias»; no incluyen «pareja»."
+chapinero_pareja_mascota,alternativa,Apto para quien va,compania,aviso,2.0,"Plazoleta de Lourdes: etiquetas oficiales «Solo, Pet Friendly»; no incluyen «pareja»."
+chapinero_pareja_mascota,alternativa,Admite mascotas,mascota,ok,1.0,Parque de los Hippies: etiqueta oficial Pet Friendly.
+chapinero_pareja_mascota,alternativa,Admite mascotas,mascota,ok,2.0,Plazoleta de Lourdes: etiqueta oficial Pet Friendly.
+chapinero_pareja_mascota,alternativa,Preferencia: naturaleza,prefs,ok,,Cumple: Parque de los Hippies.
+usaquen_domingo_mascota,chatbot,De 1 a 3 paradas,paradas,ok,,3 parada(s).
+usaquen_domingo_mascota,chatbot,Está en la base,catalogo,ok,1.0,"«Casa de la Alcaldía de Usaquén» → «Casa de la Alcaldía de Usaquén» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_domingo_mascota,chatbot,Está en la base,catalogo,ok,2.0,"«Estación del Ferrocarril de Usaquén» → «Estación del Ferrocarril de Usaquén» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_domingo_mascota,chatbot,Está en la base,catalogo,ok,3.0,"«Plaza Fundacional de Usaquén» → «Plaza Fundacional de Usaquén» (Atractivo Cultural, Usaquén; por nombre+lugar)."
+usaquen_domingo_mascota,chatbot,Abierto cuando llegas,apertura,aviso,1.0,Casa de la Alcaldía de Usaquén: horario por confirmar antes de salir. No hay horario oficial en la base.
+usaquen_domingo_mascota,chatbot,Abierto cuando llegas,apertura,aviso,2.0,Estación del Ferrocarril de Usaquén: horario por confirmar antes de salir. No hay horario oficial en la base.
+usaquen_domingo_mascota,chatbot,Abierto cuando llegas,apertura,ok,3.0,"Plaza Fundacional de Usaquén: espacio público, sin horario de cierre."
+usaquen_domingo_mascota,chatbot,Cabe en tu tiempo,tiempo,aviso,,"Traslados 27 + visitas 65 = 92 min frente a 90 min disponibles (margen -2 min; se pide ≥5). Con nuestra estimación de traslados se pasa 2 min; la estimación es aproximada (línea recta × 1,3), así que va justo pero es posible. Falla solo si se pasa más de 10 min."
+usaquen_domingo_mascota,chatbot,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 90 min; la suma recalculada es 92 min (diferencia +2).
+usaquen_domingo_mascota,chatbot,Apto para quien va,compania,na,,Ningún lugar del plan tiene etiquetas oficiales «para quién» (solo existen en las fichas de Visit Bogotá).
+usaquen_domingo_mascota,chatbot,Admite mascotas,mascota,falla,1.0,Casa de la Alcaldía de Usaquén: no está confirmado como Pet Friendly en ninguna fuente.
+usaquen_domingo_mascota,chatbot,Admite mascotas,mascota,falla,2.0,Estación del Ferrocarril de Usaquén: no está confirmado como Pet Friendly en ninguna fuente.
+usaquen_domingo_mascota,chatbot,Admite mascotas,mascota,falla,3.0,Plaza Fundacional de Usaquén: no está confirmado como Pet Friendly en ninguna fuente.
+usaquen_domingo_mascota,chatbot,Preferencia: algo inesperado,prefs,ok,,Ninguna parada es de «los de siempre».
+usaquen_domingo_mascota,chatbot,Preferencia: económico,prefs,ok,,Cumple: Plaza Fundacional de Usaquén.
+usaquen_domingo_mascota,alternativa,De 1 a 3 paradas,paradas,ok,,1 parada(s).
+usaquen_domingo_mascota,alternativa,Está en la base,catalogo,ok,1.0,"«Mercado de las Pulgas de Usaquén» → «Mercado de las Pulgas de Usaquén» (Comercio, Usaquén; por nombre+lugar)."
+usaquen_domingo_mascota,alternativa,Abierto cuando llegas,apertura,ok,1.0,Mercado de las Pulgas de Usaquén: abierto hasta las 17:30.
+usaquen_domingo_mascota,alternativa,Cabe en tu tiempo,tiempo,ok,,Traslados 5 + visitas 45 = 50 min frente a 90 min disponibles (margen 40 min; se pide ≥5).
+usaquen_domingo_mascota,alternativa,Su total coincide con la suma real,consistencia,ok,,El chatbot declara 50 min; la suma recalculada es 50 min (diferencia +0).
+usaquen_domingo_mascota,alternativa,Apto para quien va,compania,ok,1.0,"Mercado de las Pulgas de Usaquén: etiquetas oficiales «Solo, Pet Friendly, Familias, Grupo, LGBTI»."
+usaquen_domingo_mascota,alternativa,Admite mascotas,mascota,ok,1.0,Mercado de las Pulgas de Usaquén: etiqueta oficial Pet Friendly.
+usaquen_domingo_mascota,alternativa,Preferencia: algo inesperado,prefs,ok,,Ninguna parada es de «los de siempre».
+usaquen_domingo_mascota,alternativa,Preferencia: económico,prefs,aviso,,Ninguna parada responde a esta preferencia según las etiquetas del catálogo.

@@ -1,0 +1,481 @@
+{
+ "piloto_suba_ninos": {
+  "titulo": "REAL · FALLÓ (504) · Suba, sábado 3 pm, 2 h, con niños, naturaleza, transporte (mockup)",
+  "real": true,
+  "fecha": "2026-11-09 21:13",
+  "fuente": "Candelaria · POST /api/chat (prompt del piloto, JSON)",
+  "status": 504,
+  "segundos": 121,
+  "mensaje": "Arma un plan turístico para un residente de Bogotá. Tengo 120 minutos (2 h 00 min) en total e incluye volver al punto de salida. Salgo de Suba (punto de ejemplo) (lat 4.73000, lon -74.09000). Es sábado 14/11/2026 a las 15:00 (hora de Bogotá). Me muevo en transporte público (TransMilenio/SITP); voy con niños (familia). Me provoca: naturaleza. Reglas: de 1 a 3 paradas, que estén abiertas a la hora en que llegue, usa los nombres y coordenadas exactos del inventario turístico del IDT, y que la suma de traslados + tiempo en cada sitio + regreso no pase de mis minutos. Responde SOLO con JSON (sin texto adicional) con esta forma: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.73,
+   "lon": -74.09,
+   "etiqueta": "Suba (punto de ejemplo)",
+   "minutos": 120,
+   "cuando": "2026-11-14 15:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza"
+   ],
+   "modo": "transporte",
+   "mascota": false
+  },
+  "nota": "Las 5 consultas del piloto se lanzaron a la vez a las 21:11; 4 de 5 terminaron en 504 a los ~121 s.",
+  "respuesta": "visitbogota.co | 504: Gateway time-out (Cloudflare). Candelaria no respondió antes del límite de ~120 s del servidor."
+ },
+ "piloto_chapinero_noche": {
+  "titulo": "REAL · Chapinero, lunes 7:30 pm, 2 h, solo, comer, a pie",
+  "real": true,
+  "fecha": "2026-11-09 21:13",
+  "fuente": "Candelaria · POST /api/chat (prompt del piloto, JSON)",
+  "status": 200,
+  "segundos": 113,
+  "mensaje": "Arma un plan turístico para un residente de Bogotá. Tengo 120 minutos (2 h 00 min) en total e incluye volver al punto de salida. Salgo de Chapinero · Calle 63 con Carrera 13 (lat 4.64950, lon -74.06240). Es lunes 09/11/2026 a las 19:30 (hora de Bogotá). Me muevo a pie; voy solo/a. Me provoca: comer rico. Reglas: de 1 a 3 paradas, que estén abiertas a la hora en que llegue, usa los nombres y coordenadas exactos del inventario turístico del IDT, y que la suma de traslados + tiempo en cada sitio + regreso no pase de mis minutos. Responde SOLO con JSON (sin texto adicional) con esta forma: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6495,
+   "lon": -74.0624,
+   "etiqueta": "Chapinero · Calle 63 con Carrera 13",
+   "minutos": 120,
+   "cuando": "2026-11-09 19:30",
+   "con": "solo",
+   "prefs": [
+    "comer"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Respuesta real al prompt exacto del dashboard: una sola parada (un restaurante del RNT) con 100 min de estancia; horario 'sin información oficial'.",
+  "respuesta": "{\"paradas\":[{\"nombre\":\"PRESTO BTA LOURDES\",\"lat\":4.64932461200004,\"lon\":-74.063333035,\"minutos_en_sitio\":100,\"traslado_desde_anterior_min\":5,\"horario_hoy\":\"Lunes: sin información oficial\"}],\"regreso_min\":10,\"total_min\":115}"
+ },
+ "piloto_centro_domingo": {
+  "titulo": "REAL · FALLÓ (504) · Plaza de Bolívar, domingo 10 am, 3 h, pareja, cultura y comer, a pie",
+  "real": true,
+  "fecha": "2026-11-09 21:13",
+  "fuente": "Candelaria · POST /api/chat (prompt del piloto, JSON)",
+  "status": 504,
+  "segundos": 122,
+  "mensaje": "Arma un plan turístico para un residente de Bogotá. Tengo 180 minutos (3 h 00 min) en total e incluye volver al punto de salida. Salgo de Centro · Plaza de Bolívar (lat 4.59811, lon -74.07610). Es domingo 15/11/2026 a las 10:00 (hora de Bogotá). Me muevo a pie; voy en pareja. Me provoca: cultura; comer rico. Reglas: de 1 a 3 paradas, que estén abiertas a la hora en que llegue, usa los nombres y coordenadas exactos del inventario turístico del IDT, y que la suma de traslados + tiempo en cada sitio + regreso no pase de mis minutos. Responde SOLO con JSON (sin texto adicional) con esta forma: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.598105,
+   "lon": -74.076096,
+   "etiqueta": "Centro · Plaza de Bolívar",
+   "minutos": 180,
+   "cuando": "2026-11-15 10:00",
+   "con": "pareja",
+   "prefs": [
+    "cultura",
+    "comer"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Las 5 consultas del piloto se lanzaron a la vez a las 21:11; 4 de 5 terminaron en 504 a los ~121 s.",
+  "respuesta": "visitbogota.co | 504: Gateway time-out (Cloudflare). Candelaria no respondió antes del límite de ~120 s del servidor."
+ },
+ "piloto_usaquen_mascota": {
+  "titulo": "REAL · FALLÓ (504) · Usaquén, domingo 11 am, 1 h 30, amigos + mascota, inesperado y económico",
+  "real": true,
+  "fecha": "2026-11-09 21:13",
+  "fuente": "Candelaria · POST /api/chat (prompt del piloto, JSON)",
+  "status": 504,
+  "segundos": 122,
+  "mensaje": "Arma un plan turístico para un residente de Bogotá. Tengo 90 minutos (1 h 30 min) en total e incluye volver al punto de salida. Salgo de Usaquén · Plaza Fundacional (lat 4.69510, lon -74.03095). Es domingo 15/11/2026 a las 11:00 (hora de Bogotá). Me muevo a pie; voy con amigos; viajo con mascota (solo lugares Pet Friendly confirmados). Me provoca: algo inesperado (que no sea lo de siempre: Monserrate, Parque Simón Bolívar, Zona T); económico / gratis. Reglas: de 1 a 3 paradas, que estén abiertas a la hora en que llegue, usa los nombres y coordenadas exactos del inventario turístico del IDT, y que la suma de traslados + tiempo en cada sitio + regreso no pase de mis minutos. Responde SOLO con JSON (sin texto adicional) con esta forma: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6951,
+   "lon": -74.030949,
+   "etiqueta": "Usaquén · Plaza Fundacional",
+   "minutos": 90,
+   "cuando": "2026-11-15 11:00",
+   "con": "amigos",
+   "prefs": [
+    "inesperado",
+    "economico"
+   ],
+   "modo": "pie",
+   "mascota": true
+  },
+  "nota": "Las 5 consultas del piloto se lanzaron a la vez a las 21:11; 4 de 5 terminaron en 504 a los ~121 s.",
+  "respuesta": "visitbogota.co | 504: Gateway time-out (Cloudflare). Candelaria no respondió antes del límite de ~120 s del servidor."
+ },
+ "piloto_teusaquillo_bici": {
+  "titulo": "REAL · FALLÓ (504) · Teusaquillo, sábado 10 am, 4 h, con niños, naturaleza, bici",
+  "real": true,
+  "fecha": "2026-11-09 21:13",
+  "fuente": "Candelaria · POST /api/chat (prompt del piloto, JSON)",
+  "status": 504,
+  "segundos": 122,
+  "mensaje": "Arma un plan turístico para un residente de Bogotá. Tengo 240 minutos (4 h 00 min) en total e incluye volver al punto de salida. Salgo de Teusaquillo · Parkway (punto de ejemplo) (lat 4.63400, lon -74.07300). Es sábado 14/11/2026 a las 10:00 (hora de Bogotá). Me muevo en bicicleta; voy con niños (familia). Me provoca: naturaleza; caminar poco. Reglas: de 1 a 3 paradas, que estén abiertas a la hora en que llegue, usa los nombres y coordenadas exactos del inventario turístico del IDT, y que la suma de traslados + tiempo en cada sitio + regreso no pase de mis minutos. Responde SOLO con JSON (sin texto adicional) con esta forma: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.634,
+   "lon": -74.073,
+   "etiqueta": "Teusaquillo · Parkway (punto de ejemplo)",
+   "minutos": 240,
+   "cuando": "2026-11-14 10:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza",
+    "caminar_poco"
+   ],
+   "modo": "bici",
+   "mascota": false
+  },
+  "nota": "Las 5 consultas del piloto se lanzaron a la vez a las 21:11; 4 de 5 terminaron en 504 a los ~121 s.",
+  "respuesta": "visitbogota.co | 504: Gateway time-out (Cloudflare). Candelaria no respondió antes del límite de ~120 s del servidor."
+ },
+ "suba_ninos": {
+  "titulo": "REAL · Suba, 2 h, con niños (prosa de Candelaria)",
+  "real": true,
+  "parametros": {
+   "lat": 4.73,
+   "lon": -74.09,
+   "etiqueta": "Suba (punto de ejemplo)",
+   "minutos": 120,
+   "cuando": "2026-11-14 15:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza",
+    "economico"
+   ],
+   "modo": "transporte",
+   "mascota": false
+  },
+  "nota": "Respuesta real de Candelaria del 9-nov-2026 (widget). Es prosa sin minutos por parada ni traslados.",
+  "respuesta": "Plan recomendado: Suba Pueblo a pie (2–3 paradas), ideal con niños y siempre abierto\n- Parada 1: Plaza Fundacional de Suba (espacio público). Es la plaza del antiguo pueblo de Suba: amplia, peatonal y con ambiente de barrio.\n  - Cómo llegar: pon “Portal Suba” como origen en este enlace y verás el tiempo exacto del traslado: Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.740978&longdestino=-74.083849&title=Plaza%20Fundacional%20de%20Suba\n- Parada 2 (opcional): Iglesia Inmaculada Concepción de Suba. La plazoleta y el atrio están a unos pasos de la plaza.\n  - Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.740335&longdestino=-74.082805&title=Iglesia%20Inmaculada%20Concepci%C3%B3n%20de%20Suba\n- Parada 3 (opcional si los niños se animan): Parque Mirador de los Nevados. Un parque de loma con vista sobre el norte de Bogotá.\n  - Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.742167&longdestino=-74.079908&title=Parque%20Mirador%20de%20los%20Nevados\n\nTraslados y cómo hacerlo en 2 horas\n- Desde Portal Suba: toma la troncal de TransMilenio por la Avenida Suba hasta 21 Ángeles (aprox. 2 estaciones) y sube caminando al centro histórico de Suba. La plaza y la iglesia están pared con pared; hacia el mirador es una caminata adicional en subida.\n- Para ver los tiempos exactos de desplazamiento según la hora y el tráfico, abre cada enlace “Cómo llegar” y define “Portal Suba” como origen. Así tendrás minutos actualizados para ir y regresar.\n\nConsejos prácticos con niños\n- Es zona de loma: lleva calzado cómodo, bloqueador y agua.\n- En la plaza hay bancas y espacio para descansar.\n- Si eligen el mirador y notan la subida pesada, quédense en la plaza/iglesia y regresen con calma; igual el plan cabe en tus 2 horas.\n\n¿Te funciona este plan de Suba Pueblo o prefieres una alternativa más plana de naturaleza (por ejemplo, solo parque/humedal) también accesible en TransMilenio y a pie? Bogotá es tu casa.",
+  "fecha": "2026-11-09",
+  "status": 200,
+  "segundos": null,
+  "fuente": "Candelaria · widget (conversación)",
+  "mensaje": "Tengo 2 horas libres el sábado en la tarde, salgo desde Suba, voy con niños y quiero ir en TransMilenio o a pie. ¿Qué plan de 1 a 3 paradas me recomiendas que esté abierto, con tiempos de desplazamiento? | (segundo mensaje) Salgo del Portal Suba. Somos 2 adultos y 2 niños de 6 y 9 años."
+ },
+ "chapinero_noche": {
+  "titulo": "REAL · Chapinero, lunes 7:30 pm, 2 h, solo, bici/pie (prosa con totales que no suman)",
+  "real": true,
+  "parametros": {
+   "lat": 4.6495,
+   "lon": -74.0624,
+   "etiqueta": "Calle 63 con Carrera 13",
+   "minutos": 120,
+   "cuando": "2026-11-09 19:30",
+   "con": "solo",
+   "prefs": [],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Respuesta real de Candelaria del 9-nov-2026. Contiene dos planes; el lector toma las paradas por orden de aparición de los enlaces.",
+  "respuesta": "Plan principal a pie (2 paradas, 2 horas) desde Calle 63 con Carrera 13\n- Parada 1: Basílica de Nuestra Señora de Lourdes (exterior y plaza de Lourdes, justo donde estás).\n  - Abierto ahora: sí (exterior/plaza como espacio público, sin horario de cierre).\n  - Tiempo en el sitio: 10–15 min para fotos y apreciar la fachada neogótica.\n  - Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.649513&longdestino=-74.062388&title=Bas%C3%ADlica%20de%20Nuestra%20Se%C3%B1ora%20de%20Lourdes\n- Traslado a pie a la Porciúncula (Calle 72 con Carrera 10): aprox. 1.2 km; 15–20 min caminando por la Carrera 13 y luego Calle 72.\n- Parada 2: Iglesia Nuestra Señora de los Ángeles La Porciúncula (exterior).\n  - Abierto ahora: sí (exterior/atrio como espacio público, sin horario de cierre).\n  - Tiempo en el sitio: 10–15 min (fachada de ladrillo y vitral del frontis).\n  - Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.657332&longdestino=-74.058231&title=Iglesia%20Nuestra%20Se%C3%B1ora%20de%20los%20%C3%81ngeles%20La%20Porci%C3%BAncula\n- Regreso a Calle 63 con Carrera 13: 15–20 min a pie por la Calle 72 y Carrera 13.\n- Tiempo total estimado: 80–100 min (traslados 30–40 min + estancias 20–30 min), te queda margen para pausas o fotos. Si quieres tiempos exactos según la hora, abre los enlaces “Cómo llegar” y pon tu origen.\n\nOpción si vas en bici (3 paradas, circuito corto)\n- Parada 1: Basílica de Nuestra Señora de Lourdes (exterior/plaza, sin horario de cierre) – 10 min.\n- Traslado en bici a Casa Medina (Avenida 7 con 69A): 0.9 km; 5–8 min pedaleando por la 13 y 69A/7.\n- Parada 2: Edificio Four Seasons Hotel Casa Medina Bogotá (fachada republicana en ladrillo).\n  - Abierto ahora: exterior sí (vía pública, sin horario de cierre).\n  - Cómo llegar: https://lab.visitbogota.co/transmilenio/?latdestino=4.652235&longdestino=-74.056308&title=Edificio%20Four%20Seasons%20Hotel%20Casa%20Medina%20Bogot%C3%A1\n  - Tiempo en el sitio: 5–10 min para fotos.\n- Traslado en bici a la Porciúncula (Calle 72 con 10): 0.6 km; 3–5 min.\n- Parada 3: Iglesia Nuestra Señora de los Ángeles La Porciúncula (exterior, sin horario de cierre) – 10 min.\n- Regreso en bici a 63 con 13: 1.2–1.4 km; 6–10 min.\n- Tiempo total estimado: 60–75 min pedaleo + 25–30 min estancias = 85–105 min.\n\nNotas útiles\n- Los interiores de los templos pueden tener horarios variables el lunes en la noche; este plan se centra en exteriores y plazas (espacio público).\n- Iluminación y seguridad: usa la 13, la 72 y la 7, que tienen mejor luz y flujo. Lleva luces y casco si vas en bici.\n- Para ver tiempos exactos de ruta según tráfico y obras, usa los enlaces “Cómo llegar” y define tu origen como “Calle 63 con Carrera 13”.\n\n¿Prefieres que lo ajuste solo para bici o solo para caminar y con una sola ruta de ida y vuelta?",
+  "fecha": "2026-11-09",
+  "status": 200,
+  "segundos": null,
+  "fuente": "Candelaria · widget (conversación)",
+  "mensaje": "Otra consulta: son las 7:30 pm de un lunes, estoy solo en Chapinero (Calle 63 con Carrera 13), tengo 2 horas y quiero ir en bici o a pie. ¿Qué lugares están abiertos AHORA y a qué hora cierran? Dame un plan con el tiempo estimado en cada parada y cada traslado."
+ },
+ "chapinero_json": {
+  "titulo": "REAL · Chapinero, sábado, 90 min, con amigos, algo inesperado (JSON, pedido en inglés)",
+  "real": true,
+  "parametros": {
+   "lat": 4.649,
+   "lon": -74.064,
+   "etiqueta": "Chapinero (punto de ejemplo)",
+   "minutos": 90,
+   "cuando": "2026-11-14 10:00",
+   "con": "amigos",
+   "prefs": [
+    "inesperado"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Respuesta real de Candelaria (JSON puro). Primera parada con 0 min de traslado y sin regreso.",
+  "respuesta": "{\"stops\":[{\"name\":\"Quebrada Las Delicias (trailhead)\",\"lat\":4.637759,\"lon\":-74.052263,\"minutes_there\":35,\"travel_minutes_from_previous\":0},{\"name\":\"Castillo del Mono Osorio (exterior)\",\"lat\":4.655344,\"lon\":-74.051419,\"minutes_there\":10,\"travel_minutes_from_previous\":25},{\"name\":\"Four Seasons Hotel Casa Medina facade\",\"lat\":4.652235,\"lon\":-74.056308,\"minutes_there\":8,\"travel_minutes_from_previous\":12}],\"total_minutes\":90}",
+  "fecha": "2026-11-09",
+  "status": 200,
+  "segundos": null,
+  "fuente": "Candelaria · widget (conversación)",
+  "mensaje": "Answer in English and ONLY with JSON (no prose): I have 90 minutes on Saturday morning, I'm in Chapinero with two friends, we like something unexpected and not Monserrate. Return {\"stops\":[{\"name\":\"\",\"lat\":0,\"lon\":0,\"minutes_there\":0,\"travel_minutes_from_previous\":0}],\"total_minutes\":0}"
+ },
+ "sintetico_no_cabe": {
+  "titulo": "SINTÉTICO · Suba, 2 h: tres parques lejanos entre sí, total declarado 118 min",
+  "real": false,
+  "parametros": {
+   "lat": 4.73,
+   "lon": -74.09,
+   "etiqueta": "Suba (punto de ejemplo)",
+   "minutos": 120,
+   "cuando": "2026-11-14 15:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Inventado para mostrar la verificación: la suma declarada cuadra, pero las distancias reales no caben a pie.",
+  "respuesta": "{\"paradas\": [{\"nombre\": \"Parque Fontanar del Río\", \"lat\": 4.756278, \"lon\": -74.111399, \"minutos_en_sitio\": 30, \"traslado_desde_anterior_min\": 10, \"horario_hoy\": \"abierto\"}, {\"nombre\": \"Parque Ecológico Distrital Humedal Juan Amarillo\", \"lat\": 4.723785, \"lon\": -74.102222, \"minutos_en_sitio\": 30, \"traslado_desde_anterior_min\": 10, \"horario_hoy\": \"abierto\"}, {\"nombre\": \"Parque Mirador de los Nevados\", \"lat\": 4.742167, \"lon\": -74.079908, \"minutos_en_sitio\": 30, \"traslado_desde_anterior_min\": 10, \"horario_hoy\": \"abierto\"}], \"regreso_min\": 8, \"total_min\": 118}",
+  "fecha": "sintético",
+  "status": 200,
+  "segundos": null,
+  "fuente": "sintético",
+  "mensaje": "(sintético: no se envió a Candelaria)"
+ },
+ "sintetico_cerrado_e_inexistente": {
+  "titulo": "SINTÉTICO · Centro, lunes 10:00, pareja: museo cerrado + lugar que no existe",
+  "real": false,
+  "parametros": {
+   "lat": 4.5981,
+   "lon": -74.076,
+   "etiqueta": "Plaza de Bolívar",
+   "minutos": 180,
+   "cuando": "2026-11-09 10:00",
+   "con": "pareja",
+   "prefs": [
+    "cultura",
+    "comer"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "nota": "Inventado para mostrar la verificación: Museo del Oro cierra los lunes y 'Café Imaginario del Chorro' no está en ninguna fuente.",
+  "respuesta": "{\"paradas\": [{\"nombre\": \"Museo del Oro\", \"lat\": 4.601821, \"lon\": -74.071796, \"minutos_en_sitio\": 60, \"traslado_desde_anterior_min\": 8, \"horario_hoy\": \"9:00-18:00\"}, {\"nombre\": \"Café Imaginario del Chorro\", \"lat\": 4.5968, \"lon\": -74.0699, \"minutos_en_sitio\": 40, \"traslado_desde_anterior_min\": 12, \"horario_hoy\": \"8:00-20:00\"}], \"regreso_min\": 10, \"total_min\": 130}",
+  "fecha": "sintético",
+  "status": 200,
+  "segundos": null,
+  "fuente": "sintético",
+  "mensaje": "(sintético: no se envió a Candelaria)"
+ },
+ "vivo_suba_ninos_sabado": {
+  "titulo": "REAL · Suba, sábado 3 pm, 2 h, con niños, naturaleza, transporte",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:27 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 117,
+  "intentos": 1,
+  "mensaje": "Plan de 2 h (con regreso al punto de salida) desde Suba, Bogotá (lat 4.7300, lon -74.0900), el sábado 14/11/2026 a las 15:00, en transporte público, con niños. Le provoca: naturaleza. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.73,
+   "lon": -74.09,
+   "etiqueta": "Suba",
+   "minutos": 120,
+   "cuando": "2026-11-14 15:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza"
+   ],
+   "modo": "transporte",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Parque Ecológico Distrital Humedal Juan Amarillo\",\"lat\":4.723785,\"lon\":-74.102222,\"minutos_en_sitio\":80,\"traslado_desde_anterior_min\":20,\"horario_hoy\":\"Sin información verificada\"}],\"regreso_min\":20,\"total_min\":120}",
+  "nota": "Respuesta real de Candelaria en 117 s.",
+  "orden": 1,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_usaquen_domingo_mascota": {
+  "titulo": "REAL · Usaquén, domingo 11 am, 1 h 30, amigos + mascota, inesperado y económico, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:28 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 69,
+  "intentos": 1,
+  "mensaje": "Plan de 1 h 30 min (con regreso al punto de salida) desde Usaquén, Bogotá (lat 4.6951, lon -74.0310), el domingo 15/11/2026 a las 11:00, a pie, con amigos, con mascota (solo lugares Pet Friendly). Le provoca: algo inesperado (no lo típico), económico. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6951,
+   "lon": -74.03095,
+   "etiqueta": "Usaquén",
+   "minutos": 90,
+   "cuando": "2026-11-15 11:00",
+   "con": "amigos",
+   "prefs": [
+    "inesperado",
+    "economico"
+   ],
+   "modo": "pie",
+   "mascota": true
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Casa de la Alcaldía de Usaquén\",\"lat\":4.695135,\"lon\":-74.031434,\"minutos_en_sitio\":12,\"traslado_desde_anterior_min\":1,\"horario_hoy\":\"Exteriores accesibles 24 h (espacio público)\"},{\"nombre\":\"Estación del Ferrocarril de Usaquén\",\"lat\":4.691039,\"lon\":-74.037294,\"minutos_en_sitio\":28,\"traslado_desde_anterior_min\":11,\"horario_hoy\":\"Exteriores accesibles 24 h (espacio público)\"},{\"nombre\":\"Plaza Fundacional de Usaquén\",\"lat\":4.6951,\"lon\":-74.030949,\"minutos_en_sitio\":25,\"traslado_desde_anterior_min\":12,\"horario_hoy\":\"Abierto 24 h (espacio público)\"}],\"regreso_min\":1,\"total_min\":90}",
+  "nota": "Respuesta real de Candelaria en 69 s.",
+  "orden": 8,
+  "decision": "selector_propio",
+  "veredicto_candelaria": "NO LOGRABLE"
+ },
+ "vivo_teusaquillo_sabado_bici": {
+  "titulo": "REAL · Teusaquillo, sábado 10 am, 4 h, con niños, naturaleza y caminar poco, bici",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:32 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 119,
+  "intentos": 2,
+  "mensaje": "Plan de 4 h (con regreso al punto de salida) desde Teusaquillo, Bogotá (lat 4.6340, lon -74.0730), el sábado 14/11/2026 a las 10:00, en bici, con niños. Le provoca: naturaleza, caminar poco. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.634,
+   "lon": -74.073,
+   "etiqueta": "Teusaquillo",
+   "minutos": 240,
+   "cuando": "2026-11-14 10:00",
+   "con": "ninos",
+   "prefs": [
+    "naturaleza",
+    "caminar_poco"
+   ],
+   "modo": "bici",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Park Way\",\"lat\":4.629459,\"lon\":-74.075201,\"minutos_en_sitio\":35,\"traslado_desde_anterior_min\":10,\"horario_hoy\":\"Espacio público; acceso libre\"},{\"nombre\":\"Parque Simón Bolívar - Sector Virgilio Barco\",\"lat\":4.655969,\"lon\":-74.08854,\"minutos_en_sitio\":120,\"traslado_desde_anterior_min\":30,\"horario_hoy\":\"Parque público; acceso libre\"}],\"regreso_min\":45,\"total_min\":240}",
+  "nota": "Respuesta real de Candelaria en 119 s (intento 2; los anteriores dieron 504).",
+  "orden": 6,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_centro_martes_solo": {
+  "titulo": "REAL · Plaza de Bolívar, martes 2 pm, 2 h, solo, cultura, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:33 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 71,
+  "intentos": 1,
+  "mensaje": "Plan de 2 h (con regreso al punto de salida) desde Centro · Plaza de Bolívar, Bogotá (lat 4.5981, lon -74.0761), el martes 10/11/2026 a las 14:00, a pie, solo. Le provoca: cultura. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.598105,
+   "lon": -74.076096,
+   "etiqueta": "Centro · Plaza de Bolívar",
+   "minutos": 120,
+   "cuando": "2026-11-10 14:00",
+   "con": "solo",
+   "prefs": [
+    "cultura"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Museo del Oro\",\"lat\":4.601821,\"lon\":-74.071796,\"minutos_en_sitio\":45,\"traslado_desde_anterior_min\":12,\"horario_hoy\":\"No disponible\"},{\"nombre\":\"Museo Botero\",\"lat\":4.596422,\"lon\":-74.073325,\"minutos_en_sitio\":35,\"traslado_desde_anterior_min\":12,\"horario_hoy\":\"No disponible\"}],\"regreso_min\":16,\"total_min\":120}",
+  "nota": "Respuesta real de Candelaria en 71 s.",
+  "orden": 3,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_chapinero_lunes_noche": {
+  "titulo": "REAL · Chapinero, lunes 7:30 pm, 2 h, solo, comer, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:35 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 92,
+  "intentos": 1,
+  "mensaje": "Plan de 2 h (con regreso al punto de salida) desde Chapinero, Bogotá (lat 4.6495, lon -74.0624), el lunes 09/11/2026 a las 19:30, a pie, solo. Le provoca: comer rico. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6495,
+   "lon": -74.0624,
+   "etiqueta": "Chapinero",
+   "minutos": 120,
+   "cuando": "2026-11-09 19:30",
+   "con": "solo",
+   "prefs": [
+    "comer"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"CBC 232\",\"lat\":4.65268246,\"lon\":-74.06156099,\"minutos_en_sitio\":90,\"traslado_desde_anterior_min\":5,\"horario_hoy\":\"No disponible\"},{\"nombre\":\"PRESTO BTA LOURDES\",\"lat\":4.64932461200004,\"lon\":-74.063333035,\"minutos_en_sitio\":17,\"traslado_desde_anterior_min\":6,\"horario_hoy\":\"No disponible\"}],\"regreso_min\":2,\"total_min\":120}",
+  "nota": "Respuesta real de Candelaria en 92 s.",
+  "orden": 2,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_usaquen_sabado_familia": {
+  "titulo": "REAL · Usaquén, sábado 11 am, 3 h, con niños, comer y naturaleza, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 03:36 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 90,
+  "intentos": 1,
+  "mensaje": "Plan de 3 h (con regreso al punto de salida) desde Usaquén, Bogotá (lat 4.6951, lon -74.0310), el sábado 14/11/2026 a las 11:00, a pie, con niños. Le provoca: comer rico, naturaleza. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6951,
+   "lon": -74.03095,
+   "etiqueta": "Usaquén",
+   "minutos": 180,
+   "cuando": "2026-11-14 11:00",
+   "con": "ninos",
+   "prefs": [
+    "comer",
+    "naturaleza"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Plaza Fundacional de Usaquén\",\"lat\":4.6951,\"lon\":-74.030949,\"minutos_en_sitio\":37,\"traslado_desde_anterior_min\":1,\"horario_hoy\":\"Espacio público al aire libre; acceso libre.\"},{\"nombre\":\"Zona Gastronómica de Usaquén\",\"lat\":4.695449,\"lon\":-74.030436,\"minutos_en_sitio\":90,\"traslado_desde_anterior_min\":2,\"horario_hoy\":\"Zona abierta; elija un restaurante familiar al llegar.\"},{\"nombre\":\"Casa Hacienda Santa Bárbara Centro Comercial\",\"lat\":4.692739,\"lon\":-74.032462,\"minutos_en_sitio\":40,\"traslado_desde_anterior_min\":5,\"horario_hoy\":\"Centro comercial; acceso libre en horario comercial.\"}],\"regreso_min\":5,\"total_min\":180}",
+  "nota": "Respuesta real de Candelaria en 90 s.",
+  "orden": 5,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_centro_domingo_pareja": {
+  "titulo": "REAL · Plaza de Bolívar, domingo 10 am, 3 h, pareja, cultura y comer, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 06:37 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 115,
+  "intentos": 2,
+  "mensaje": "Plan de 3 h (con regreso al punto de salida) desde Centro · Plaza de Bolívar, Bogotá (lat 4.5981, lon -74.0761), el domingo 15/11/2026 a las 10:00, a pie, en pareja. Le provoca: cultura, comer rico. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.598105,
+   "lon": -74.076096,
+   "etiqueta": "Centro · Plaza de Bolívar",
+   "minutos": 180,
+   "cuando": "2026-11-15 10:00",
+   "con": "pareja",
+   "prefs": [
+    "cultura",
+    "comer"
+   ],
+   "modo": "pie",
+   "mascota": false
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Catedral Primada de Colombia\",\"lat\":4.597765,\"lon\":-74.075012,\"minutos_en_sitio\":25,\"traslado_desde_anterior_min\":2,\"horario_hoy\":\"No disponible\"},{\"nombre\":\"Museo del Oro\",\"lat\":4.601821,\"lon\":-74.071796,\"minutos_en_sitio\":75,\"traslado_desde_anterior_min\":12,\"horario_hoy\":\"No disponible\"},{\"nombre\":\"Museo Botero\",\"lat\":4.596422,\"lon\":-74.073325,\"minutos_en_sitio\":45,\"traslado_desde_anterior_min\":12,\"horario_hoy\":\"No disponible\"}],\"regreso_min\":9,\"total_min\":180}",
+  "nota": "Respuesta real de Candelaria en 115 s (intento 2; el anterior dio 504).",
+  "orden": 4,
+  "decision": "chatbot",
+  "veredicto_candelaria": "LOGRABLE CON ADVERTENCIAS"
+ },
+ "vivo_chapinero_pareja_mascota": {
+  "titulo": "REAL · Chapinero, sábado 4 pm, 2 h, pareja + mascota, naturaleza, a pie",
+  "real": true,
+  "prompt_compacto": true,
+  "fecha": "2026-11-10 06:38 UTC",
+  "fuente": "Candelaria · POST /api/chat (prompt compacto del piloto, JSON)",
+  "status": 200,
+  "segundos": 66,
+  "intentos": 1,
+  "mensaje": "Plan de 2 h (con regreso al punto de salida) desde Chapinero · Calle 63 con Carrera 13, Bogotá (lat 4.6495, lon -74.0624), el sábado 14/11/2026 a las 16:00, a pie, en pareja, con mascota (solo lugares Pet Friendly). Le provoca: naturaleza. De 1 a 3 paradas abiertas a esa hora. Responde solo con JSON: {\"paradas\":[{\"nombre\":\"\",\"lat\":0,\"lon\":0,\"minutos_en_sitio\":0,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":0}",
+  "parametros": {
+   "lat": 4.6495,
+   "lon": -74.0624,
+   "etiqueta": "Chapinero · Calle 63 con Carrera 13",
+   "minutos": 120,
+   "cuando": "2026-11-14 16:00",
+   "con": "pareja",
+   "prefs": [
+    "naturaleza"
+   ],
+   "modo": "pie",
+   "mascota": true
+  },
+  "respuesta": "{\"paradas\":[{\"nombre\":\"Plaza de Lourdes\",\"lat\":4.649688,\"lon\":-74.063109,\"minutos_en_sitio\":40,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"},{\"nombre\":\"Sector de Las Flores\",\"lat\":4.653601,\"lon\":-74.062805,\"minutos_en_sitio\":40,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"},{\"nombre\":\"Parque de los Hippies\",\"lat\":4.645401,\"lon\":-74.061969,\"minutos_en_sitio\":40,\"traslado_desde_anterior_min\":0,\"horario_hoy\":\"\"}],\"regreso_min\":0,\"total_min\":120}",
+  "nota": "Respuesta real de Candelaria en 66 s.",
+  "orden": 7,
+  "decision": "selector_propio",
+  "veredicto_candelaria": "NO LOGRABLE"
+ }
+}

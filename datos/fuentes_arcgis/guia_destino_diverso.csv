@@ -1,0 +1,198 @@
+Nombre,Categoria,Ruta,Localidad,Direccion,lon,lat,Horario,Rating,Estado_Negocio
+CAFFA,Cafés y pastelerias,¿Dónde comer?,Chapinero,CARRERA 7 NO. 113-43,-74.033999,4.692183,Lunes a jueves de 7:00a.m. a 7:30 p.m. y Viernes de 7:00 a.m. a 5:30 p.m.,4.2,OPERATIONAL
+CASA COCORA,Cocina tradicionales,¿Dónde comer?,Teusaquillo,"AK. 50 #58A-54, BOGOTÁ",-74.084621,4.650512,Lunes a viernes de 10:00 a.m. a 7:00 p.m. y los fines de semana y festivos de 9:00 a.m. a 7:00 p.m,4.6,OPERATIONAL
+CATCOFFEE,Cocina tradicionales,¿Dónde comer?,Santa Fe,"CRA. 6 #26B-61 LOCAL 1, BOGOTÁ",-74.069115,4.613089,Lunes a viernes de 9:30 a.m. a 6:00 p.m. y Sábado de 2:00 p.m. a 6:00 p.m.,4.9,OPERATIONAL
+NACIÓN AGUARDIENTE & CHICHARRÓN,Cocina tradicionales,¿Dónde comer?,Barrios Unidos,"CL. 78 #24-7, BOGOTÁ",-74.064093,4.668098,Domingo a jueves de 11:30 a.m. a 10:00p.m. Viernes y sábado de 11:30 a.m. a 1:00 a.m.,4.2,OPERATIONAL
+PETUNIA CAFE,Cocina tradicionales,¿Dónde comer?,Chapinero,CL 54 A NO. 4 A-21,-74.06121,4.640428,Lunes a domingo de 8:00 a.m. a 8:00 p.m.,4.6,OPERATIONAL
+TOROCO PASTELERIA SENSITIVA,Cafés y pastelerias,¿Dónde comer?,Teusaquillo,"AC. 32 #15 - 63, TEUSAQUILLO, BOGOTÁ",-74.071627,4.620824,Lunes a sábado de 7:00 a.m. a 7:00 p.m.,4.8,OPERATIONAL
+ZONA GASTRONOMICA - LA MACARENA,Zonas gastronómicas,¿Dónde comer?,Santa Fe,"CRA. 4A #26B-22, BOGOTÁ",-74.066708,4.612163,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,4.4,OPERATIONAL
+ZONA GASTRONOMICA - PARKWAY,Zonas gastronómicas,¿Dónde comer?,Teusaquillo,"CL. 39A, BOGOTÁ",-74.075212,4.629177,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,4.7,OPERATIONAL
+ZONA GASTRONÓMICA - PARQUE DE LA 93,Zonas gastronómicas,¿Dónde comer?,Chapinero,"CRA. 11 #93-80 OFC. 201, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.048276,4.676634,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,4.6,OPERATIONAL
+ZONA GASTRONÓMICA - QUINTA CAMACHO,Zonas gastronómicas,¿Dónde comer?,Chapinero,"CRA. 9 #69-07, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.059201,4.652839,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,4.6,OPERATIONAL
+ZONA L,Zonas gastronómicas,¿Dónde comer?,Rafael Uribe Uribe,"AK 14 #27, BOGOTÁ",-74.10709,4.579211,,4.6,OPERATIONAL
+PLAZA 12 DE OCTUBRE,Plazas de mercado,¿Dónde comer?,Barrios Unidos,CALLE 72 # 51 - 62,-74.074467,4.669105,"lunes a miércoles y viernes de 7:00 a.m. a 5:00 p.m., los jueves de 7:00 a.m. a 4:00 p.m., y los domingos y festivos de",4.3,OPERATIONAL
+PLAZA 20 DE JULIO,Plazas de mercado,¿Dónde comer?,San Cristobal,"CRA. 6 #24A-30 SUR, SAN CRISTÓBAL, BOGOTÁ",-74.093581,4.570318,Lunes a domingo de 6:30 a. m. a 5:00 p.m.,4.4,OPERATIONAL
+PLAZA PALOQUEMAO,Plazas de mercado,¿Dónde comer?,Mártires,CALLE 19 NO. 25-04,-74.084109,4.616079,Lunes a Sábado 4:30 a.m. – 4:30 p.m. Domingos y Festivos 5:00 a.m. – 4:30 p.m.,4.5,OPERATIONAL
+CAROLINA MENDEZ JOYERIA,Distrito de los anticuarios,Compras,Chapinero,CALLE 79B NO. 7-97,-74.051607,4.662271,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,5,OPERATIONAL
+JULIETA SUAREZ,Distrito de los anticuarios,Compras,Chapinero,CALLE 79B NO 7-90,-74.0514,4.662256,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,5,OPERATIONAL
+L´AROME,Distrito de los anticuarios,Compras,Chapinero,CALLE 79B NO 7-90,-74.0514,4.662256,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,5,OPERATIONAL
+OCHOINFINITO,Distrito de los anticuarios,Compras,Chapinero,CALLE 79B NO. 7-97,-74.051607,4.662271,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,,OPERATIONAL
+OH LA LA (NO CALLE ANTICUARIOS),Distrito de los anticuarios,Compras,Chapinero,CALLE 79A NO. 8-31,-74.052232,4.662123,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,4.9,OPERATIONAL
+SOLOIO,Distrito de los anticuarios,Compras,Chapinero,CL. 79B #7-85,-74.051408,4.662117,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,4.2,OPERATIONAL
+ST DOM,Distrito de los anticuarios,Compras,Chapinero,CL. 79B NO. 7-38,-74.050734,4.661733,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,4.4,OPERATIONAL
+CENTRO COMERCIAL GRAN ESTACIÓN,Centro comerciales,Compras,Teusaquillo,"AC. 26 #62-47, BOGOTÁ",-74.101919,4.647399,Domingo a Domingo de 8:00 a.m. a 10:00 p.m.,4.5,OPERATIONAL
+CENTRO COMERCIAL MALL PLAZA,Centro comerciales,Compras,Fontibon,"CRA. 72 #17A-63, BOGOTÁ",-74.12603,4.649119,Domingo a Domingo 9:00 a.m. a 10:00 p.m.,4.5,OPERATIONAL
+CENTRO COMERCIAL NUESTRO BOGOTÁ,Centro comerciales,Compras,Barrios Unidos,CARRERA 86 # 55A -75,-74.115067,4.683848,"Lunes a Jueves: 7:00 am a 10.00pm Viernes y Sábado: 7:00 am a 11:00pm, Dom y Fes: 8.00 am a 10:00pm",4.4,OPERATIONAL
+CENTRO COMERCIAL UNICENTRO,Centro comerciales,Compras,Usaquen,CARRERA 15 #124-30,-74.042681,4.702752,Lunes a domingo de 9:00 am a 10:00p.m.,4.5,OPERATIONAL
+PLAZA CENTRAL COMERCIAL,Centro comerciales,Compras,Puente Aranda,CRA 65 #11 -50,-74.116274,4.632402,Domingo a domingo 8:00 am a 10:00 p.m.,4.6,OPERATIONAL
+PASAJE HERNANDEZ,Atractivo IDT,Compras,,CALLE 12 NO. 8 - 62,-74.076094,4.600076,Domingo a domingo de 9:00 a.m. a 6:00 p.m.,4.4,OPERATIONAL
+CEFE CHAPINERO,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Chapinero,CL 82 NO. 10 - 69,-74.05287,4.665563,"Martes a viernes: 8:00 a.m. a 8:00 p.m.Sábados, domingos y festivos: 9:00 a.m. a 6:00 p.m.Lunes: Cerrado por manteni-",4,OPERATIONAL
+ESTADIO METROPOLITANO DE TECHO,,¿Qué hacer? - Naturaleza y bienestar,Kennedy,TRANSVERSAL 71D N° 2A-26,-74.13697,4.624557,,4.4,OPERATIONAL
+JARDÍN BOTÁNICO JOSÉ CELESTINO MUTIS,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Engativa,CALLE 63 N° 68-95,-74.097132,4.668217,,4.7,OPERATIONAL
+PARQUE DE LOS HIPPIES,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Chapinero,CALLE 60 N° 7-49,-74.061783,4.645611,"diario. Rodeado de una vibrante oferta de cafés de especialidad, teatros,",4.1,OPERATIONAL
+PARQUE DE LOS NOVIOS,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,CRA 6 N°45-10,-74.048544,4.650322,,4.6,OPERATIONAL
+PARQUE DISTRITAL ECOLÓGICO DE MONTAÑA ENTRENUBES,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,San Cristóbal,CARRERA 3 ESTE #50-00 SUR,-74.095049,4.521117,lunes a viernes 8:00 a.m. a 5:00 p.m.,4.6,OPERATIONAL
+PARQUE EL COUNTRY,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Usaquen,CALLE 127 N° 11D -90,-74.037833,4.704567,,4.7,OPERATIONAL
+PARQUE EL VIRREY,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Chapinero,CALLE 87 ENTRE LA CARRERA SÉPTIMA Y LA AUTO-,-74.054057,4.673248,,4.6,OPERATIONAL
+PARQUE FONTANAR DEL RIO,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Suba,DIAGONAL 147 N° 141A -42,-74.111283,4.756103,,4.6,OPERATIONAL
+PARQUE METROPOLITANO EL TUNAL,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Tunjuelito,CALLE 48C SUR N° 22D -81,-74.133396,4.571869,,4.4,OPERATIONAL
+PARQUE METROPOLITANO SIMÓN BOLIVAR,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,CALLE 63 # 59A - 06,-74.086044,4.656045,Abierto al público de lunes a viernes de 8:00 a.m. a 4:30 p.m.,4.7,OPERATIONAL
+PARQUE RECREODEPORTIVO EL SALITRE,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,CARRERA 60 # 63 – 75,-74.088717,4.663804,Abierto todos los días de 6:00 a. m. a 5:00 p. m.,4.6,OPERATIONAL
+PARQUE TIMIZA,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Kennedy,CALLE 40 H SUR N° 70A -81,-74.15324,4.611295,,4.6,OPERATIONAL
+AULA AMBIENTAL SORATAMA,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Usaquen,CARRERA 2 ESTE # 167–42,-74.014826,4.742269,,4.7,OPERATIONAL
+QUEBRADA LA VIEJA,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Usaquen,CARRERA 2 ESTE # 71-02,-74.048595,4.650207,,4.7,OPERATIONAL
+PARQUE ECOLOGICO DISTRITAL DE HUMEDAL CORDOBA,Humedales,¿Qué hacer? - Naturaleza y bienestar,Suba,"CALLE 117 CON AVENIDA SUBA, ENTRE LAS CALLES",-74.068814,4.702268,Lunes a domingo: 8:00 a.m. - 3:00 p.m.,4.5,OPERATIONAL
+PARQUE ECOLOGICO DISTRITAL HUMEDAL LA VACA,Humedales,¿Qué hacer? - Naturaleza y bienestar,Kennedy,TRANSVERSAL 78K NO. 41A -04,-74.159367,4.627116,"Lunes a viernes de 8:00 a.m. a 3:00 p.m. Sábados, domingos y festivos de 8:00 a.m. a 1:00 p.m.",4.6,OPERATIONAL
+PARQUE ECOLOGICO DISTRITAL HUMEDAL SANTA MARIA DEL LAGO,Humedales,¿Qué hacer? - Naturaleza y bienestar,Engativa,CRA 76 NO. 75A - 55,-74.096064,4.69428,Lunes a sábado: 6:00 a.m. a 5:00 p.m. Domingos y festivos: 6:00 a.m. a 2:00 p.m.,4.6,OPERATIONAL
+TEJO LA EMBAJADA,Deporte,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,CRA 24 #76-20,-74.064639,4.666643,Lunes a Miércoles 4pm-11pm Jueves: 4pm-1am Viernes y Sábado: 2pm-1am Domingos y festivos: 1pm-8pm,4.4,OPERATIONAL
+BLUE DOORS 93 LUXURY SUITES,Hotel,¿Dónde dormir?,Chapinero,CARRERA. 13A #93-51,-74.050255,4.676607,Check in 11:00 a.m. check out 3:00pm,4.7,OPERATIONAL
+HOTEL BH BICENTENARIO,Hotel,¿Dónde dormir?,Santa Fe,CARRERA 4 #16-03,-74.070042,4.601121,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+HOTEL ESTELAR CALLE 100,Hotel,¿Dónde dormir?,Chapinero,"AC 100 #14-46, USAQUÉN, BOGOTÁ, CUNDINAMARCA",-74.047511,4.684341,Check in 11:00 a.m. check out 3:00pm,4.8,OPERATIONAL
+HOTEL ESTELAR LA FONTANA,Hotel,¿Dónde dormir?,Usaquen,CALLE 61 N° 5 – 39,-74.060156,4.645935,Check in 11:00 a.m. check out 3:00pm,4.6,OPERATIONAL
+HOTEL VINTAGE SAS,Hotel,¿Dónde dormir?,Chapinero,CALLE 100 # 13-55,-74.046603,4.683908,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+MERCURE BH BOGOTA RETIRO,Hotel,¿Dónde dormir?,Chapinero,CALLE 80 NO. 10 -11,-74.053211,4.663702,"diario de nuestro servicio de autor. Desde el primer instante hasta la despedida, garantizamos un entorno",4.5,OPERATIONAL
+BAR FRANCÉS DE LA RUE,Nocturno,Nocturno,Chapinero,CALLE 59 NO. 9-05,-74.063225,4.645443,Miércoles a sábado de 2:00 p.m. a 12:00 a.m.,4.6,OPERATIONAL
+BICHOTAS,Nocturno,Nocturno,Kennedy,"CALLE 26 SUR #69A-23, PISO 2",-74.13539,4.613698,Jueves a domingo de 6:00 p.m. a 3:00 a.m.,5,OPERATIONAL
+IBIZA PRIDE,Nocturno,Nocturno,Fontibon,CALLE 26 SUR NO 69A -03,-74.135258,4.613543,Jueves: 3:00 p. m. a 3:00 a. m.Viernes y Sábado: 4:30 p. m. a 5:00 a. m.Domingos y Festivos: 4:00 p. m. a 12:00 a. m.,,OPERATIONAL
+LA NEGRA,Nocturno,Nocturno,Chapinero,CARRERA 7 # 47-63,-74.063935,4.634369,Viernes de 9:00 p.m. a 4:30 a.m. y Sábado de 9:00p.m. a 5:00 a.m.,4.4,OPERATIONAL
+ARABICA CAFÉS ESPECIALES,Cafés y pastelerias,¿Dónde comer?,Chapinero,"CRA. 14 #98-73, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.047681,4.683317,lunes a viernes de 7:00 a.m. a 5:00 p.m. y los sábados de 8:00 a.m. a 1:00 p.m.,4.6,OPERATIONAL
+BIZCOTELA,Cafés y pastelerias,¿Dónde comer?,Teusaquillo,"CL. 40 #25-57, TEUSAQUILLO, BOGOTÁ",-74.076718,4.630346,Lunes a Viernes de 10:30 a.m a 6:30 p.m.,4.6,OPERATIONAL
+BRAAAP CAFE,Cafe,¿Dónde comer?,Barrios Unidos,"CL. 75A #20B-15, BARRIOS UNIDOS, BOGOTÁ",-74.062164,4.664109,Lunes y martes de 12:30p-m a 8:00 p.m.,4.5,OPERATIONAL
+CACAOTE SAS,Cafés y pastelerias,¿Dónde comer?,Candelaria,"CRA. 4 #12B-13, BOGOTÁ",-74.07162,4.598392,Domingo a domingo de 10:00 a.m. a 7:00 p.m.,4.8,OPERATIONAL
+CALLE DE GUADALUPE,Cocina tradicionales,¿Dónde comer?,Santa Fe,"CL. 18 #5 56, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.07103,4.603843,"Lunes a sábado de 12:00 m. a 10:00 p.m., y los domingos y festivos de 12:00 m. a 9:00 p.m",4.3,OPERATIONAL
+CHICHERIA DEMENTE,Cocina tradicionales,¿Dónde comer?,Barrios Unidos,"CL. 69 #15-08, BOGOTÁ",-74.06414,4.656751,Martes a sábado: 12:00 p.m. a 11:00 p.m.Domingos y lunes: 12:00 p.m. a 5:00 p.m.,4.5,OPERATIONAL
+CHIRRIADO TIPICOS Y PARRILLA,Cocina tradicionales,¿Dónde comer?,Kennedy,"DG. 5A #73B76, BOGOTÁ",-74.143,4.626928,Martes a domingo de 11:30 a.m. a 8:30 p.m.,4.9,OPERATIONAL
+DE LA LOMA,Cocina tradicionales,¿Dónde comer?,Santa Fe,"CL. 30 #5-16, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.06671,4.615904,Lunes a Viernes de 11:30 a.m. a 4:30 p.m.,4.4,OPERATIONAL
+INQUEBRANTABLE COCINA MEXICANA,Cocina Internacional,¿Dónde comer?,Candelaria,"CRA. 4 #11-94, LA CANDELARIA, BOGOTÁ",-74.072202,4.597362,Lunes a Domingo de 12:00 pm. a 7:30pm,4.1,OPERATIONAL
+KUANA COLOMBIA SAS,Cocina tradicionales,¿Dónde comer?,Teusaquillo,"CRA 15 #54A-28, BOGOTÁ",-74.067032,4.642406,Lunes a jueves de 9:00 a.m. a 7:00 p.m. Viernes y Sábado de 9:00 a.m. a 9:00 p.m. y Domingo de 9:00 a.m. a 5:00 p.m.,4.9,OPERATIONAL
+LA COCINA DE NICOLASA,Cocina tradicionales,¿Dónde comer?,Candelaria,"PLAZA DE LA CONCORDIA, CRA. 1 #12C53, LA CANDELARIA, BOGOTÁ",-74.068438,4.598198,Martes a domingo de 12:00 a.m. a 3:00 p.m.,4.1,OPERATIONAL
+LA COPA DEL PATAS,Bar y licores,¿Dónde comer?,Chapinero,"AK 7 #61-55, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.060635,4.646542,Martes a sábado de 5:00 p.m. a 11:00 p.m.,5,OPERATIONAL
+LA NUNU COCINA CRIOLLA SALUDABLE,Cocina tradicionales,¿Dónde comer?,Chapinero,"CL. 69A # 10-23, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.059834,4.653898,Lunes a viernes de 11:30 a.m. a 9:00 p.m.,4.6,OPERATIONAL
+PORK.GUSTO,Cocina tradicionales,¿Dónde comer?,Candelaria,"CL 12C #1-40 LOCAL 14, BOGOTÁ",-74.068818,4.597977,Jueves 11:00 a 5:00 p.m. Domingo de 11:00 a.m. a 5:00p.m.,5,OPERATIONAL
+LA MESA DEL BUEN VIVIR - RESTAURANTE CUATRO ANDARES,Bar y licores,¿Dónde comer?,Chapinero,"CL. 79A #8-31, BOGOTÁ",-74.052232,4.662123,Lunes a viernes 12:00 p.m. a 9:00 p.m. Sábado 12:00p.m. a 5:00p.m.,4.8,OPERATIONAL
+LUSANA COCINA SANA,Cocina tradicionales,¿Dónde comer?,Suba,"CRA. 53 #103B-49 SEGUNDO PISO, BOGOTÁ",-74.062826,4.692621,Lunes a domingo 10:00 a.m. a 3:00 pm.,4.7,OPERATIONAL
+TAVO,Cocina tradicionales,¿Dónde comer?,Fontibon,"CRA. 75 #23A - 23, FONTIBÓN, BOGOTÁ, CUNDINAMARCA, COLOMBIA",-74.122615,4.663679,Lunes a jueves de 1:00 p.m. a 9:00 p.m. Viernes ySábado de 12:00 a 10:00 p.m. Domingo de 12:00 a 5:00 p.m.,4.7,OPERATIONAL
+ZONA G,Zonas gastronómicas,¿Dónde comer?,Chapinero,"ZONA G, CHAPINERO, BOGOTÁ",-74.054678,4.65349,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,,
+ZONA GASTRONÓMICA - USAQUÉN,Zonas gastronómicas,¿Dónde comer?,Usaquen,"CRA. 18 C #109-35, BOGOTÁ",-74.049921,4.695255,,4.5,OPERATIONAL
+ZONA T,Zonas gastronómicas,¿Dónde comer?,Chapinero,"CL. 83, BOGOTÁ",-74.054119,4.667612,Lunes a domingo de 9:00 a.m. a 12:00 a.m.,4.7,OPERATIONAL
+PERSEVERANCIA,Plazas de mercado,¿Dónde comer?,Santa Fe,"LA PERSEVERANCIA, LA CANDELARIA, BOGOTÁ",-74.064527,4.615958,"Lunes a viernes: 8:00 a.m. a 4:00 p.m, Sábados y domingos: 6:00 a.m. a 5:00 p.m.",,
+PLAZA LA CONCORIDA,Plazas de mercado,¿Dónde comer?,Candelaria,"CL 12C # 1 -40, BOGOTÁ",-74.068818,4.597977,Lunes a domingo de 7:00 a. m. a 5:00 p.m.,4.6,OPERATIONAL
+CASTAÑA,Distrito de los anticuarios,Compras,Chapinero,"CALLE DE LOS ANTICUARIOS, CL. 79B #7-30, BOGOTÁ",-74.050687,4.661696,Lunes a sábado de 10:00 a.m. a 7:00 p.m. castana.co,,OPERATIONAL
+DHEVASH DESIGH,Distrito de los anticuarios,Compras,Chapinero,"CALLE DE LOS ANTICUARIOS, CL. 79B #8-31, BOGOTÁ",-74.051924,4.662515,Lunes a sábado de 10:00 a.m. a 7:00 p.m. dhevash.com 39,,OPERATIONAL
+GALERIA BAOBAB,Distrito de los anticuarios,Compras,Chapinero,"CL. 79B #7-88, CHAPINERO, BOGOTÁ",-74.05135,4.662217,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,4.7,OPERATIONAL
+MAKARA,Distrito de los anticuarios,Compras,Chapinero,"CL. 79B #7-60, BOGOTÁ",-74.051017,4.661947,Lunes a sábado de 10:30 a.m. a 6:30 p.m.,3,OPERATIONAL
+MRS LOVEGOOD,Distrito de los anticuarios,Compras,Chapinero,"CL. 79B #7 - 45 PISO 3, BOGOTÁ",-74.05089,4.661656,Lunes a sábado de 10:00 a.m. a 7:00 p.m.,5,OPERATIONAL
+TUCURINCA,Distrito de los anticuarios,Compras,Chapinero,"CALLE DE LOS ANTICUARIOS, CL. 79B #730, BOGOTÁ",-74.050689,4.661742,funcionalidad ergonómica para el habitar moderno. CASA SAN MIGUEL Calle 79b No. 7-30,2,OPERATIONAL
+CENTRO COMERCIAL ANDINO,Centro comerciales,Compras,Chapinero,"CRA. 11 #82-71, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.052729,4.666243,Lunes a sábado de 10:00 a.m. a 9:00 p.m. Domingo de 11:00 am a 7:00p.m.,4.5,OPERATIONAL
+CENTRO COMERCIAL AV CHILE,Centro comerciales,Compras,Chapinero,"CL 72 #10-34, BOGOTÁ",-74.057757,4.656747,Lunes a jueves de 8:00 a.m. a 9:00 p.m. Viernes y sábado de 8:00 a.m. a 10:00p.m. Domingo 8:30 a.m. a 9:00p.m.,4.2,OPERATIONAL
+CENTRO COMERCIAL COLINA,Centro comerciales,Compras,Suba,"CRA. 58D #146-51, BOGOTÁ",-74.065487,4.732516,Domingo a Domingo de 9:00 am a 9:00pm,4.6,OPERATIONAL
+TINTAL PLAZA CENTRO COMERCIAL,Centro comerciales,Compras,Kennedy,"AV CIUDAD DE CALI # 6 - 37, KENNEDY, BOGOTÁ, CUNDINAMARCA",-74.103681,4.612682,Lunes a sábado de 8:00 a.m. a 9:00 p.m. Domingos y festivos 9:00 a.m. a 9:00 p.m.,4.2,OPERATIONAL
+DISTRITO CREATIVO SAN FELIPE,Atractivo IDT,Compras,,BOGOTÁ,-74.064151,4.66444,"abiertos y prestigiosas galerías independientes,",4.7,OPERATIONAL
+MERCADO DE LAS PULGAS DE USAQUEN,Guia anterior,Compras,Usaquen,"CALLE 119 CON CARRERA 6A, USAQUÉN, BOGOTÁ, CUNDINAMARCA",-74.031155,4.695658,"Sábados, domingos y festivos, de 9:00 a. m. a 5:30 p. m.",4.6,OPERATIONAL
+PASAJE RIVAS,Atractivo IDT,Compras,Candelaria,"CRA. 10 #NO. 10 - 54, BOGOTÁ",-74.078195,4.599479,"Lunes a sábado, de 9:00 a. m. a 6:00 p. m., y domingos, de 10:00 a. m. a 3:00 p. m.",4.5,OPERATIONAL
+CEFE COMETAS,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Suba,"AVENIDA EL RINCÓN, SUBA, BOGOTÁ",-74.086835,4.71386,Funciona según el área de interés,4.5,OPERATIONAL
+CEFE FONTANAR DEL RIO,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Suba,"SUBA, BOGOTÁ",-74.111057,4.756124,lunes a viernes de 8:00 a.m. a 1:00 p.m. y de 2:00 p.m. a 4:30 p.m.,5,OPERATIONAL
+CEFE SAN CRISTOBAL,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,San Cristobal,CALLE 17A SUR 2A - 60 ESTE,-74.085723,4.573068,lunes a viernes de 8:00 a.m. a 1:00 p.m. y de 2:00 p.m. a 4:30 p.m.,4.6,OPERATIONAL
+PARQUE NACIONAL ENRIQUE OLAYA HERRERA,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,Santa Fe,"CL. 35 #3-50, BOGOTÁ",-74.063069,4.623875,,4.5,OPERATIONAL
+PARQUE NACIONAL NATURAL CHINGAZA,Parques y Plazas,¿Qué hacer? - Naturaleza y bienestar,,"PARQUE NACIONAL NATURAL CHINGAZA, LA CALERA, CUNDINAMARCA",-73.733397,4.547574,,4.8,OPERATIONAL
+SANTA ANA LA AGUADORA,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Usaquén,BOGOTÁ,-74.025084,4.693011,"Jueves y Viernes de 6:30 a.m. a 11:00 am los sábados, domingos y festivos de 6:30 a.m. a 12:00p.m.",4.5,OPERATIONAL
+SENDERO AGUANOSO,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Cerros orientales,"SANTA FÉ, BOGOTÁ",-74.053499,4.591341,"Sábado, Domingo y Festivo de 6:30 a.m a 12:00 p.m.",4.9,OPERATIONAL
+SENDERO CERRO DE MONSERRATE,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Santa Fe,"VÍA MONSERRATE, BOGOTÁ",-74.061448,4.6038,Lunes a sábado de 7:30 a. m. a 4:00 p.m.,4.7,OPERATIONAL
+SENDERO LA SERRANIA,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Usaquén,"USAQUÉN, LA CALERA, BOGOTÁ, CUNDINAMARCA",-74.010566,4.712727,Sábado y domingo de 7:00 a.m. a 1:00 p.m.,5,OPERATIONAL
+SENDERO SAN FRANCISCO VICACHA,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Santa Fe,"SANTA FE, BOGOTÁ, BOGOTA",-74.059197,4.601104,,4.7,OPERATIONAL
+VIRGEN DE LA INMACULADA CONCEPCIÓN - CERRO DE GUADALUPE,Cerros y senderos,¿Qué hacer? - Naturaleza y bienestar,Santa Fe,"KILOMETRO 8 VIA CHOACHI, SANTA FÉ, BOGOTÁ",-74.054117,4.591826,"Sábados, domingos y días festivos",4.7,OPERATIONAL
+PARQUE ECOLOGICO DISTRITAL HUMEDAL EL BURRO,Humedales,¿Qué hacer? - Naturaleza y bienestar,Kennedy,"BOGOTÁ, BOGOTA",-74.150527,4.644083,,4.5,OPERATIONAL
+HUMEDAL EL TUNJO,Humedales,¿Qué hacer? - Naturaleza y bienestar,Tunjuelito,"AV. BOYACÁ, BOGOTÁ",-74.142486,4.575855,Lunes a domingo de 7:00 a.m. a 4:00p.m.,4.6,OPERATIONAL
+HUMEDAL LA CONEJERA,Humedales,¿Qué hacer? - Naturaleza y bienestar,Suba,"HUMEDAL LA CONEJERA, SUBA, BOGOTÁ",-74.103808,4.761934,Lunes a domingo de 8:00 a. m. a 3:00 p.m.,4.7,
+HUMEDAL TORCA,Humedales,¿Qué hacer? - Naturaleza y bienestar,Usaquén,"HUMEDAL TORCA-GUAYMARAL, BOGOTÁ",-74.039606,4.792168,"Lunes a viernes: de 8:00 a.m. a 3:00 p.m. Sábados, domin- gos y festivos: de 8:00 a.m. a 3:00 p.m.",4.4,OPERATIONAL
+CARRERA DE LAS ROSAS,Deporte,¿Qué hacer? - Naturaleza y bienestar,Candelaria,"CRA. 10 #10 - 00, BOGOTÁ",-74.078409,4.5991,,4.4,OPERATIONAL
+CICLOVIA,Deporte,¿Qué hacer? - Naturaleza y bienestar,,"BOGOTÁ, COLOMBIA",-74.084213,4.582722,"Domingos y festivos, de 7:00 a.m. a 2:00 p.m.",5,OPERATIONAL
+ESCAPE ROOM,Deporte,¿Qué hacer? - Naturaleza y bienestar,Candelaria,"CRA. 7 #12-42 PISO 2, LA CANDELARIA, BOGOTÁ",-74.074522,4.599451,,4.7,OPERATIONAL
+MEDIA MARATÓN DE BOGOTÁ (MMB),Deporte,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,"CALLES 63 Y 53 Y LAS CARRERAS 48 Y 68, PARQUE METROPOLITANO SIMÓN BOLÍVAR",-74.09139,4.653915,,,OPERATIONAL
+MUNDO AVENTURA,Deporte,¿Qué hacer? - Naturaleza y bienestar,Kennedy,"CRA. 71D #1-14 SUR, BOGOTÁ",-74.136852,4.622079,Lunes a viernes de 10:00 a.m. a 5:00 p.m. Sábados de 11:00 a.m. a 6:00 p.m. Domingos de 10:00 a.m. a 6:00 p.m.,4.2,OPERATIONAL
+PARQUE SALITRE MAGICO,Deporte,¿Qué hacer? - Naturaleza y bienestar,Barrios Unidos,"CALLE 63, DE #60-80, BOGOTÁ",-74.092201,4.666042,Lunes a domingo 8:00 am a 5:00pm,4.4,OPERATIONAL
+CASA DE REINAS SANTANA,Bienestar,¿Qué hacer? - Naturaleza y bienestar,Ciudad Bolivar,CALLE 59 SUR NO. 74I-04,-74.175086,4.593139,,5,OPERATIONAL
+CHUCUY: CLUB DE DIBUJO,Bienestar,¿Qué hacer? - Naturaleza y bienestar,Teusaquillo,"CL. 43 #18 - 11, BOGOTÁ",-74.071382,4.631476,Sábado de 10:30 a.m. a 12:30 p.m.,5,OPERATIONAL
+SAUNA COMPLICES,Bienestar,¿Qué hacer? - Naturaleza y bienestar,Santa Fe,"CRA. 13A #38-60, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.067913,4.626787,,4.4,OPERATIONAL
+BOGOTÁ CENTRO SUITES,Hotel,¿Dónde dormir?,Santa Fe,"CL. 23 #13-30, BOGOTÁ",-74.073511,4.610766,Check in 11:00 a.m. check out 3:00pm,3.2,OPERATIONAL
+EK HOTEL,Hotel,¿Dónde dormir?,Chapinero,"CL. 90 #11 - 13, BOGOTÁ",-74.049023,4.67224,Check in 11:00 a.m. check out 3:00pm,4.8,OPERATIONAL
+HABITEL,Hotel,¿Dónde dormir?,Fontibon,CL 26 NO 100-97,-74.131015,4.688972,Check in 11:00 a.m. check out 3:00pm,4.4,OPERATIONAL
+HOTEL 101 PARK HOUSE SUITES & SPA,Hotel,¿Dónde dormir?,Usaquen,"CRA. 21 #101-10, USAQUÉN, BOGOTÁ, CUNDINAMARCA",-74.054222,4.687561,Check in 11:00 a.m. check out 3:00pm,4.6,OPERATIONAL
+HOTEL BH LA QUINTA,Hotel,¿Dónde dormir?,Chapinero,"CRA. 5 #74-52, BOGOTÁ",-74.052797,4.656339,Check in 11:00 a.m. check out 3:00pm,4.6,OPERATIONAL
+HOTEL BH PARQUE 93,Hotel,¿Dónde dormir?,Chapinero,"CRA. 14 #93A-69, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.050346,4.678111,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+HOTEL BH USAQUEN,Hotel,¿Dónde dormir?,Usaquen,"CL. 120 #7-14, BOGOTÁ",-74.031655,4.696975,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+HOTEL COCO,Hotel,¿Dónde dormir?,Chapinero,"CL. 70A #5 - 44, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.05492,4.653069,Check in 11:00 a.m. check out 3:00pm,4.4,OPERATIONAL
+HOTEL DOUBLETREE BY HILTON PARQUE 93,Hotel,¿Dónde dormir?,Chapinero,"CARRERA 11B. 96-59 BOGOTA, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.046323,4.680297,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+HOTEL ESTELAR PARQUE DE LA 93,Hotel,¿Dónde dormir?,Chapinero,"CL. 93 #11-19, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.047976,4.674369,Check in 11:00 a.m. check out 3:00pm,4.8,OPERATIONAL
+HOTEL ESTELAR SUITES JONES,Hotel,¿Dónde dormir?,Chapinero,"CL. 61 #5-39, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.060156,4.645935,Check in 11:00 a.m. check out 3:00pm,4.7,OPERATIONAL
+HOTEL MUISCA,Hotel,¿Dónde dormir?,Candelaria,"CENTRO HISTÓRICO, CL. 10 #0 - 47, BOGOTÁ",-74.07033,4.593803,Check in 11:00 a.m. check out 3:00pm,4.4,OPERATIONAL
+HOTEL VIRREY CENTRAL,Hotel,¿Dónde dormir?,Santa Fe,"CL. 18 #5-56, SANTA FÉ, BOGOTÁ",-74.07103,4.603843,Check in 11:00 a.m. check out 3:00pm,4.1,OPERATIONAL
+MASAYA BOGOTÁ,,¿Dónde dormir?,Candelaria,"CRA. 2 #12-48, LA CANDELARIA, BOGOTÁ",-74.070075,4.5967,Check in 11:00 a.m. check out 3:00pm,4.7,OPERATIONAL
+SM GRAND HOTEL,Hotel,¿Dónde dormir?,Teusaquillo,"CRA. 40 #24-31, TEUSAQUILLO, BOGOTÁ, CUNDINAMARCA",-74.09257,4.631144,Check in 11:00 a.m. check out 3:00pm,4.4,OPERATIONAL
+SOFITEL BOGOTA VICTORIA REGIA,Hotel,¿Dónde dormir?,Chapinero,"KR 13 #85-80, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.053117,4.670082,Check in 11:00 a.m. check out 3:00pm,4.7,OPERATIONAL
+TEQUENDAMA SUITES BOGOTÁ,Hotel,¿Dónde dormir?,Santa Fe,"CRA. 10 #27-51, FLOOR 5 #110010 INTERIOR 150, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.069604,4.614641,Check in 11:00 a.m. check out 3:00pm,4.6,OPERATIONAL
+URBAN HEIGHTS BOGOTÁ,Hotel,¿Dónde dormir?,Chapinero,"CRA. 4 #58 - 35, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.059936,4.643059,Check in 11:00 a.m. check out 3:00pm,4.5,OPERATIONAL
+ALOHA AFTER PARTY,Nocturno,Nocturno,Kennedy,"CL. 7A BIS #71A20, BOGOTÁ",-74.133231,4.632787,Jueves a domingo de 6:00 p.m. a 3:00 a.m.,4.6,OPERATIONAL
+ASILO BAR,Nocturno,Nocturno,Teusaquillo,"AK 14 #40-66 40-2 A, BOGOTÁ",-74.074798,4.631094,Viernes y sábados de 9:00 p.m. a 3:00 a.m,4.6,OPERATIONAL
+CACAO BLUNT DISCOTECA,Nocturno,Nocturno,Santa Fe,"AC. 32 #6B-43, SANTA FÉ, BOGOTÁ",-74.067986,4.618516,Jueves y vienes de 8:30 p.m. a 5:00 a.m. y Sábado de 8:30p.m. a 3:00 a.m,3.7,OPERATIONAL
+DISCO JAGUAR,Nocturno,Nocturno,Chapinero,"AK 7 #59-30, BOGOTÁ",-74.061356,4.64451,Viernes y sábado de 9:00 p.m. a 4:30 a.m.,4.3,OPERATIONAL
+EL BOCHINCHE CAFÉ-BAR,Nocturno,Nocturno,Santa Fe,"CL 22 #1-26, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.065525,4.604699,,4.6,OPERATIONAL
+EL SITIO BY MORIS RODRIGUEZ,Nocturno,Nocturno,Chapinero,"KR 13 #85-65, BOGOTÁ",-74.053328,4.669981,Jueves a sábado de 5:00 p.m. a 3:00 a.m.,3.9,OPERATIONAL
+ESPACIO KB,Nocturno,Nocturno,Barrios Unidos,"CL. 74 #22-20, BOGOTÁ",-74.064696,4.663981,Lunes: 10:00 a.m. a 9:00 p.m.Martes: 10:00 a.m. a 8:00 p.m.Miércoles y Jueves: 10:00 a.m. a 10:00 p.m.Viernes y,4.5,OPERATIONAL
+ESTACIÓN CAFÉ CHAPINERO,Nocturno,Nocturno,Chapinero,"CL 62 #7-13, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.060442,4.646965,Domingo a jueves de 4:00 p.m. a 12:00 p.m. los viernes y sábados de 2:00 p.m a 3:00 a.m.,4.5,OPERATIONAL
+KOSMICA,Nocturno,Nocturno,Ciudad Bolivar,"CL. 62D SUR #71D 31 SUR, BOGOTÁ",-74.165387,4.589514,lunes a jueves en un horario de 12:00 p.m. a 6:00 p.m.,5,OPERATIONAL
+LA PAMPARA,Nocturno,Nocturno,Chapinero,"KR 13 #64-79, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.063269,4.651675,Viernes y sábado de 9:00 p.m. a 3:00 a.m.,3.2,OPERATIONAL
+LA VEGA SHOW MX,Nocturno,Nocturno,,"KENNEDY, BOGOTÁ, COLOMBIA",-74.135216,4.613507,Jueves a domingo de 6:00 p.m. a 3:00 a.m.,1,OPERATIONAL
+LEOS VIDEO BAR MÍSTICA,Nocturno,Nocturno,Chapinero,"CL. 59 #9-36, CHAPINERO, BOGOTÁ",-74.063085,4.645356,Lunes a domingo de 2:00 p.m. a 5:00 a.m.,4.3,OPERATIONAL
+PERSEUS CLUB,Nocturno,Nocturno,Engativa,"CL 72 #83-51, BOGOTÁ",-74.104582,4.69466,Martes a jueves & domingos de 2:00 pm a 10:00 pm Viernes y Sabados de 2:00 pm a 3:00 am barmistica.com,4,OPERATIONAL
+PUNTO 59,Nocturno,Nocturno,Chapinero,"KR 13 #59 24, INTERIOR 6, BOGOTÁ",-74.063738,4.646117,Lunes a jueves de 5:45 p.m. a 3:00 a.m Viernes y sábado de 6:00 p.m. a 4:00 a.m.,4.1,OPERATIONAL
+RITMO MODERNO,Nocturno,Nocturno,Santa Fe,"CRA. 4 #17 - 39, LA CANDELARIA, BOGOTÁ",-74.069501,4.60217,Miércoles a sábado de 5:00 p.m. a 3:00 a.m.,4.4,OPERATIONAL
+RIVERSIDE,Nocturno,Nocturno,Kennedy,BOGOTÁ,-74.064608,4.652877,Jueves a domingo de 6:00 p.m. a 3:00 a.m.,3.8,OPERATIONAL
+SONORA SOCIAL CLUB,Nocturno,Nocturno,Chapinero,"CL. 49 #7 27, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.064091,4.635959,Jueves a domingo de 6:00 p.m. a 3:00 a.m.,4.3,OPERATIONAL
+THEATRON,Nocturno,Nocturno,Chapinero,"CL. 58 #10-32, BOGOTÁ",-74.064001,4.641973,Jueves a sábado de 9:00 p.m. a 5:00 a.m.,4.4,OPERATIONAL
+URANIA CAFÉ – BAR,Nocturno,Nocturno,Chapinero,"CL. 60 #09-10, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.0623,4.646037,Lunes a miercoles de 3:00 p.m. a 2:00 a.m. Jueves a sábado de 2:00 p.m. a 2:30 a.m. Domingo de 4:30 p.m. a 2:30 a.m.,3.9,OPERATIONAL
+MUSEO CASA DE LA MONEDA,Museos,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 11 #4-93, BOGOTÁ",-74.073408,4.597004,,4.7,OPERATIONAL
+MUSEO COLONIAL,Museos,¿Qué hacer? - Cultura y memoria,Candelaria,"CRA. 6 #9-77, BOGOTÁ",-74.075138,4.596605,,4.7,OPERATIONAL
+MUSEO DE ARTE CONTEMPORANEO BOGOTÁ MAC (MINUTO DE DIOS),Museos,¿Qué hacer? - Cultura y memoria,Engativa,"CRA. 74 #82A-81, BOGOTÁ",-74.103662,4.709193,,4.5,OPERATIONAL
+MUSEO DE ARTE MIGUEL URRUTIA (MAMU),Museos,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 11 #4-21, LA CANDELARIA, BOGOTÁ, CUNDINAMARCA",-74.072866,4.596645,,4.8,OPERATIONAL
+MUSEO DE ARTE MODERNO MAMBO,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"CL. 24 #6-00, BOGOTÁ",-74.069188,4.60935,,4.6,OPERATIONAL
+MUSEO DE BOGOTÁ,Museos,¿Qué hacer? - Cultura y memoria,Candelaria,CALLE 10 # 3-61,-74.072998,4.59551,,4.7,OPERATIONAL
+MUSEO DE BOTERO,Museos,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 11 #4-41, BOGOTÁ",-74.0731,4.596806,,4.8,OPERATIONAL
+MUSEO DE LA CIENCIA Y EL JUEGO - UNIVERSIDAD NACIONAL,Museos,¿Qué hacer? - Cultura y memoria,Teusaquillo,"ED. 761 CIUDAD UNIVERSITARIA, UNIVERSIDAD NACIONAL DE COLOMBIA",-74.087349,4.63904,,4.3,OPERATIONAL
+MUSEO DE LA CIUDAD AUTO CONSTRUIDA,Museos,¿Qué hacer? - Cultura y memoria,Ciudad Bolivar,"CL. 71H SUR #27-79, CDAD. BOLÍVAR, BOGOTÁ",-74.159034,4.55042,,4.7,OPERATIONAL
+MUSEO DE ORO,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"CRA. 6 #15-88, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.072055,4.601998,,4.8,OPERATIONAL
+MUSEO DEL VIDRIO,Museos,¿Qué hacer? - Cultura y memoria,San Cristobal,"CRA. 1A #6C-75 SUR, SAN CRISTÓBAL, BOGOTÁ, CUNDINAMARCA",-74.080329,4.5768,,4.5,OPERATIONAL
+MALOKA,Museos,¿Qué hacer? - Cultura y memoria,Fontibon,"CRA. 68D #24A - 51, BOGOTÁ",-74.10945,4.655042,,4.3,OPERATIONAL
+MUSEO MERCEDES SIERRA DE PERÉZ CHICO,Museos,¿Qué hacer? - Cultura y memoria,Chapinero,"AK 7 #93 - 01, CHAPINERO, BOGOTÁ",-74.043412,4.672525,,4.6,OPERATIONAL
+MUSEO NACIONAL,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"AK 7 #28-66, BOGOTÁ",-74.068838,4.615586,,4.7,OPERATIONAL
+MUSEO SANTA CLARA,Museos,¿Qué hacer? - Cultura y memoria,Candelaria,"CRA 8 #8-91, BOGOTÁ",-74.077369,4.596896,,4.6,OPERATIONAL
+MUSEO STONEWALL,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"MUSEO LGBTI, CRA. 13A # 38-60, BOGOTÁ",-74.067913,4.626787,,4.6,OPERATIONAL
+PLANETARIO,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"CL 26B #5-93, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.068933,4.612338,,4.6,OPERATIONAL
+ARTESTUDIO,Teatro,¿Qué hacer? - Cultura y memoria,Chapinero,"CRA. 8B #57-32, BOGOTÁ",-74.063046,4.643912,,4.7,OPERATIONAL
+BARRACA TEATRO,Teatro,¿Qué hacer? - Cultura y memoria,Teusaquillo,"CRA. 16A #61A-05, BOGOTÁ",-74.067348,4.649313,,4.6,OPERATIONAL
+CASA E,Teatro,¿Qué hacer? - Cultura y memoria,Teusaquillo,"DG. 40A #14-35, TEUSAQUILLO, BOGOTÁ",-74.069046,4.628214,,4.5,OPERATIONAL
+CINEMATECA DE BOGOTÁ,Museos,¿Qué hacer? - Cultura y memoria,Santa Fe,"CRA. 3 #19-10, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.068182,4.603389,,4.8,OPERATIONAL
+ESPACIO ODEON,Teatro,¿Qué hacer? - Cultura y memoria,Candelaria,"CRA. 5 #12C-73, LA CANDELARIA, BOGOTÁ",-74.071665,4.600437,,4.6,OPERATIONAL
+TEATRO COLÓN,Teatro,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 10 # 5-32, LA CANDELARIA, BOGOTÁ",-74.074377,4.596466,,4.9,OPERATIONAL
+TEATRO EL ENSUEÑO,Teatro,¿Qué hacer? - Cultura y memoria,Ciudad Bolívar,"TV. 70 D #60-90, SUR, BOGOTÁ",-74.157657,4.586828,,4.8,OPERATIONAL
+TEATRO JORGE ELIECER GAITAN,Teatro,¿Qué hacer? - Cultura y memoria,Santa Fe,"CRA. 7 #22-47, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.070684,4.608538,,4.7,OPERATIONAL
+TEATRO JULIO MARIO SANTO DOMINGO,Teatro,¿Qué hacer? - Cultura y memoria,Suba,"CL. 170 #67-51, BOGOTÁ",-74.062782,4.757935,,4.8,OPERATIONAL
+TEATRO LA CANDELARIA,Teatro,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 12 #2-59, LA CANDELARIA, BOGOTÁ",-74.070789,4.596567,,4.8,OPERATIONAL
+TEATRO NACIONAL,Teatro,¿Qué hacer? - Cultura y memoria,Barrios Unidos,CALLE 95 # 47 - 15,-74.060041,4.683649,,4.7,OPERATIONAL
+BIBLIOTECA EL TUNAL,Bibliotecas,¿Qué hacer? - Cultura y memoria,Tunjuelito,"CL. 48B SUR #21-13, BOGOTÁ",-74.129478,4.572493,,4.7,OPERATIONAL
+BIBLIOTECA LUIS ANGEL ARANGO,Bibliotecas,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 11 #4-14, LA CANDELARIA, BOGOTÁ, CUNDINAMARCA",-74.072914,4.596816,,4.8,OPERATIONAL
+BIBLIOTECA MANUEL ZAPATA OLIVELLA,Bibliotecas,¿Qué hacer? - Cultura y memoria,Kennedy,"AV CIUDAD DE CALI #6C-09, BOGOTÁ",-74.154623,4.642646,,4.6,OPERATIONAL
+BIBLIOTECA NACIONAL,Bibliotecas,¿Qué hacer? - Cultura y memoria,Santa Fe,"CL. 24 #5-60, BOGOTÁ",-74.068503,4.60919,,4.7,OPERATIONAL
+BIBLIOTECA VIRGILIO BARCO,Bibliotecas,¿Qué hacer? - Cultura y memoria,Teusaquillo,"AV. LA ESMERALDA #57 - 60, TEUSAQUILLO, BOGOTÁ",-74.089305,4.65717,,4.8,OPERATIONAL
+LA TROCHA CASA DE LA PAZ,,¿Qué hacer? - Cultura y memoria,Santa Fe,"KR 13 # 36-37, SANTA FÉ, BOGOTÁ, CUNDINAMARCA",-74.067743,4.624811,,4.8,OPERATIONAL
+CASA LGBTI AMAPOLA JONES,Bibliotecas,¿Qué hacer? - Cultura y memoria,Teusaquillo,"CRA. 21 #25-02, BOGOTÁ",-74.079807,4.624191,,5,OPERATIONAL
+CASA LGBTI LAURA WEINSTEIN,Bibliotecas,¿Qué hacer? - Cultura y memoria,Suba,"CL. 146C #92 78, BOGOTÁ",-74.085717,4.741083,,4.3,OPERATIONAL
+CENTRO CULTURAL GABRIEL GARCÍA MÁRQUEZ:,Librerías,¿Qué hacer? - Cultura y memoria,Candelaria,"CL. 11 #5-60, BOGOTÁ",-74.074181,4.597586,,4.7,OPERATIONAL
+EL GATO QUE LEE Y BEBE,Librerías,¿Qué hacer? - Cultura y memoria,Chapinero,"CL. 70 #11-48, BOGOTÁ",-74.060694,4.655487,,4.6,OPERATIONAL
+GARABATO LIBROS,Librerías,¿Qué hacer? - Cultura y memoria,Teusaquillo,"CARRERA 19# #34-61, BOGOTÁ",-74.073657,4.624372,,4.8,OPERATIONAL
+LA VALIJA DE FUEGO,Librerías,¿Qué hacer? - Cultura y memoria,Chapinero,"AK 7 #45-52 LOCAL3, CHAPINERO, BOGOTÁ, CUNDINAMARCA",-74.063904,4.632099,,4.8,OPERATIONAL
+LA VERBENA LITERARIA,Librerías,¿Qué hacer? - Cultura y memoria,Usaquen,"CL. 121 #12-15, BOGOTÁ",-74.039273,4.700103,,4.8,OPERATIONAL
+LIBRERÍA MATORRAL,Librerías,¿Qué hacer? - Cultura y memoria,Teusaquillo,"AK. 19 #36-55, TEUSAQUILLO, BOGOTÁ",-74.07339,4.625883,,4.7,OPERATIONAL
+LIBRERÍA WOOLF,Librerías,¿Qué hacer? - Cultura y memoria,Teusaquillo,"CL. 39B #21-54, BOGOTÁ",-74.074607,4.629528,,4.8,OPERATIONAL
+SALA DE LECTURA CASA LGBTI SEBASTIÁN ROMERO:,Bibliotecas,¿Qué hacer? - Cultura y memoria,Teusaquillo,"CL. 44 #14-60, BOGOTÁ",-74.068508,4.631944,,4.5,OPERATIONAL
+JUAN DE DIOS,Distrito de los anticuarios,Compras,Chapinero,"CL. 79B #7-98, BOGOTÁ",-74.051607,4.662271,10 AM - 7PM,,

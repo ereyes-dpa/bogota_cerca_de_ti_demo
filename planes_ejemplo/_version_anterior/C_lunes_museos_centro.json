@@ -1,0 +1,269 @@
+{
+  "solicitud": {
+    "origen": [
+      4.5981,
+      -74.076
+    ],
+    "minutos": 180,
+    "cuando": "2026-11-09 10:00 (Monday)",
+    "con": "pareja",
+    "prefs": [
+      "cultura",
+      "comer"
+    ],
+    "modo": "pie",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "Plaza de Bolívar",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Carreras 7 y 8 Calles 10 y 11",
+          "lat": 4.598105,
+          "lon": -74.076096,
+          "llegada": "10:00",
+          "salida": "10:20",
+          "minutos_visita": 20,
+          "apertura": "abierto",
+          "aviso": ""
+        },
+        {
+          "nombre": "La Puerta Falsa",
+          "categoria": "Gastronomía",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 11 # 6 - 50",
+          "lat": 4.598013,
+          "lon": -74.074845,
+          "llegada": "10:22",
+          "salida": "11:07",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        },
+        {
+          "nombre": "Biblioteca del Congreso Luis Carlos Galán Sarmiento",
+          "categoria": "Biblioteca",
+          "localidad": "La Candelaria",
+          "direccion": "Carrera 6 # 8 - 94",
+          "lat": 4.595923,
+          "lon": -74.07567,
+          "llegada": "11:11",
+          "salida": "11:56",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Plaza de Bolívar",
+          "minutos": 0,
+          "km": 0.01
+        },
+        {
+          "desde": "Plaza de Bolívar",
+          "hasta": "La Puerta Falsa",
+          "minutos": 2,
+          "km": 0.18
+        },
+        {
+          "desde": "La Puerta Falsa",
+          "hasta": "Biblioteca del Congreso Luis Carlos Galán Sarmiento",
+          "minutos": 4,
+          "km": 0.32
+        },
+        {
+          "desde": "Biblioteca del Congreso Luis Carlos Galán Sarmiento",
+          "hasta": "Tu punto de salida",
+          "minutos": 4,
+          "km": 0.32
+        }
+      ],
+      "duracion_total_min": 120,
+      "minutos_transporte": 10,
+      "minutos_visita": 110,
+      "margen_min": 60,
+      "termina_a": "12:00",
+      "km_total": 0.8,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 11.87,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.5981,-74.076&destination=4.5981,-74.076&travelmode=walking&waypoints=4.598105,-74.076096|4.598013,-74.074845|4.595923,-74.07567",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Plaza%20de%20Bol%C3%ADvar%20%2810%3A00%E2%80%9310%3A20%29%0A2.%20La%20Puerta%20Falsa%20%2810%3A22%E2%80%9311%3A07%29%0A3.%20Biblioteca%20del%20Congreso%20Luis%20Carlos%20Gal%C3%A1n%20Sarmiento%20%2811%3A11%E2%80%9311%3A56%29%0ATermino%20a%20las%2012%3A00.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.5981%2C-74.076%26destination%3D4.5981%2C-74.076%26travelmode%3Dwalking%26waypoints%3D4.598105%2C-74.076096%7C4.598013%2C-74.074845%7C4.595923%2C-74.07567"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Palacio Arzobispal",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Carrera 7 # 10 – 20",
+          "lat": 4.5974,
+          "lon": -74.075534,
+          "llegada": "10:01",
+          "salida": "10:31",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        },
+        {
+          "nombre": "Casa Natal/Fundación Rafael Pombo",
+          "categoria": "Biblioteca",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 10 # 5-22",
+          "lat": 4.596562,
+          "lon": -74.074196,
+          "llegada": "10:34",
+          "salida": "11:19",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        },
+        {
+          "nombre": "La Puerta Falsa",
+          "categoria": "Gastronomía",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 11 # 6 - 50",
+          "lat": 4.598013,
+          "lon": -74.074845,
+          "llegada": "11:22",
+          "salida": "12:07",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Palacio Arzobispal",
+          "minutos": 2,
+          "km": 0.12
+        },
+        {
+          "desde": "Palacio Arzobispal",
+          "hasta": "Casa Natal/Fundación Rafael Pombo",
+          "minutos": 3,
+          "km": 0.23
+        },
+        {
+          "desde": "Casa Natal/Fundación Rafael Pombo",
+          "hasta": "La Puerta Falsa",
+          "minutos": 3,
+          "km": 0.23
+        },
+        {
+          "desde": "La Puerta Falsa",
+          "hasta": "Tu punto de salida",
+          "minutos": 2,
+          "km": 0.17
+        }
+      ],
+      "duracion_total_min": 129,
+      "minutos_transporte": 9,
+      "minutos_visita": 120,
+      "margen_min": 51,
+      "termina_a": "12:09",
+      "km_total": 0.7,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 11.75,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.5981,-74.076&destination=4.5981,-74.076&travelmode=walking&waypoints=4.5974,-74.075534|4.596562,-74.074196|4.598013,-74.074845",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Palacio%20Arzobispal%20%2810%3A01%E2%80%9310%3A31%29%0A2.%20Casa%20Natal/Fundaci%C3%B3n%20Rafael%20Pombo%20%2810%3A34%E2%80%9311%3A19%29%0A3.%20La%20Puerta%20Falsa%20%2811%3A22%E2%80%9312%3A07%29%0ATermino%20a%20las%2012%3A09.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.5981%2C-74.076%26destination%3D4.5981%2C-74.076%26travelmode%3Dwalking%26waypoints%3D4.5974%2C-74.075534%7C4.596562%2C-74.074196%7C4.598013%2C-74.074845"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Capilla del Sagrario",
+          "categoria": "Escenario Religioso",
+          "localidad": "La Candelaria",
+          "direccion": "Carrera 7 # 10 – 40",
+          "lat": 4.597682,
+          "lon": -74.075744,
+          "llegada": "10:00",
+          "salida": "10:20",
+          "minutos_visita": 20,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        },
+        {
+          "nombre": "La Puerta Falsa",
+          "categoria": "Gastronomía",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 11 # 6 - 50",
+          "lat": 4.598013,
+          "lon": -74.074845,
+          "llegada": "10:22",
+          "salida": "11:07",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        },
+        {
+          "nombre": "Casa Sede Sociedad Económica de Amigos del País",
+          "categoria": "Atractivo Cultural",
+          "localidad": "La Candelaria",
+          "direccion": "Calle 11 # 6 - 42",
+          "lat": 4.598179,
+          "lon": -74.07467,
+          "llegada": "11:08",
+          "salida": "11:38",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Capilla del Sagrario",
+          "minutos": 1,
+          "km": 0.07
+        },
+        {
+          "desde": "Capilla del Sagrario",
+          "hasta": "La Puerta Falsa",
+          "minutos": 2,
+          "km": 0.14
+        },
+        {
+          "desde": "La Puerta Falsa",
+          "hasta": "Casa Sede Sociedad Económica de Amigos del País",
+          "minutos": 0,
+          "km": 0.03
+        },
+        {
+          "desde": "Casa Sede Sociedad Económica de Amigos del País",
+          "hasta": "Tu punto de salida",
+          "minutos": 2,
+          "km": 0.19
+        }
+      ],
+      "duracion_total_min": 100,
+      "minutos_transporte": 5,
+      "minutos_visita": 95,
+      "margen_min": 80,
+      "termina_a": "11:40",
+      "km_total": 0.4,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 11.61,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.5981,-74.076&destination=4.5981,-74.076&travelmode=walking&waypoints=4.597682,-74.075744|4.598013,-74.074845|4.598179,-74.07467",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%203%20h%20en%20Bogot%C3%A1%3A%0A1.%20Capilla%20del%20Sagrario%20%2810%3A00%E2%80%9310%3A20%29%0A2.%20La%20Puerta%20Falsa%20%2810%3A22%E2%80%9311%3A07%29%0A3.%20Casa%20Sede%20Sociedad%20Econ%C3%B3mica%20de%20Amigos%20del%20Pa%C3%ADs%20%2811%3A08%E2%80%9311%3A38%29%0ATermino%20a%20las%2011%3A40.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.5981%2C-74.076%26destination%3D4.5981%2C-74.076%26travelmode%3Dwalking%26waypoints%3D4.597682%2C-74.075744%7C4.598013%2C-74.074845%7C4.598179%2C-74.07467"
+      }
+    }
+  ],
+  "avisos": []
+}

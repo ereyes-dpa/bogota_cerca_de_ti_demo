@@ -1,0 +1,170 @@
+{
+  "solicitud": {
+    "origen": [
+      4.6951,
+      -74.031
+    ],
+    "minutos": 90,
+    "cuando": "2026-11-15 11:00 (Sunday)",
+    "con": "amigos",
+    "prefs": [
+      "inesperado",
+      "economico"
+    ],
+    "modo": "pie",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "Mercado de las Pulgas de Usaquén",
+          "categoria": "Comercio",
+          "localidad": "Usaquén",
+          "direccion": "Calle 119 con carrera 6a",
+          "lat": 4.696493,
+          "lon": -74.030756,
+          "llegada": "11:02",
+          "salida": "11:47",
+          "minutos_visita": 45,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 17:30.",
+          "horario": "sáb 09:00-17:30; dom 09:00-17:30",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "Solo, Pet Friendly, Familias, Grupo, LGBTI",
+          "pet_friendly": true,
+          "id": "vb-546"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Mercado de las Pulgas de Usaquén",
+          "minutos": 3,
+          "km": 0.2
+        },
+        {
+          "desde": "Mercado de las Pulgas de Usaquén",
+          "hasta": "Tu punto de salida",
+          "minutos": 3,
+          "km": 0.2
+        }
+      ],
+      "duracion_total_min": 50,
+      "minutos_transporte": 5,
+      "minutos_visita": 45,
+      "margen_min": 40,
+      "termina_a": "11:50",
+      "km_total": 0.4,
+      "avisos": [
+        "Horario oficial: abierto hasta las 17:30."
+      ],
+      "puntaje": 6.76,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6951,-74.031&destination=4.6951,-74.031&travelmode=walking&waypoints=4.696493,-74.030756",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Mercado%20de%20las%20Pulgas%20de%20Usaqu%C3%A9n%20%2811%3A02%E2%80%9311%3A47%29%0ATermino%20a%20las%2011%3A50.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6951%2C-74.031%26destination%3D4.6951%2C-74.031%26travelmode%3Dwalking%26waypoints%3D4.696493%2C-74.030756"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Plaza Fundacional de Usaquén",
+          "categoria": "Atractivo Cultural",
+          "localidad": "Usaquén",
+          "direccion": "Carrera 6 con calle 119",
+          "lat": 4.69941,
+          "lon": -74.04253,
+          "llegada": "11:22",
+          "salida": "11:52",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Solo, Grupo, Familias, Pet Friendly",
+          "pet_friendly": true,
+          "id": "vb-10"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Plaza Fundacional de Usaquén",
+          "minutos": 22,
+          "km": 1.77
+        },
+        {
+          "desde": "Plaza Fundacional de Usaquén",
+          "hasta": "Tu punto de salida",
+          "minutos": 22,
+          "km": 1.77
+        }
+      ],
+      "duracion_total_min": 74,
+      "minutos_transporte": 44,
+      "minutos_visita": 30,
+      "margen_min": 16,
+      "termina_a": "12:14",
+      "km_total": 3.5,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 5.29,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6951,-74.031&destination=4.6951,-74.031&travelmode=walking&waypoints=4.69941,-74.04253",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Plaza%20Fundacional%20de%20Usaqu%C3%A9n%20%2811%3A22%E2%80%9311%3A52%29%0ATermino%20a%20las%2012%3A14.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6951%2C-74.031%26destination%3D4.6951%2C-74.031%26travelmode%3Dwalking%26waypoints%3D4.69941%2C-74.04253"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Centro Comercial Unicentro",
+          "categoria": "Infraestructura y equipamientos urbanos",
+          "localidad": "Usaquén",
+          "direccion": "Carrera 15 # 124 - 30",
+          "lat": 4.702144,
+          "lon": -74.041169,
+          "llegada": "11:22",
+          "salida": "11:52",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario oficial: abierto hasta las 22:00.",
+          "horario": "lun 09:00-22:00; mar 09:00-22:00; mié 09:00-22:00; jue 09:00-22:00; vie 09:00-22:00; sáb 09:00-22:00; dom 09:00-22:00",
+          "horario_fuente": "guia_destino_diverso",
+          "para": "Familias, Pet Friendly, Grupo",
+          "pet_friendly": true,
+          "id": "421"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Centro Comercial Unicentro",
+          "minutos": 22,
+          "km": 1.78
+        },
+        {
+          "desde": "Centro Comercial Unicentro",
+          "hasta": "Tu punto de salida",
+          "minutos": 22,
+          "km": 1.78
+        }
+      ],
+      "duracion_total_min": 75,
+      "minutos_transporte": 45,
+      "minutos_visita": 30,
+      "margen_min": 15,
+      "termina_a": "12:14",
+      "km_total": 3.6,
+      "avisos": [
+        "Horario oficial: abierto hasta las 22:00."
+      ],
+      "puntaje": 4.76,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.6951,-74.031&destination=4.6951,-74.031&travelmode=walking&waypoints=4.702144,-74.041169",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Centro%20Comercial%20Unicentro%20%2811%3A22%E2%80%9311%3A52%29%0ATermino%20a%20las%2012%3A14.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.6951%2C-74.031%26destination%3D4.6951%2C-74.031%26travelmode%3Dwalking%26waypoints%3D4.702144%2C-74.041169"
+      }
+    }
+  ],
+  "avisos": []
+}

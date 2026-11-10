@@ -1,0 +1,173 @@
+{
+  "solicitud": {
+    "origen": [
+      4.628,
+      -74.065
+    ],
+    "minutos": 90,
+    "cuando": "2026-11-15 11:00 (Sunday)",
+    "con": "amigos",
+    "prefs": [
+      "inesperado"
+    ],
+    "modo": "pie",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "Barrio La Merced",
+          "categoria": "Atractivo Cultural",
+          "localidad": "Santa Fe",
+          "direccion": "Calle 36 con Carrera 5",
+          "lat": 4.621661,
+          "lon": -74.065495,
+          "llegada": "11:11",
+          "salida": "11:31",
+          "minutos_visita": 20,
+          "apertura": "abierto",
+          "aviso": ""
+        },
+        {
+          "nombre": "Teatro El Parque",
+          "categoria": "Atractivo Cultural",
+          "localidad": "Santa Fe",
+          "direccion": "Carrera 5 # 36 - 05",
+          "lat": 4.622946,
+          "lon": -74.063691,
+          "llegada": "11:35",
+          "salida": "12:05",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Barrio La Merced",
+          "minutos": 11,
+          "km": 0.92
+        },
+        {
+          "desde": "Barrio La Merced",
+          "hasta": "Teatro El Parque",
+          "minutos": 4,
+          "km": 0.32
+        },
+        {
+          "desde": "Teatro El Parque",
+          "hasta": "Tu punto de salida",
+          "minutos": 9,
+          "km": 0.75
+        }
+      ],
+      "duracion_total_min": 75,
+      "minutos_transporte": 25,
+      "minutos_visita": 50,
+      "margen_min": 15,
+      "termina_a": "12:14",
+      "km_total": 2.0,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 4.59,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.628,-74.065&destination=4.628,-74.065&travelmode=walking&waypoints=4.621661,-74.065495|4.622946,-74.063691",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Barrio%20La%20Merced%20%2811%3A11%E2%80%9311%3A31%29%0A2.%20Teatro%20El%20Parque%20%2811%3A35%E2%80%9312%3A05%29%0ATermino%20a%20las%2012%3A14.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.628%2C-74.065%26destination%3D4.628%2C-74.065%26travelmode%3Dwalking%26waypoints%3D4.621661%2C-74.065495%7C4.622946%2C-74.063691"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Casa Museo Jorge Eliécer Gaitán",
+          "categoria": "Museo",
+          "localidad": "Teusaquillo",
+          "direccion": "Calle 42 # 15 - 52",
+          "lat": 4.630639,
+          "lon": -74.069722,
+          "llegada": "11:09",
+          "salida": "12:09",
+          "minutos_visita": 60,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Casa Museo Jorge Eliécer Gaitán",
+          "minutos": 10,
+          "km": 0.78
+        },
+        {
+          "desde": "Casa Museo Jorge Eliécer Gaitán",
+          "hasta": "Tu punto de salida",
+          "minutos": 10,
+          "km": 0.78
+        }
+      ],
+      "duracion_total_min": 80,
+      "minutos_transporte": 20,
+      "minutos_visita": 60,
+      "margen_min": 10,
+      "termina_a": "12:19",
+      "km_total": 1.6,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 3.3,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.628,-74.065&destination=4.628,-74.065&travelmode=walking&waypoints=4.630639,-74.069722",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Casa%20Museo%20Jorge%20Eli%C3%A9cer%20Gait%C3%A1n%20%2811%3A09%E2%80%9312%3A09%29%0ATermino%20a%20las%2012%3A19.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.628%2C-74.065%26destination%3D4.628%2C-74.065%26travelmode%3Dwalking%26waypoints%3D4.630639%2C-74.069722"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Museo LGBTI",
+          "categoria": "Atractivo Cultural",
+          "localidad": "Santa Fe",
+          "direccion": "Museo LGBTI, Cra. 13a # 38-60, Bogotá",
+          "lat": 4.6269,
+          "lon": -74.067923,
+          "llegada": "11:05",
+          "salida": "11:35",
+          "minutos_visita": 30,
+          "apertura": "verificar",
+          "aviso": "Horario por confirmar antes de salir."
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Museo LGBTI",
+          "minutos": 6,
+          "km": 0.45
+        },
+        {
+          "desde": "Museo LGBTI",
+          "hasta": "Tu punto de salida",
+          "minutos": 6,
+          "km": 0.45
+        }
+      ],
+      "duracion_total_min": 41,
+      "minutos_transporte": 11,
+      "minutos_visita": 30,
+      "margen_min": 49,
+      "termina_a": "11:41",
+      "km_total": 0.9,
+      "avisos": [
+        "Horario por confirmar antes de salir."
+      ],
+      "puntaje": 2.41,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.628,-74.065&destination=4.628,-74.065&travelmode=walking&waypoints=4.6269,-74.067923",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%201.5%20h%20en%20Bogot%C3%A1%3A%0A1.%20Museo%20LGBTI%20%2811%3A05%E2%80%9311%3A35%29%0ATermino%20a%20las%2011%3A41.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.628%2C-74.065%26destination%3D4.628%2C-74.065%26travelmode%3Dwalking%26waypoints%3D4.6269%2C-74.067923"
+      }
+    }
+  ],
+  "avisos": []
+}

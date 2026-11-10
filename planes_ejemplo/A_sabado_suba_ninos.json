@@ -1,0 +1,170 @@
+{
+  "solicitud": {
+    "origen": [
+      4.73,
+      -74.09
+    ],
+    "minutos": 120,
+    "cuando": "2026-11-14 15:00 (Saturday)",
+    "con": "ninos",
+    "prefs": [
+      "naturaleza",
+      "economico"
+    ],
+    "modo": "transporte",
+    "regreso": true
+  },
+  "planes": [
+    {
+      "paradas": [
+        {
+          "nombre": "Parque Mirador de los Nevados",
+          "categoria": "Atractivo de Naturaleza",
+          "localidad": "Suba",
+          "direccion": "Carrera 87A # 145 - 50",
+          "lat": 4.742167,
+          "lon": -74.079908,
+          "llegada": "15:18",
+          "salida": "16:18",
+          "minutos_visita": 60,
+          "apertura": "diurno",
+          "aviso": "Espacio abierto: mejor con luz de día.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "Solo, Pet Friendly, Familias, Grupo",
+          "pet_friendly": true,
+          "id": "448"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Parque Mirador de los Nevados",
+          "minutos": 18,
+          "km": 2.28
+        },
+        {
+          "desde": "Parque Mirador de los Nevados",
+          "hasta": "Tu punto de salida",
+          "minutos": 18,
+          "km": 2.28
+        }
+      ],
+      "duracion_total_min": 96,
+      "minutos_transporte": 36,
+      "minutos_visita": 60,
+      "margen_min": 24,
+      "termina_a": "16:36",
+      "km_total": 4.6,
+      "avisos": [
+        "Espacio abierto: mejor con luz de día."
+      ],
+      "puntaje": 7.22,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.73,-74.09&destination=4.73,-74.09&travelmode=transit&waypoints=4.742167,-74.079908",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20Parque%20Mirador%20de%20los%20Nevados%20%2815%3A18%E2%80%9316%3A18%29%0ATermino%20a%20las%2016%3A36.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.73%2C-74.09%26destination%3D4.73%2C-74.09%26travelmode%3Dtransit%26waypoints%3D4.742167%2C-74.079908"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Parque Zonal San Andrés",
+          "categoria": "Parque",
+          "localidad": "Engativá",
+          "direccion": "Calle 82 # 100A - 91",
+          "lat": 4.712602,
+          "lon": -74.110833,
+          "llegada": "15:23",
+          "salida": "16:08",
+          "minutos_visita": 45,
+          "apertura": "diurno",
+          "aviso": "Espacio abierto: mejor con luz de día.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "",
+          "pet_friendly": false,
+          "id": "232"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Parque Zonal San Andrés",
+          "minutos": 24,
+          "km": 3.92
+        },
+        {
+          "desde": "Parque Zonal San Andrés",
+          "hasta": "Tu punto de salida",
+          "minutos": 24,
+          "km": 3.92
+        }
+      ],
+      "duracion_total_min": 93,
+      "minutos_transporte": 48,
+      "minutos_visita": 45,
+      "margen_min": 27,
+      "termina_a": "16:32",
+      "km_total": 7.8,
+      "avisos": [
+        "Espacio abierto: mejor con luz de día."
+      ],
+      "puntaje": 6.19,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.73,-74.09&destination=4.73,-74.09&travelmode=transit&waypoints=4.712602,-74.110833",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20Parque%20Zonal%20San%20Andr%C3%A9s%20%2815%3A23%E2%80%9316%3A08%29%0ATermino%20a%20las%2016%3A32.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.73%2C-74.09%26destination%3D4.73%2C-74.09%26travelmode%3Dtransit%26waypoints%3D4.712602%2C-74.110833"
+      }
+    },
+    {
+      "paradas": [
+        {
+          "nombre": "Parque Fontanar del Río",
+          "categoria": "Parque",
+          "localidad": "Suba",
+          "direccion": "Calle 144C Carrera 141",
+          "lat": 4.756278,
+          "lon": -74.111399,
+          "llegada": "15:27",
+          "salida": "16:12",
+          "minutos_visita": 45,
+          "apertura": "diurno",
+          "aviso": "Espacio abierto: mejor con luz de día.",
+          "horario": "",
+          "horario_fuente": "",
+          "para": "",
+          "pet_friendly": false,
+          "id": "445"
+        }
+      ],
+      "traslados": [
+        {
+          "desde": "Tu punto de salida",
+          "hasta": "Parque Fontanar del Río",
+          "minutos": 27,
+          "km": 4.89
+        },
+        {
+          "desde": "Parque Fontanar del Río",
+          "hasta": "Tu punto de salida",
+          "minutos": 27,
+          "km": 4.89
+        }
+      ],
+      "duracion_total_min": 100,
+      "minutos_transporte": 55,
+      "minutos_visita": 45,
+      "margen_min": 20,
+      "termina_a": "16:39",
+      "km_total": 9.8,
+      "avisos": [
+        "Espacio abierto: mejor con luz de día."
+      ],
+      "puntaje": 5.91,
+      "enlaces": {
+        "google_maps": "https://www.google.com/maps/dir/?api=1&origin=4.73,-74.09&destination=4.73,-74.09&travelmode=transit&waypoints=4.756278,-74.111399",
+        "whatsapp": "https://wa.me/?text=Mi%20plan%20de%202%20h%20en%20Bogot%C3%A1%3A%0A1.%20Parque%20Fontanar%20del%20R%C3%ADo%20%2815%3A27%E2%80%9316%3A12%29%0ATermino%20a%20las%2016%3A39.%20Ruta%3A%20https%3A//www.google.com/maps/dir/%3Fapi%3D1%26origin%3D4.73%2C-74.09%26destination%3D4.73%2C-74.09%26travelmode%3Dtransit%26waypoints%3D4.756278%2C-74.111399"
+      }
+    }
+  ],
+  "avisos": []
+}
