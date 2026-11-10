@@ -1,0 +1,6 @@
+# Solo para el servicio de la app (codigo/servicio_api.py). El dashboard usa requirements.txt.
+pandas>=2.0
+numpy>=1.24
+tzdata>=2024.1
+fastapi>=0.110
+uvicorn>=0.29

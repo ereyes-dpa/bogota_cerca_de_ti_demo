@@ -108,8 +108,9 @@ html("""<div class="ini flujo">
  <div class="c fin"><div class="n">4</div><b>Plan entregado</b><span>El de Candelaria si se puede hacer; si no, el del selector propio.</span></div>
 </div>""")
 
-t_uso, t_dec, t_ver, t_tiempo, t_alt, t_datos, t_lim = st.tabs(
-    ["Cómo usar el demo", "Cómo se decide", "Verificación", "Tiempos de traslado", "Plan alternativo", "Datos y Power BI", "Candelaria y límites"])
+t_uso, t_dec, t_ver, t_tiempo, t_alt, t_int, t_datos, t_lim = st.tabs(
+    ["Cómo usar el demo", "Cómo se decide", "Verificación", "Tiempos de traslado", "Plan alternativo", "Integración con la app",
+     "Datos y Power BI", "Candelaria y límites"])
 
 # ------------------------------------------------------------------ 1. uso
 with t_uso:
@@ -281,13 +282,97 @@ with t_datos:
       e -> r; k -> r [style=dashed, label="base"]; r -> q; r -> p; r -> c; q -> b; p -> b; c -> b; k -> b [style=dashed, label="ficha del lugar"];
     """, direccion="LR")
     st.markdown("""
-- Las tres tablas ya están generadas en `datos/powerbi/` con las 8 consultas reales. Se unen por `consulta_id`; `paradas[id_lugar]` se une con `catalogo_enriquecido[id]`.
+- Las tres tablas ya están generadas en `datos/powerbi/` con las 8 consultas reales. En producción, la API escribe las mismas tablas en `datos/registro/` con cada consulta de la app (pestaña «Integración con la app»). Se unen por `consulta_id`; `paradas[id_lugar]` se une con `catalogo_enriquecido[id]`.
 - `paradas` trae tres planes por consulta (`recomendado`, `chatbot`, `alternativa`): para el plan que ve el usuario, filtra `recomendado`.
 - Diccionario de columnas, modelo, medidas DAX y cuidados al importar: **`datos/LEEME.md`**. Integración paso a paso: **`Bogota_Cerca_de_ti_demo_y_Power_BI.docx`**.
 """)
     st.code("python3 codigo/recomendar.py --lote datos/consultas_ejemplo.csv --fuente guardada --salida datos/powerbi", language="bash")
 
-# ------------------------------------------------------------------ 7. Candelaria y límites
+# ------------------------------------------------------------------ 6. integración con la app
+with t_int:
+    st.markdown("Cuando la app manda una consulta, el backend llama al script y le devuelve el plan verificado. "
+                "Todo pasa por una sola función, `recomendar()`; `codigo/servicio_api.py` la expone como API lista para usar.")
+    diagrama("""
+      app [label="App «Bogotá Cerca de ti»\\nCuéntame lo esencial", fillcolor="#FFF4CC", color="#FCD146"];
+      api [label="Backend\\nPOST /recomendar\\n(codigo/servicio_api.py)", fillcolor="#162536", fontcolor="#ffffff", color="#162536"];
+      rec [label="recomendar(consulta)\\ncodigo/recomendar.py"];
+      bot [label="Chatbot\\nasistente nuevo del IDT\\no Candelaria", fillcolor="#EAF6FC"];
+      ver [label="Verificación\\n+ plan propio si hace falta", fillcolor="#EAF6FC"];
+      reg [label="Registro\\nconsultas · paradas · chequeos", fillcolor="#EAF6FC"];
+      pbi [label="Power BI", fillcolor="#E1F2E8", color="#0D7D43"];
+      {rank=same; app; api; rec;}
+      {rank=same; reg; ver; bot;}
+      app -> api [label="1. consulta (JSON)"]; api -> rec [label="2. llama"]; rec -> bot [label="pide el plan"];
+      bot -> ver; ver -> api [label="3. plan verificado"]; api -> app [label="4. respuesta (JSON)", style=bold];
+      api -> reg [style=dashed, label="registra"]; reg -> pbi [style=dashed];
+    """)
+    sub("Qué hace el backend al recibir una consulta")
+    html("""<div class="ini pasos">
+      <div><i>1</i><span><b>Recibe</b> el JSON de la app con los datos de «Cuéntame lo esencial»: tiempo, origen, cuándo, con quién, gustos, modo y mascota.</span></div>
+      <div><i>2</i><span><b>Llama</b> a <code>recomendar(consulta)</code>. El script le pide el plan al chatbot (hasta 120 s), lo verifica contra la base del IDT y, si no es lograble, arma uno propio.</span></div>
+      <div><i>3</i><span><b>Responde</b> a la app con <code>recomendacion</code>: de dónde salió el plan, el motivo y el plan con paradas, horas, métricas y enlaces.</span></div>
+      <div><i>4</i><span><b>Registra</b> la consulta en los tres CSV que lee Power BI (mismas columnas que <code>datos/powerbi/</code>).</span></div>
+    </div>""")
+    c1, c2 = st.columns(2)
+    with c1:
+        sub("Petición de la app")
+        st.code("""POST /recomendar
+{
+  "id": "app-001",
+  "minutos": 120,
+  "origen": "4.73, -74.09",
+  "cuando": "2026-11-14 15:00",
+  "con": "ninos",
+  "prefs": ["naturaleza"],
+  "modo": "transporte",
+  "mascota": false
+}""", language="json", wrap_lines=True)
+    with c2:
+        sub("Respuesta del backend")
+        st.code("""{
+  "id": "app-001",
+  "recomendacion": {
+    "origen": "chatbot",
+    "motivo": "Plan del chatbot verificado…",
+    "plan": {
+      "veredicto": "LOGRABLE CON ADVERTENCIAS",
+      "paradas": [
+        {"orden": 1, "nombre": "Humedal",
+         "lat": 4.7238, "lon": -74.1022,
+         "llegada": "15:16", "salida": "16:36"}
+      ],
+      "duracion_total_min": 114,
+      "margen_min": 6,
+      "termina_a": "16:53",
+      "enlaces": {"google_maps": "…", "whatsapp": "…"}
+    }
+  },
+  "chatbot": {"respondio": true, "segundos": 117}
+}""", language="json", wrap_lines=True)
+    st.caption("`origen` es `chatbot` (plan de Candelaria o del asistente nuevo) o `selector_propio`. Si `plan` llega vacío, ningún plan cabe con esos parámetros: la app muestra `motivo`. Con `?detalle=true` la respuesta "
+               "incluye además la verificación chequeo por chequeo y el plan alternativo.")
+    sub("Cómo ponerlo a correr")
+    st.code("""pip install -r requirements-api.txt
+export URL_CHATBOT_NUEVO="https://…"        # asistente nuevo del IDT; sin esto usa Candelaria
+uvicorn servicio_api:app --app-dir codigo --host 0.0.0.0 --port 8000
+# documentación interactiva para probar: http://localhost:8000/docs""", language="bash")
+    st.markdown(tabla(pd.DataFrame([
+        ("`FUENTE_CHATBOT`", "`nuevo`, `candelaria`, `guardada` (pruebas) o `ninguna`", "`nuevo` si hay URL; si no, `candelaria`"),
+        ("`URL_CHATBOT_NUEVO`", "URL base del asistente nuevo (contrato `POST {url}/api/chat`)", "—"),
+        ("`NUEVO_CHATBOT_TOKEN`", "Token del asistente nuevo, si lo pide", "—"),
+        ("`ESPERA_CHATBOT_S`", "Segundos máximos esperando al chatbot", f"{ESPERA_CANDELARIA_S:.0f}"),
+        ("`CARPETA_REGISTRO`", "Dónde quedan los CSV para Power BI", "`datos/registro`"),
+    ], columns=["Variable", "Qué es", "Por defecto"])))
+    sub("Sin API: desde cualquier código en Python")
+    st.code("""import sys; sys.path.insert(0, r"C:\\ruta\\a\\bogota_cerca_de_ti\\codigo")
+from recomendar import recomendar
+
+r = recomendar({"minutos": 120, "origen": "4.73, -74.09", "cuando": "ahora", "con": "ninos",
+                "prefs": ["naturaleza"], "modo": "transporte", "mascota": False},
+               fuente="nuevo", url_nuevo="https://…")   # o fuente="candelaria"
+plan = r["recomendacion"]["plan"]                        # lo que se devuelve a la app""", language="python")
+
+# ------------------------------------------------------------------ 8. Candelaria y límites
 with t_lim:
     sub("Qué pasó al consultar a Candelaria")
     try:

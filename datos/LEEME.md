@@ -11,6 +11,7 @@ Hay dos formas de alimentar Power BI:
 
 1. **Cargar los CSV de `powerbi/`** (Obtener datos → Texto/CSV). No necesita Python en el equipo de quien abre el informe; para actualizar, se regeneran los CSV con el comando de la última sección.
 2. **Correr el script desde Power BI** (Obtener datos → Script de Python) con `recomendar_lote()`. Devuelve las mismas tres tablas, con las mismas columnas. El paso a paso está en el documento Word del demo y en el `README.md` principal.
+3. **Leer el registro de la app.** En producción, la API (`codigo/servicio_api.py`) responde cada consulta de la app y la agrega a `datos/registro/consultas.csv`, `paradas.csv` y `chequeos.csv`, con las mismas columnas. Es la fuente del dashboard con datos reales: se carga igual que la opción 1, apuntando a esa carpeta, o al almacenamiento que use el backend.
 
 ## Modelo sugerido
 
@@ -39,7 +40,7 @@ Hay dos formas de alimentar Power BI:
 
 | Columna | Tipo | Qué es |
 |---|---|---|
-| `consulta_id` | texto | Llave. En el lote viene de la columna `id` de la entrada; en el demo es `d` + fecha y hora |
+| `consulta_id` | texto | Llave. En el lote viene de la columna `id` de la entrada; en la API, del `id` que manda la app (o uno generado); en el demo es `d` + fecha y hora |
 | `generado` | fecha/hora | Cuándo se calculó (hora de Bogotá) |
 | `origen` | texto | Nombre del punto de salida o «lat, lon» |
 | `lat`, `lon` | decimal | Punto de salida |

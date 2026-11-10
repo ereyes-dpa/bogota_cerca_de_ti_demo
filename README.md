@@ -42,6 +42,32 @@ Para actualizar en el servicio de Power BI hace falta una puerta de enlace perso
 
 Con el mensaje compacto del piloto, Candelaria tarda **66–119 s**. Su servidor (Cloudflare) corta a los **~120 s** con un 504, así que esperar más no sirve. Se ajusta con `espera_s` en `recomendar()`, `--espera` en la línea de comandos o el control de la barra lateral (30–180 s). Pasado ese tiempo se usa el selector propio.
 
+## Responder las consultas de la app (backend)
+
+En producción la app no habla con Power BI: manda la consulta al backend, que usa el mismo script y le devuelve el plan. `codigo/servicio_api.py` es una API de referencia lista para usar (FastAPI). Al recibir una consulta, el backend:
+
+1. **Recibe** en `POST /recomendar` el JSON de «Cuéntame lo esencial»: `minutos`, `origen`, `cuando`, `con`, `prefs`, `modo`, `mascota` y, opcional, `id`.
+2. **Llama** a `recomendar(consulta)`, que pide el plan al chatbot (asistente nuevo del IDT o Candelaria, hasta 120 s), lo verifica y, si no es lograble, arma uno propio.
+3. **Responde** a la app con `recomendacion`: `origen` (`chatbot` o `selector_propio`), `motivo` y `plan` (paradas con horas y coordenadas, métricas y enlaces a Google Maps y WhatsApp). Si `plan` llega vacío, la app muestra `motivo`. Con `?detalle=true` se agrega la verificación completa y el plan alternativo.
+4. **Registra** la consulta en `datos/registro/` (`consultas.csv`, `paradas.csv`, `chequeos.csv`, las mismas columnas que `datos/powerbi/`) para Power BI.
+
+```bash
+pip install -r requirements-api.txt
+export URL_CHATBOT_NUEVO="https://…"      # asistente nuevo del IDT; sin esto usa Candelaria
+uvicorn servicio_api:app --app-dir codigo --host 0.0.0.0 --port 8000
+# documentación interactiva para probar: http://localhost:8000/docs
+```
+
+```json
+POST /recomendar
+{"id": "app-001", "minutos": 120, "origen": "4.73, -74.09", "cuando": "2026-11-14 15:00",
+ "con": "ninos", "prefs": ["naturaleza"], "modo": "transporte", "mascota": false}
+→ {"id": "app-001", "recomendacion": {"origen": "chatbot", "motivo": "…", "plan": {"paradas": […], "termina_a": "16:53", …}},
+   "chatbot": {"respondio": true, "segundos": 117}}
+```
+
+Variables: `FUENTE_CHATBOT` (`nuevo`, `candelaria`, `guardada` para pruebas, `ninguna`), `URL_CHATBOT_NUEVO`, `NUEVO_CHATBOT_TOKEN`, `ESPERA_CHATBOT_S` (120) y `CARPETA_REGISTRO` (`datos/registro`). Sin API, el mismo paso es `recomendar(consulta, fuente="nuevo", url_nuevo="https://…")["recomendacion"]` en cualquier código en Python. El dashboard lo explica con diagrama en Inicio → «Integración con la app».
+
 ## Cómo correr el dashboard
 
 ```bash
@@ -62,7 +88,7 @@ Mientras el chatbot responde se ve la animación «Candelaria está armando tu p
 - **Funciona sin internet** con las respuestas guardadas.
 - **Con internet** se suman las teselas y el trazado del mapa (OSRM para pie, bici y carro), las fuentes tipográficas del mockup y la búsqueda en línea en el RNT.
 
-Pruebas: `cd codigo && python3 -m pytest -q pruebas` (32 pruebas) y `python3 planificador.py --autoprueba`.
+Pruebas: `cd codigo && python3 -m pytest -q pruebas` (35 pruebas; las 3 de la API se saltan si FastAPI no está instalado) y `python3 planificador.py --autoprueba`.
 
 ## Publicar en Streamlit Community Cloud sin hacerlo público
 
@@ -103,6 +129,8 @@ Tener en cuenta:
 | `.gitignore` | Deja fuera secretos, cachés y registros del demo |
 | `paginas/inicio.py` | Cómo usar el demo y cómo funciona el algoritmo; las cifras se leen del código |
 | `paginas/demo.py` | Teléfono a la izquierda, resultado a la derecha y detalles para el IDT abajo |
+| `codigo/servicio_api.py` | **API para el backend de la app**: recibe la consulta, devuelve el plan verificado y lo registra para Power BI |
+| `requirements-api.txt` | Dependencias de la API (FastAPI, Uvicorn); el dashboard usa `requirements.txt` |
 | `codigo/telefono_componente.py` | Declara el componente del teléfono (Streamlit no permite declararlo dentro de una página) |
 | `datos/LEEME.md` | **Guía de datos para Power BI**: tablas, columnas, llaves, modelo, medidas DAX e importación |
 | `datos/powerbi/` | `consultas.csv`, `paradas.csv` y `chequeos.csv` generadas con las 8 consultas reales |
